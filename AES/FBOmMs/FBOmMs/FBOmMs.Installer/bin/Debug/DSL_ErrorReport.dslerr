@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ReportErrors />
+  <ReportWarnings />
+  <ReportMessages>
+    <ReportMessage>
+      <Message>Source 'C:\AES\AES\FBOmMs\FBOmMs\FBOmMs.MSModel\bin\VF_MS_FBOmMs.um'. 
+#########################################################
+##### MODEL BUILD HAS BEEN SKIPPED FOR OPTIMIZATION #####
+#########################################################
+
+</Message>
+    </ReportMessage>
+  </ReportMessages>
+</Report>

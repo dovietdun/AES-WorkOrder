@@ -1,0 +1,34 @@
+<projectmanifest>
+  <entities>
+    <entity>
+      <name>VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.ReadingModel.WhiteListSerialNumber</name>
+      <securable>true</securable>
+    </entity>
+    <entity>
+      <name>VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.ReadingModel.ChangeStatus</name>
+      <securable>true</securable>
+    </entity>
+    <entity>
+      <name>VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.ReadingModel.OrderDef</name>
+      <securable>true</securable>
+    </entity>
+    <entity>
+      <name>VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.ReadingModel.TypeDef</name>
+      <securable>true</securable>
+    </entity>
+    <entity>
+      <name>VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.ReadingModel.StatusDef</name>
+      <securable>true</securable>
+    </entity>
+    <entity>
+      <name>VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.ReadingModel.MaterialDef</name>
+      <securable>true</securable>
+    </entity>
+  </entities>
+      <appdatamodels>
+          <appdatamodel>
+              <assembly>VF.FBOmApp.FBOmApp.VFPOMModel.PublicModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+              <domain>FBOmApp</domain>
+           </appdatamodel>
+      </appdatamodels>
+</projectmanifest>

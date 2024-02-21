@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <UafEnvironment Id="3dd48d22-b13e-49dd-aec8-f0c1b5dcbe4b">
+    <Type>StandAlone</Type>
+    <Name>DEV UA Environment</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </UafEnvironment>
+</Items>

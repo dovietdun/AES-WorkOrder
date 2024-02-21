@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <RabbitMQConnectionConfiguration Id="e5768898-18ba-48a6-8fb9-fd3478d402f0">
+    <HostName>localhost</HostName>
+    <Password>tIPnh29K8kiTkT9QOqMlIH2LcltR1VwoaYS0RELaDTU=</Password>
+    <Port>5672</Port>
+    <Timeout>120000</Timeout>
+    <UserName>sitadmin</UserName>
+    <VirtualHost>/</VirtualHost>
+    <ManagementPort>15672</ManagementPort>
+    <ConfigurationMode>LocalCluster</ConfigurationMode>
+    <IsSystemEntity>false</IsSystemEntity>
+  </RabbitMQConnectionConfiguration>
+</Items>

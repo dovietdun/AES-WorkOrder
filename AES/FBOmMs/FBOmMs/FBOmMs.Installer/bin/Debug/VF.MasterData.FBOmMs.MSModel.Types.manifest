@@ -1,0 +1,14 @@
+<projectmanifest>
+  <datamodels>
+    <datamodel>
+      <assembly>VF.MasterData.FBOmMs.MSModel.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel>
+    <datamodel>
+      <assembly>VF.MasterData.FBOmMs.MSModel.Types.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel>
+  </datamodels>
+</projectmanifest>

@@ -1,0 +1,63 @@
+VERSION '01.13'
+
+[@Guid(45c41fc1-f130-4ddd-b77a-e48a3d5345d7)]
+PARAMETERTYPE OrderDefPrm
+WITH
+    [Length = 255]
+    [@Guid(582ab949-2807-42df-822e-e07806b3d760)]
+    NId AS string
+    [Length = 255]
+    [@Guid(4b832455-2ab8-4b38-a5d5-12e40df4fae2)]
+    Type AS string
+    [Length = 255]
+    [@Guid(9c791db8-6bfb-4185-8d01-0d3cdb32505b)]
+    MaterialFinal AS string
+    [Length = 255]
+    [@Guid(b46bfbdb-0bef-44a5-8c1f-7b5c55849c34)]
+    Status AS string
+    [Optional]
+    [@Guid(aa8d2480-4413-47a8-a4fc-c6110dfc1912)]
+    PlanStartDate AS DateTime
+    [Optional]
+    [@Guid(a135a1e4-7776-4b6a-8db1-b5d4099da834)]
+    PlanEndDate AS DateTime
+    [Optional]
+    [@Guid(e4d7e708-46fc-4c62-83cf-18383189094e)]
+    ActualStartDate AS DateTime
+    [Optional]
+    [@Guid(a01bd775-e519-469a-b615-0d16f29aa6e6)]
+    ActualEndDate AS DateTime
+    [@Guid(b16bb189-d5f2-40e7-938e-c051bf9f4161)]
+    Quantity AS int
+    [Optional]
+    [Length = 255]
+    [@Guid(e03f79c3-88a3-4341-bae2-3c59e83d5263)]
+    ParrentId AS string
+    [Optional]
+    [Length = 255]
+    [@Guid(542318fc-6ef7-4f3d-a406-f3d423b0fe6f)]
+    SerialNumber AS string
+    [Optional]
+    [Length = 255]
+    [@Guid(4cdb9ee6-142f-4325-8435-19c999bb1115)]
+    BatchID AS string
+    [Optional]
+    [@Guid(061172a5-e1bf-4f46-8666-0eea4f9799fe)]
+    Id AS Guid
+
+[@Guid(5f5763a2-3a92-412d-a2b0-a62a3fafb308)]
+PARAMETERTYPE ChangeStatusPrm
+WITH
+    [Length = 255]
+    [@Guid(801e8e29-242c-45c4-8337-f25b3b950898)]
+    NId AS string
+    [Length = 255]
+    [@Guid(6324284b-d1fe-4943-9dd0-080c7624d612)]
+    FromStatus AS string
+    [Length = 255]
+    [@Guid(74743f6e-301e-4ed6-ad4c-a04de88283b4)]
+    OrderType AS string
+    [Length = 255]
+    [@Guid(e52ee8a7-d7a0-4f2b-8f8a-1f900d48a31f)]
+    ToStatus AS string
+

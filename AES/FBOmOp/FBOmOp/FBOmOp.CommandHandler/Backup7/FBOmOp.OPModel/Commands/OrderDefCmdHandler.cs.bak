@@ -1,0 +1,270 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Siemens.SimaticIT.Unified.Common;
+using Siemens.SimaticIT.Unified.Common.Information;
+using Siemens.SimaticIT.Handler;
+using Siemens.SimaticIT.Unified;
+using VF.OperationalData.FBOmOp.OPModel.DataModel;
+using VF.OperationalData.FBOmOp.OPModel.DataModel.ProjectionModel;
+using IOrderDef = VF.OperationalData.FBOmOp.OPModel.DataModel.IOrderDef;
+using IChangeStatus = VF.OperationalData.FBOmOp.OPModel.DataModel.IChangeStatus;
+using IProductionOrder = VF.OperationalData.FBOmOp.OPModel.DataModel.IProductionOrder;
+using IBatchManagement = VF.OperationalData.FBOmOp.OPModel.DataModel.IBatchManagement;
+
+namespace VF.OperationalData.FBOmOp.OPModel.Commands
+{
+    /// <summary>
+    /// Partial class init
+    /// </summary>
+    [Handler(HandlerCategory.BasicMethod)]
+    public partial class OrderDefCmdHandlerShell 
+    {
+        /// <summary>
+        /// This is the handler the MES engineer should write
+        /// This is the ENTRY POINT for the user in VS IDE
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
+        [HandlerEntryPoint]
+        private OrderDefCmd.Response OrderDefCmdHandler(OrderDefCmd command)
+        {
+            try
+            {
+                switch (command.Action)
+                {
+
+                    case "ADD":
+                        AddData(command);
+                        break;
+                    case "UPDATE":
+                        UpdateData(command);
+                        break;
+                    case "DELETE":
+                        DeleteData(command);
+                        break;
+                    case "CHANGE_STATUS":
+                        ChangeStatus(command);
+                        break;
+                    case "SCRAPP":
+                        Scrapp(command);
+                        break;
+                    case "GEN_BATCH":
+                        GenBatch(command);
+                        break;
+                    case "UPLOADFILE":
+                        FileUpload(command);
+                        break;
+                    default:
+                        break;
+                }
+                return new OrderDefCmd.Response();
+            }
+            catch (Exception ex)
+            {
+                return new OrderDefCmd.Response();
+            }
+        }
+
+        private void FileUpload(OrderDefCmd command)
+        {
+            var existingItem = platform.Query<IOrderDef>()
+                               .Where(x => x.NId == command.OrderCmd.NId).FirstOrDefault();
+
+            if (existingItem == null)
+            {
+                var createItem = platform.Create<IOrderDef>();
+                createItem.NId = command.OrderCmd.NId;
+                createItem.Status = command.OrderCmd.Status;
+                createItem.Type = command.OrderCmd.Type;
+                createItem.MaterialFinal = command.OrderCmd.MaterialFinal;
+                createItem.PlanStartDate = command.OrderCmd.PlanStartDate ?? DateTimeOffset.MinValue;
+                createItem.PlanEndDate = command.OrderCmd.PlanEndDate ?? DateTimeOffset.MinValue;
+                createItem.ActualStartDate = command.OrderCmd.ActualStartDate ?? DateTimeOffset.MinValue;
+                createItem.ActualEndDate = command.OrderCmd.ActualEndDate ?? DateTimeOffset.MinValue;
+                createItem.Quantity = command.OrderCmd.Quantity;
+                platform.Submit(createItem);
+            }
+            throw new NotImplementedException();
+        }
+
+        private void AddData(OrderDefCmd command)
+        {
+            var existingItem = platform.Query<IOrderDef>()
+
+                               .Where(x => x.NId == command.OrderCmd.NId).FirstOrDefault();
+
+            if (existingItem == null)
+            {
+                var createItem = platform.Create<IOrderDef>();
+                createItem.NId = command.OrderCmd.NId;
+                createItem.Status = command.OrderCmd.Status;
+                createItem.Type = command.OrderCmd.Type;
+                createItem.MaterialFinal = command.OrderCmd.MaterialFinal;
+                createItem.PlanStartDate = command.OrderCmd.PlanStartDate ?? DateTimeOffset.MinValue;
+                createItem.PlanEndDate = command.OrderCmd.PlanEndDate ?? DateTimeOffset.MinValue;
+                createItem.ActualStartDate = command.OrderCmd.ActualStartDate ?? DateTimeOffset.MinValue;
+                createItem.ActualEndDate = command.OrderCmd.ActualEndDate ?? DateTimeOffset.MinValue;
+                createItem.Quantity = command.OrderCmd.Quantity;
+               
+
+
+                platform.Submit(createItem);
+            }
+            throw new NotImplementedException();
+        }
+        private void UpdateData(OrderDefCmd command)
+        {
+            var ededittingItem = platform.GetEntity<IOrderDef>(command.CmdId.GetValueOrDefault());
+            if (ededittingItem == null)
+                throw new Exception($"xx");
+            ededittingItem.NId = command.OrderCmd.NId;
+            ededittingItem.Status = command.OrderCmd.Status;
+            ededittingItem.Type = command.OrderCmd.Type;
+            ededittingItem.MaterialFinal = command.OrderCmd.MaterialFinal;
+            ededittingItem.PlanStartDate = command.OrderCmd.PlanStartDate ?? DateTimeOffset.MinValue;
+            ededittingItem.PlanEndDate = command.OrderCmd.PlanEndDate ?? DateTimeOffset.MinValue;
+            ededittingItem.ActualStartDate = command.OrderCmd.ActualStartDate ?? DateTimeOffset.MinValue;
+            ededittingItem.ActualEndDate = command.OrderCmd.ActualEndDate ?? DateTimeOffset.MinValue;
+            ededittingItem.Quantity = command.OrderCmd.Quantity;
+
+            platform.Submit(ededittingItem);
+            throw new NotImplementedException();
+        }
+        private void ChangeStatus(OrderDefCmd command)
+        {
+           
+            var changeItem = platform.GetEntity<IOrderDef>(command.CmdId.GetValueOrDefault());
+
+            if (changeItem == null)
+            {
+                throw new Exception($"xx");
+            }
+            else
+            {
+                var item = platform.Query<IChangeStatus>()
+                            .Where(x => x.OrderType == changeItem.Type 
+                            && x.FromStatus == changeItem.Status).FirstOrDefault();
+                if(item == null)
+                {
+                    throw new Exception($"xx");
+                }
+                else
+                {
+                    changeItem.NId = command.OrderCmd.NId;
+                    changeItem.Status = item.ToStatus;
+                    changeItem.Type = command.OrderCmd.Type;
+                    changeItem.MaterialFinal = command.OrderCmd.MaterialFinal;
+                    changeItem.PlanStartDate = command.OrderCmd.PlanStartDate ?? DateTimeOffset.MinValue;
+                    changeItem.PlanEndDate = command.OrderCmd.PlanEndDate ?? DateTimeOffset.MinValue;
+                    changeItem.ActualStartDate = command.OrderCmd.ActualStartDate ?? DateTimeOffset.MinValue;
+                    changeItem.ActualEndDate = command.OrderCmd.ActualEndDate ?? DateTimeOffset.MinValue;
+                    changeItem.Quantity = command.OrderCmd.Quantity; 
+                }
+            }
+            platform.Submit(changeItem);
+           
+            throw new NotImplementedException();
+        }
+        private void Scrapp(OrderDefCmd command)
+        {
+
+            var changeItem = platform.GetEntity<IOrderDef>(command.CmdId.GetValueOrDefault());
+          
+
+            if (changeItem == null)
+            {
+                throw new Exception($"xx");
+            }
+            else
+            {
+                var item = platform.Query<IChangeStatus>()
+                            .Where(x => (x.OrderType == changeItem.Type 
+                            && changeItem.Status == "InProgress")).FirstOrDefault();
+                if (item == null)
+                {
+                    throw new Exception($"xx");
+                }
+                else
+                {
+
+                    changeItem.NId = command.OrderCmd.NId;
+                    changeItem.Status = "Scrapp";
+                    changeItem.Type = command.OrderCmd.Type;
+                    changeItem.MaterialFinal = command.OrderCmd.MaterialFinal;
+                    changeItem.PlanStartDate = command.OrderCmd.PlanStartDate ?? DateTimeOffset.MinValue;
+                    changeItem.PlanEndDate = command.OrderCmd.PlanEndDate ?? DateTimeOffset.MinValue;
+                    changeItem.ActualStartDate = command.OrderCmd.ActualStartDate ?? DateTimeOffset.MinValue;
+                    changeItem.ActualEndDate = command.OrderCmd.ActualEndDate ?? DateTimeOffset.MinValue;
+                    changeItem.Quantity = command.OrderCmd.Quantity;
+                    //changeItem.SerialNumber = command.OrderCmd.SerialNumber;
+                }
+                //if(changeItem.Status == "Active")
+                //{
+
+                //   itemPro.SerialNumber = command.OrderCmd.MaterialFinal + DateTime.Now + i;
+                //    i++;
+                //}
+            }
+            platform.Submit(changeItem);
+            throw new NotImplementedException();
+        }
+        private void DeleteData(OrderDefCmd command)
+        {
+
+            // List<IOrderDef> deletingItem = new List<IOrderDef>();
+            //for(int i = 0; i < command.OrderCmd.NId.Length; i++)
+            //{
+            //    if(i!=0)
+            //    {
+            //        platform.Delete(deletingItem);
+            //    }
+            //    else
+            //    {
+            //        throw new Exception($"Id {command.CmdId} is not found");
+            //    }
+            //}
+
+
+            var deletingItem = platform.GetEntity<IOrderDef>(command.CmdId.GetValueOrDefault());
+            if (deletingItem == null)
+                throw new Exception($"Id {command.CmdId} is not found");
+            platform.Delete(deletingItem);
+            throw new NotImplementedException();
+            //var deletingItem = platform.GetEntity<IOrderDef>(command.CmdId.GetValueOrDefault());
+            //if (deletingItem == null)
+            //platform.Delete(deletingItem);
+            //throw new NotImplementedException();
+        }
+        private void GenBatch(OrderDefCmd command)
+        {
+            //List<IOrderDef> insertList = new List<IOrderDef>();
+            var genBatch = platform.Query<IOrderDef>()
+                               .Where(x =>( x.ParrentId == command.OrderCmd.NId 
+                               && x.MaterialFinal == command.OrderCmd.MaterialFinal 
+                               && x.Type == command.OrderCmd.Type
+                               && x.Status == "Complited")).ToList();
+            if (genBatch == null)
+            {
+                throw new Exception($"xx");
+            }
+            else
+            {
+                var item = platform.Create<IBatchManagement>();
+                item.WorkOrderID = command.OrderCmd.NId;
+                item.BatchID = "LOT_" + command.OrderCmd.MaterialFinal + DateTime.Now;
+
+                platform.Submit(item);
+                //insertList.AddRange(item);
+            }
+            throw new Exception($"xx");
+            //platform.BulkImport(item, new BulkImportOptions() { });
+        }
+    }
+}
+
+
+
+
+
+

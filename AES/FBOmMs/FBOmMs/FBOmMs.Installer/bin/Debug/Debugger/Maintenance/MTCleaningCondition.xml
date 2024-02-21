@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <MTCleaningCondition Id="818b2697-ec26-4c6b-b3d7-00d32765e6fa">
+    <Name>All_ToBeCleaned_Entities</Name>
+    <Expression>[{  "Op": "and",  "FId": "ToBeCleaned",  "Tp": "boolean",  "EqOp": "=",  "Val": true }]</Expression>
+    <IsSystemEntity>true</IsSystemEntity>
+  </MTCleaningCondition>
+</Items>

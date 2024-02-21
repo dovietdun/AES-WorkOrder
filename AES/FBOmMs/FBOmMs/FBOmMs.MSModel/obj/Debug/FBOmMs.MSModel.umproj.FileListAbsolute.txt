@@ -1,0 +1,4 @@
+C:\AES\FBOmMs\FBOmMs\FBOmMs.MSModel\obj\Debug\FBOmMs.MSModel.umproj.CoreCompileInputs.cache
+C:\AES\FBOmMs\FBOmMs\FBOmMs.MSModel\obj\Debug\FBOmMs.MSModel.umprojAssemblyReference.cache
+C:\AES\AES\FBOmMs\FBOmMs\FBOmMs.MSModel\obj\Debug\FBOmMs.MSModel.umprojAssemblyReference.cache
+C:\AES\AES\FBOmMs\FBOmMs\FBOmMs.MSModel\obj\Debug\FBOmMs.MSModel.umproj.CoreCompileInputs.cache

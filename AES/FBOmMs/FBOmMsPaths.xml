@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<projects>
+  <project>
+    <type>CommandHandler</type>
+    <path>C:\AES\FBOmMs\FBOmMs\FBOmMs.CommandHandler\bin\Debug\</path>
+  </project>
+  <project>
+    <type>EventHandler</type>
+    <path>C:\AES\FBOmMs\FBOmMs\FBOmMs.EventHandler\bin\Debug\</path>
+  </project>
+  <project>
+    <type>Model</type>
+    <path>C:\AES\FBOmMs\FBOmMs\FBOmMs.MSModel\bin\</path>
+  </project>
+  <project>
+    <type>Installer</type>
+    <path>C:\AES\FBOmMs\FBOmMs\FBOmMs.Installer\bin\Debug\</path>
+  </project>
+</projects>

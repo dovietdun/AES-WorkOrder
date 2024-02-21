@@ -1,0 +1,58 @@
+VERSION '01.13'
+
+[Protected]
+[@Guid(90180248-4e8f-4522-a978-6d89c9179ec1)]
+COMMAND OrderDefCmd
+WITH
+    [Optional]
+    CmdId AS Guid
+    [Optional]
+    [@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, 45c41fc1-f130-4ddd-b77a-e48a3d5345d7)]
+    OrderCmd AS VF.OperationalData.FBOmOp.OPModel.Types.OrderDefPrm
+    [Length = 255]
+    Action AS string
+
+[Protected]
+[@Guid(cea8998f-0975-4102-8ee6-f54ea37636bf)]
+COMMAND SplitCmd
+WITH
+    [Optional]
+    CmdId AS Guid
+    [Optional]
+    [@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, 45c41fc1-f130-4ddd-b77a-e48a3d5345d7)]
+    SplitCmd_ AS VF.OperationalData.FBOmOp.OPModel.Types.OrderDefPrm
+    [Length = 255]
+    Action AS string
+
+[Protected]
+[@Guid(cd197475-4877-4e17-beac-022657fb7fdb)]
+COMMAND ChangeStatusCmd
+WITH
+    [Optional]
+    CmdId AS Guid
+    [Optional]
+    [@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, 5f5763a2-3a92-412d-a2b0-a62a3fafb308)]
+    ChangeCmd AS VF.OperationalData.FBOmOp.OPModel.Types.ChangeStatusPrm
+    [Length = 255]
+    Action AS string
+
+[Protected]
+[@Guid(db7ad6c9-8f28-4092-a204-8ac93feb8720)]
+COMMAND UploadCmd
+WITH
+    [Length = 255]
+    Action AS string
+    [Optional]
+    [Length = Max]
+    Data AS string
+
+[Protected]
+[@Guid(4c0476f4-ec4f-44b0-9d68-f95fe944f286)]
+COMMAND ListDataCmd
+WITH
+    [Length = 255]
+    Action AS string
+    [Optional]
+    [@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, 45c41fc1-f130-4ddd-b77a-e48a3d5345d7)]
+    Data AS list of VF.OperationalData.FBOmOp.OPModel.Types.OrderDefPrm
+

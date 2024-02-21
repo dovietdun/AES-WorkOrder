@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <ReadingFunction Id="9e57ad04-9a81-4600-84c1-ecd77527be34">
+    <AssemblyName>Siemens.SimaticIT.Engineering.ReadingFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <Handler>0258359d-a738-442b-960a-92b476958a18</Handler>
+    <ShortName>GetDatabaseResourceInfo</ShortName>
+    <Name>Siemens.SimaticIT.Engineering.ReadingFunctions.GetDatabaseResourceInfo</Name>
+    <ReadingFunctionType>ENG</ReadingFunctionType>
+    <IsSystemEntity>true</IsSystemEntity>
+  </ReadingFunction>
+  <ReadingFunction Id="5286102c-e0aa-ee11-ab37-00155da8800f">
+    <AssemblyName>Siemens.SimaticIT.System.System.SAPOMModel.ReadingFunctions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <FunctionalBlock>8a29b679-01a9-4756-8fae-180d2f046618</FunctionalBlock>
+    <Handler>5586102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <ShortName>GetUserPreferences</ShortName>
+    <App>b469957c-4faf-489e-be06-1e5c413501c4</App>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.ReadingFunctions.GetUserPreferences</Name>
+    <ReadingFunctionType>Undefined</ReadingFunctionType>
+    <IsSystemEntity>false</IsSystemEntity>
+  </ReadingFunction>
+  <ReadingFunction Id="5c86102c-e0aa-ee11-ab37-00155da8800f">
+    <AssemblyName>Siemens.SimaticIT.System.System.SAPOMModel.ReadingFunctions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <FunctionalBlock>8a29b679-01a9-4756-8fae-180d2f046618</FunctionalBlock>
+    <Handler>5f86102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <ShortName>GetExportImportOperations</ShortName>
+    <App>b469957c-4faf-489e-be06-1e5c413501c4</App>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.ReadingFunctions.GetExportImportOperations</Name>
+    <ReadingFunctionType>Undefined</ReadingFunctionType>
+    <IsSystemEntity>false</IsSystemEntity>
+  </ReadingFunction>
+  <ReadingFunction Id="6686102c-e0aa-ee11-ab37-00155da8800f">
+    <AssemblyName>Siemens.SimaticIT.System.System.SAPOMModel.ReadingFunctions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <FunctionalBlock>8a29b679-01a9-4756-8fae-180d2f046618</FunctionalBlock>
+    <Handler>6986102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <ShortName>GetExportImportOperationsDetails</ShortName>
+    <App>b469957c-4faf-489e-be06-1e5c413501c4</App>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.ReadingFunctions.GetExportImportOperationsDetails</Name>
+    <ReadingFunctionType>Undefined</ReadingFunctionType>
+    <IsSystemEntity>false</IsSystemEntity>
+  </ReadingFunction>
+  <ReadingFunction Id="7fb3492a-92b9-ee11-ab54-00155d215002">
+    <AssemblyName>VF.FBOmApp.FBOmApp.VFPOMModel.ReadingFunctions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <FunctionalBlock>85a7f353-95a8-4d16-bb72-4b82ddbb269d</FunctionalBlock>
+    <Handler>380cdbe7-b2b9-ee11-ab54-00155d215002</Handler>
+    <ShortName>RFOrderDef</ShortName>
+    <App>78f873f1-90a1-402a-8f70-3ec833e26836</App>
+    <Name>VF.FBOmApp.FBOmApp.VFPOMModel.ReadingFunctions.RFOrderDef</Name>
+    <ReadingFunctionType>Undefined</ReadingFunctionType>
+    <IsSystemEntity>false</IsSystemEntity>
+  </ReadingFunction>
+</Items>

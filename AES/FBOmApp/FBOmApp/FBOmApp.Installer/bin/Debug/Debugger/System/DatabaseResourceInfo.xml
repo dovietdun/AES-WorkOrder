@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <DatabaseResourceInfo Id="52da8a92-4f3a-48da-a20a-782c7f38bd1e">
+    <DataSource>UAFPC</DataSource>
+    <DatabaseType>MSSQLServer</DatabaseType>
+    <InitialCatalog></InitialCatalog>
+    <IsSystemResource>true</IsSystemResource>
+    <IsWindowsAuthentication>true</IsWindowsAuthentication>
+    <Name>MSSQLServer$UAFPC</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </DatabaseResourceInfo>
+</Items>

@@ -1,0 +1,26 @@
+{
+  "name": "VF.FBOmApp.UIMaterial",
+  "type": "standard",
+  "title": "UIMaterial",
+  "header": "",
+  "icon": "fa-folder",
+  "functionalBlock": "VF.FBOmApp",
+  "dependencies": [],
+  "states": [
+    {
+      "id": "home.VF_FBOmApp_UIMaterial_UIMaterialScreen",
+      "title": "UIMaterialScreen",
+      "header": "",
+      "securable": true,
+      "roles": []
+    },
+    {
+      "id": "home.VF_FBOmApp_UIMaterial_UIModuleScreen1",
+      "title": "UIModuleScreen1",
+      "header": "",
+      "securable": true,
+      "roles": []
+    }
+  ],
+  "manifestVersion": "01.01.00"
+}

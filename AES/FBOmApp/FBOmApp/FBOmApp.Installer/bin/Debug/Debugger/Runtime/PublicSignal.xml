@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <PublicSignal Id="f4c4b813-3e4a-43c4-af21-d412b847b90c">
+    <AppName>Siemens.SimaticIT.System</AppName>
+    <Signal>4086102c-e0aa-ee11-ab37-00155da8800f</Signal>
+    <Name>TimerEvent</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </PublicSignal>
+  <PublicSignal Id="3ed182d4-69c0-452f-834b-cbf538d46116">
+    <AppName>Siemens.SimaticIT.System</AppName>
+    <Signal>4686102c-e0aa-ee11-ab37-00155da8800f</Signal>
+    <Name>ExportCompleted</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </PublicSignal>
+  <PublicSignal Id="ed346ba5-13d4-4b2e-8973-225236bda119">
+    <AppName>Siemens.SimaticIT.System</AppName>
+    <Signal>4c86102c-e0aa-ee11-ab37-00155da8800f</Signal>
+    <Name>ImportCompleted</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </PublicSignal>
+</Items>

@@ -1,0 +1,12 @@
+C:\AES\FBOmOp\FBOmOp\FBOmOp.EventHandler\bin\Debug\VF.FBOmOp.EventHandler.dll
+C:\AES\FBOmOp\FBOmOp\FBOmOp.EventHandler\bin\Debug\VF.FBOmOp.EventHandler.pdb
+C:\AES\FBOmOp\FBOmOp\FBOmOp.EventHandler\obj\Debug\FBOmOp.EventHandler.csproj.CoreCompileInputs.cache
+C:\AES\FBOmOp\FBOmOp\FBOmOp.EventHandler\obj\Debug\VF.FBOmOp.EventHandler.dll
+C:\AES\FBOmOp\FBOmOp\FBOmOp.EventHandler\obj\Debug\VF.FBOmOp.EventHandler.pdb
+C:\AES\FBOmOp\FBOmOp\FBOmOp.EventHandler\obj\Debug\FBOmOp.EventHandler.csprojAssemblyReference.cache
+C:\AES\AES\FBOmOp\FBOmOp\FBOmOp.EventHandler\bin\Debug\VF.FBOmOp.EventHandler.dll
+C:\AES\AES\FBOmOp\FBOmOp\FBOmOp.EventHandler\bin\Debug\VF.FBOmOp.EventHandler.pdb
+C:\AES\AES\FBOmOp\FBOmOp\FBOmOp.EventHandler\obj\Debug\FBOmOp.EventHandler.csprojAssemblyReference.cache
+C:\AES\AES\FBOmOp\FBOmOp\FBOmOp.EventHandler\obj\Debug\FBOmOp.EventHandler.csproj.CoreCompileInputs.cache
+C:\AES\AES\FBOmOp\FBOmOp\FBOmOp.EventHandler\obj\Debug\VF.FBOmOp.EventHandler.dll
+C:\AES\AES\FBOmOp\FBOmOp\FBOmOp.EventHandler\obj\Debug\VF.FBOmOp.EventHandler.pdb

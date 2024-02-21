@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <SecurityPolicy Id="a3a4a23b-f929-47d2-87b5-0b03250d56ac">
+    <IsEnabled>false</IsEnabled>
+    <Name>UseTestKey</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurityPolicy>
+</Items>

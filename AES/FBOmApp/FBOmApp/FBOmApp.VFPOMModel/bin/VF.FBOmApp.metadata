@@ -1,0 +1,863 @@
+{
+  "ToolVersion": "1.0",
+  "Prefix": "VF",
+  "AppName": "FBOmApp.VFPOMModel",
+  "AppShortName": "FBOmApp",
+  "AppFullName": "VF.FBOmApp.FBOmApp.VFPOMModel",
+  "AppVersion": "01.00.00",
+  "AssemblyVersion": "1.0.0.0",
+  "MetaDataTypes": [
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.BatchManagement",
+      "ReferencedFullInfo": "VF.OperationalData.FBOmOp.OPModel.DataModel.BatchManagement",
+      "ParentFullInfo": "VF.OperationalData.FBOmOp.OPModel.DataModel.OrderDef",
+      "IsFacet": "True",
+      "ArtifactType": "Entity",
+      "Members": [
+        {
+          "Name": "BatchID",
+          "Type": "String"
+        },
+        {
+          "Name": "OrderDef",
+          "Type": "VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.OrderDef",
+          "ReadingModelFullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.OrderDef",
+          "MemberArtifactType": "Entity",
+          "IsFacetParent": "True",
+          "Visibility": "ReadingModel",
+          "RelationshipData": {
+            "RelationshipName": "OrderDef_Id",
+            "Cardinality": "OneToMany",
+            "KeyType": "Guid"
+          }
+        }
+      ]
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.WhiteListSerialNumber",
+      "ReferencedFullInfo": "VF.OperationalData.FBOmOp.OPModel.DataModel.WhiteListSerialNumber",
+      "ArtifactType": "Entity",
+      "Members": [
+        {
+          "Name": "NId",
+          "Type": "String",
+          "IsMandatory": "True",
+          "IsLogicalKey": "True"
+        },
+        {
+          "Name": "SerialNumber",
+          "Type": "String"
+        },
+        {
+          "Name": "FinalMaterial",
+          "Type": "String"
+        },
+        {
+          "Name": "BatchId",
+          "Type": "String"
+        },
+        {
+          "Name": "ActualStartDate",
+          "Type": "DateTimeOffset"
+        },
+        {
+          "Name": "ActualEndDate",
+          "Type": "DateTimeOffset"
+        }
+      ],
+      "Domain": "OperationalData"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.ChangeStatus",
+      "ReferencedFullInfo": "VF.OperationalData.FBOmOp.OPModel.DataModel.ChangeStatus",
+      "ArtifactType": "Entity",
+      "Members": [
+        {
+          "Name": "ChangeStatusID",
+          "Type": "String",
+          "IsMandatory": "True",
+          "IsLogicalKey": "True"
+        },
+        {
+          "Name": "OrderType",
+          "Type": "String"
+        },
+        {
+          "Name": "FromStatus",
+          "Type": "String"
+        },
+        {
+          "Name": "ToStatus",
+          "Type": "String"
+        }
+      ],
+      "Domain": "OperationalData"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.OrderDef",
+      "ReferencedFullInfo": "VF.OperationalData.FBOmOp.OPModel.DataModel.OrderDef",
+      "ArtifactType": "Entity",
+      "Members": [
+        {
+          "Name": "NId",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Type",
+          "Type": "String"
+        },
+        {
+          "Name": "MaterialFinal",
+          "Type": "String"
+        },
+        {
+          "Name": "PlanStartDate",
+          "Type": "DateTimeOffset",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "PlanEndDate",
+          "Type": "DateTimeOffset",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "ActualStartDate",
+          "Type": "DateTimeOffset"
+        },
+        {
+          "Name": "ActualEndDate",
+          "Type": "DateTimeOffset"
+        },
+        {
+          "Name": "ParrentId",
+          "Type": "String"
+        },
+        {
+          "Name": "Status",
+          "Type": "String"
+        },
+        {
+          "Name": "BatchManagement",
+          "Type": "VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.BatchManagement",
+          "ReadingModelFullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.ReadingModel.BatchManagement",
+          "MemberArtifactType": "Entity",
+          "IsCollection": "True",
+          "IsFacet": "True",
+          "Visibility": "ReadingModel",
+          "RelationshipData": {
+            "RelationshipName": "OrderDef_Id",
+            "Cardinality": "OneToMany",
+            "KeyType": "Guid?"
+          }
+        }
+      ],
+      "Domain": "OperationalData"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.BatchOrder",
+      "ReferencedFullInfo": "VF.OperationalData.FBOmOp.OPModel.DataModel.BatchOrder",
+      "ParentFullInfo": "VF.OperationalData.FBOmOp.OPModel.DataModel.OrderDef",
+      "IsSecurable": "False",
+      "ArtifactType": "Entity",
+      "Members": [
+        {
+          "Name": "Quantity",
+          "Type": "Int32"
+        },
+        {
+          "Name": "NId",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Type",
+          "Type": "String"
+        },
+        {
+          "Name": "MaterialFinal",
+          "Type": "String"
+        },
+        {
+          "Name": "PlanStartDate",
+          "Type": "DateTimeOffset",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "PlanEndDate",
+          "Type": "DateTimeOffset",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "ActualStartDate",
+          "Type": "DateTimeOffset"
+        },
+        {
+          "Name": "ActualEndDate",
+          "Type": "DateTimeOffset"
+        },
+        {
+          "Name": "ParrentId",
+          "Type": "String"
+        },
+        {
+          "Name": "Status",
+          "Type": "String"
+        }
+      ],
+      "Domain": "OperationalData"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.ProductionOrder",
+      "ReferencedFullInfo": "VF.OperationalData.FBOmOp.OPModel.DataModel.ProductionOrder",
+      "ParentFullInfo": "VF.OperationalData.FBOmOp.OPModel.DataModel.OrderDef",
+      "IsSecurable": "False",
+      "ArtifactType": "Entity",
+      "Members": [
+        {
+          "Name": "SerialNumber",
+          "Type": "String"
+        },
+        {
+          "Name": "Quantity",
+          "Type": "Int32"
+        },
+        {
+          "Name": "NId",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Type",
+          "Type": "String"
+        },
+        {
+          "Name": "MaterialFinal",
+          "Type": "String"
+        },
+        {
+          "Name": "PlanStartDate",
+          "Type": "DateTimeOffset",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "PlanEndDate",
+          "Type": "DateTimeOffset",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "ActualStartDate",
+          "Type": "DateTimeOffset"
+        },
+        {
+          "Name": "ActualEndDate",
+          "Type": "DateTimeOffset"
+        },
+        {
+          "Name": "ParrentId",
+          "Type": "String"
+        },
+        {
+          "Name": "Status",
+          "Type": "String"
+        }
+      ],
+      "Domain": "OperationalData"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.TypeDef",
+      "ReferencedFullInfo": "VF.MasterData.FBOmMs.MSModel.DataModel.TypeDef",
+      "ArtifactType": "Entity",
+      "Members": [
+        {
+          "Name": "NId",
+          "Type": "String",
+          "IsMandatory": "True",
+          "IsLogicalKey": "True"
+        },
+        {
+          "Name": "Name",
+          "Type": "String"
+        }
+      ],
+      "Domain": "MasterData"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.StatusDef",
+      "ReferencedFullInfo": "VF.MasterData.FBOmMs.MSModel.DataModel.StatusDef",
+      "ArtifactType": "Entity",
+      "Members": [
+        {
+          "Name": "NId",
+          "Type": "String",
+          "IsMandatory": "True",
+          "IsLogicalKey": "True"
+        },
+        {
+          "Name": "Name",
+          "Type": "String"
+        }
+      ],
+      "Domain": "MasterData"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.DataModel.MaterialDef",
+      "ReferencedFullInfo": "VF.MasterData.FBOmMs.MSModel.DataModel.MaterialDef",
+      "ArtifactType": "Entity",
+      "Members": [
+        {
+          "Name": "NId",
+          "Type": "String",
+          "IsMandatory": "True",
+          "IsLogicalKey": "True"
+        },
+        {
+          "Name": "Name",
+          "Type": "String",
+          "IsMandatory": "True"
+        }
+      ],
+      "Domain": "MasterData"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.OrderDefCmd",
+      "ReferencedFullInfo": "VF.OperationalData.FBOmOp.OPModel.Commands.OrderDefCmd",
+      "ArtifactType": "Command",
+      "Members": [
+        {
+          "Name": "CmdId",
+          "Type": "Guid"
+        },
+        {
+          "Name": "OrderCmd",
+          "Type": "VF.OperationalData.FBOmOp.OPModel.Types.OrderDefPrm",
+          "MemberArtifactType": "ParameterType"
+        },
+        {
+          "Name": "Action",
+          "Type": "String",
+          "IsMandatory": "True"
+        }
+      ],
+      "PublishedFullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.OrderDefCmd"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.SplitCmd",
+      "ReferencedFullInfo": "VF.OperationalData.FBOmOp.OPModel.Commands.SplitCmd",
+      "ArtifactType": "Command",
+      "Members": [
+        {
+          "Name": "CmdId",
+          "Type": "Guid"
+        },
+        {
+          "Name": "SplitCmd_",
+          "Type": "VF.OperationalData.FBOmOp.OPModel.Types.OrderDefPrm",
+          "MemberArtifactType": "ParameterType"
+        },
+        {
+          "Name": "Action",
+          "Type": "String",
+          "IsMandatory": "True"
+        }
+      ],
+      "PublishedFullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.SplitCmd"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.ChangeStatusCmd",
+      "ReferencedFullInfo": "VF.OperationalData.FBOmOp.OPModel.Commands.ChangeStatusCmd",
+      "ArtifactType": "Command",
+      "Members": [
+        {
+          "Name": "CmdId",
+          "Type": "Guid"
+        },
+        {
+          "Name": "ChangeCmd",
+          "Type": "VF.OperationalData.FBOmOp.OPModel.Types.ChangeStatusPrm",
+          "MemberArtifactType": "ParameterType"
+        },
+        {
+          "Name": "Action",
+          "Type": "String",
+          "IsMandatory": "True"
+        }
+      ],
+      "PublishedFullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.ChangeStatusCmd"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.UploadCmd",
+      "ReferencedFullInfo": "VF.OperationalData.FBOmOp.OPModel.Commands.UploadCmd",
+      "ArtifactType": "Command",
+      "Members": [
+        {
+          "Name": "Action",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Data",
+          "Type": "String"
+        }
+      ],
+      "PublishedFullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.UploadCmd"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.ListDataCmd",
+      "ReferencedFullInfo": "VF.OperationalData.FBOmOp.OPModel.Commands.ListDataCmd",
+      "ArtifactType": "Command",
+      "Members": [
+        {
+          "Name": "Action",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Data",
+          "Type": "VF.OperationalData.FBOmOp.OPModel.Types.OrderDefPrm",
+          "MemberArtifactType": "ParameterType",
+          "IsCollection": "True"
+        }
+      ],
+      "PublishedFullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.ListDataCmd"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.TypeDefCmd",
+      "ReferencedFullInfo": "VF.MasterData.FBOmMs.MSModel.Commands.TypeDefCmd",
+      "ArtifactType": "Command",
+      "Members": [
+        {
+          "Name": "CmdId",
+          "Type": "Guid"
+        },
+        {
+          "Name": "TypeCmd",
+          "Type": "VF.MasterData.FBOmMs.MSModel.Types.TypeDefPrm",
+          "MemberArtifactType": "ParameterType"
+        },
+        {
+          "Name": "Action",
+          "Type": "String",
+          "IsMandatory": "True"
+        }
+      ],
+      "PublishedFullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.TypeDefCmd"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.StatusDefCmd",
+      "ReferencedFullInfo": "VF.MasterData.FBOmMs.MSModel.Commands.StatusDefCmd",
+      "ArtifactType": "Command",
+      "Members": [
+        {
+          "Name": "CmdId",
+          "Type": "Guid"
+        },
+        {
+          "Name": "StatusCmd",
+          "Type": "VF.MasterData.FBOmMs.MSModel.Types.StatusDefPrm",
+          "MemberArtifactType": "ParameterType"
+        },
+        {
+          "Name": "Action",
+          "Type": "String",
+          "IsMandatory": "True"
+        }
+      ],
+      "PublishedFullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.StatusDefCmd"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.MaterialDefCmd",
+      "ReferencedFullInfo": "VF.MasterData.FBOmMs.MSModel.Commands.MaterialDefCmd",
+      "ArtifactType": "Command",
+      "Members": [
+        {
+          "Name": "CmdId",
+          "Type": "Guid"
+        },
+        {
+          "Name": "MaterialCmd",
+          "Type": "VF.MasterData.FBOmMs.MSModel.Types.MaterialDefPrm",
+          "MemberArtifactType": "ParameterType"
+        },
+        {
+          "Name": "Action",
+          "Type": "String",
+          "IsMandatory": "True"
+        }
+      ],
+      "PublishedFullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.MaterialDefCmd"
+    },
+    {
+      "FullInfo": "VF.FBOmApp.FBOmApp.VFPOMModel.ReadingFunctions.RFOrderDef",
+      "ArtifactType": "ReadingFunction",
+      "Members": [
+        {
+          "Name": "Type",
+          "Type": "String",
+          "InputParameter": "True"
+        },
+        {
+          "Name": "BatchID",
+          "Type": "String",
+          "InputParameter": "True"
+        },
+        {
+          "Name": "Status",
+          "Type": "String",
+          "InputParameter": "True"
+        },
+        {
+          "Name": "SerialNumber",
+          "Type": "String",
+          "InputParameter": "True"
+        },
+        {
+          "Name": "ParentID",
+          "Type": "String",
+          "InputParameter": "True"
+        },
+        {
+          "Name": "Results",
+          "Type": "VF.OperationalData.FBOmOp.OPModel.Types.OrderDefPrm",
+          "MemberArtifactType": "ParameterType",
+          "IsCollection": "True"
+        }
+      ]
+    },
+    {
+      "FullInfo": "VF.OperationalData.FBOmOp.OPModel.Types.OrderDefPrm",
+      "IsSecurable": "False",
+      "ArtifactType": "ParameterType",
+      "Members": [
+        {
+          "Name": "NId",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Type",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "MaterialFinal",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Status",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "PlanStartDate",
+          "Type": "DateTimeOffset"
+        },
+        {
+          "Name": "PlanEndDate",
+          "Type": "DateTimeOffset"
+        },
+        {
+          "Name": "ActualStartDate",
+          "Type": "DateTimeOffset"
+        },
+        {
+          "Name": "ActualEndDate",
+          "Type": "DateTimeOffset"
+        },
+        {
+          "Name": "Quantity",
+          "Type": "Int32",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "ParrentId",
+          "Type": "String"
+        },
+        {
+          "Name": "SerialNumber",
+          "Type": "String"
+        },
+        {
+          "Name": "BatchID",
+          "Type": "String"
+        },
+        {
+          "Name": "Id",
+          "Type": "Guid"
+        }
+      ]
+    },
+    {
+      "FullInfo": "VF.OperationalData.FBOmOp.OPModel.Types.ChangeStatusPrm",
+      "IsSecurable": "False",
+      "ArtifactType": "ParameterType",
+      "Members": [
+        {
+          "Name": "NId",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "FromStatus",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "OrderType",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "ToStatus",
+          "Type": "String",
+          "IsMandatory": "True"
+        }
+      ]
+    },
+    {
+      "FullInfo": "VF.MasterData.FBOmMs.MSModel.Types.TypeDefPrm",
+      "IsSecurable": "False",
+      "ArtifactType": "ParameterType",
+      "Members": [
+        {
+          "Name": "NId",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Name",
+          "Type": "String",
+          "IsMandatory": "True"
+        }
+      ]
+    },
+    {
+      "FullInfo": "VF.MasterData.FBOmMs.MSModel.Types.StatusDefPrm",
+      "IsSecurable": "False",
+      "ArtifactType": "ParameterType",
+      "Members": [
+        {
+          "Name": "NId",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Name",
+          "Type": "String",
+          "IsMandatory": "True"
+        }
+      ]
+    },
+    {
+      "FullInfo": "VF.MasterData.FBOmMs.MSModel.Types.MaterialDefPrm",
+      "IsSecurable": "False",
+      "ArtifactType": "ParameterType",
+      "Members": [
+        {
+          "Name": "NId",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Name",
+          "Type": "String",
+          "IsMandatory": "True"
+        }
+      ]
+    }
+  ],
+  "References": [
+    {
+      "FunctionalBlockFullName": "VF.OperationalData.FBOmOp.OPModel",
+      "AssemblyVersion": "1.0.0.0",
+      "ProjectVersion": "01.00.00"
+    },
+    {
+      "FunctionalBlockFullName": "VF.MasterData.FBOmMs.MSModel",
+      "AssemblyVersion": "1.0.0.0",
+      "ProjectVersion": "01.00.00"
+    }
+  ],
+  "SystemMetaDataTypes": [
+    {
+      "FullInfo": "CommittedEventProperties",
+      "ArtifactType": "Entity",
+      "Members": [
+        {
+          "Name": "Action",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EntityDomain",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Operation",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Ordering",
+          "Type": "Int64",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "SessionId",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Timestamp",
+          "Type": "DateTimeOffset",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "Version",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "UafEntityName",
+          "Type": "String",
+          "IsMandatory": "True"
+        }
+      ]
+    },
+    {
+      "FullInfo": "BusinessEventSourceEnvelope",
+      "ArtifactType": "Event",
+      "Members": [
+        {
+          "Name": "EnvelopeCategory",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EnvelopeTopic",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EnvelopeModule",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EnvelopeTag",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EnvelopeUserField1",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EnvelopeUserField2",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EnvelopeUserField3",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EnvelopeUserField4",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EnvelopeUserField5",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EnvelopeUserField6",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EnvelopeUserField7",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EnvelopeUserField8",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EnvelopeUserField9",
+          "Type": "String",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "EnvelopeUserField10",
+          "Type": "String",
+          "IsMandatory": "True"
+        }
+      ]
+    },
+    {
+      "FullInfo": "RevisionEntityProperties",
+      "ArtifactType": "RevisionEntity",
+      "Members": [
+        {
+          "Name": "Revision",
+          "Type": "String",
+          "IsMandatory": "True",
+          "IsLogicalKey": "True"
+        },
+        {
+          "Name": "SourceRevision",
+          "Type": "String"
+        },
+        {
+          "Name": "IsLocked",
+          "Type": "Boolean",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "IsCurrent",
+          "Type": "Boolean",
+          "IsMandatory": "True"
+        }
+      ]
+    },
+    {
+      "FullInfo": "Entity",
+      "ArtifactType": "Entity",
+      "Members": [
+        {
+          "Name": "Id",
+          "Type": "Guid",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "IsFrozen",
+          "Type": "Boolean",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "CreatedOn",
+          "Type": "DateTimeOffset",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "LastUpdatedOn",
+          "Type": "DateTimeOffset",
+          "IsMandatory": "True"
+        },
+        {
+          "Name": "ToBeCleaned",
+          "Type": "Boolean",
+          "IsMandatory": "True"
+        }
+      ]
+    }
+  ]
+}

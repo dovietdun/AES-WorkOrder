@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <ReadingFunctionHandler Id="0258359d-a738-442b-960a-92b476958a18">
+    <AssemblyName>SimaticIT.Engineering.ReadingFunctionHandlers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <TargetCPU>x64</TargetCPU>
+    <Name>Siemens.SimaticIT.Engineering.ReadingFunctions.GetDatabaseResourceInfoHandlerShell</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </ReadingFunctionHandler>
+  <ReadingFunctionHandler Id="5586102c-e0aa-ee11-ab37-00155da8800f">
+    <AssemblyName>Siemens.SimaticIT.System.ReadingFunctionHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <TargetCPU>AnyCPU</TargetCPU>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.ReadingFunctions.GetUserPreferencesHandlerShell</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </ReadingFunctionHandler>
+  <ReadingFunctionHandler Id="5f86102c-e0aa-ee11-ab37-00155da8800f">
+    <AssemblyName>Siemens.SimaticIT.System.ReadingFunctionHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <TargetCPU>AnyCPU</TargetCPU>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.ReadingFunctions.GetExportImportOperationsHandlerShell</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </ReadingFunctionHandler>
+  <ReadingFunctionHandler Id="6986102c-e0aa-ee11-ab37-00155da8800f">
+    <AssemblyName>Siemens.SimaticIT.System.ReadingFunctionHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <TargetCPU>AnyCPU</TargetCPU>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.ReadingFunctions.GetExportImportOperationsDetailsHandlerShell</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </ReadingFunctionHandler>
+  <ReadingFunctionHandler Id="2272257a-17bc-ee11-ab43-00155ddad002">
+    <AssemblyName>VF.FBOmApp.ReadingFunctionHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <TargetCPU>AnyCPU</TargetCPU>
+    <Name>VF.FBOmApp.FBOmApp.VFPOMModel.ReadingFunctions.RFOrderDefHandlerShell</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </ReadingFunctionHandler>
+</Items>

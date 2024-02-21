@@ -1,0 +1,268 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Siemens.SimaticIT.Unified.Common;
+using Siemens.SimaticIT.Unified.Common.Information;
+using Siemens.SimaticIT.Handler;
+using Siemens.SimaticIT.Unified;
+using VF.OperationalData.FBOmOp.OPModel.DataModel;
+using VF.OperationalData.FBOmOp.OPModel.DataModel.ProjectionModel;
+using IOrderDef = VF.OperationalData.FBOmOp.OPModel.DataModel.IOrderDef;
+using IChangeStatus = VF.OperationalData.FBOmOp.OPModel.DataModel.IChangeStatus;
+using IProductionOrder = VF.OperationalData.FBOmOp.OPModel.DataModel.IProductionOrder;
+using IBatchManagement = VF.OperationalData.FBOmOp.OPModel.DataModel.IBatchManagement;
+using IBatchOrder = VF.OperationalData.FBOmOp.OPModel.DataModel.IBatchOrder;
+using IWhiteListSerialNumber = VF.OperationalData.FBOmOp.OPModel.DataModel.IWhiteListSerialNumber;
+
+namespace VF.OperationalData.FBOmOp.OPModel.Commands
+{
+    /// <summary>
+    /// Partial class init
+    /// </summary>
+    [Handler(HandlerCategory.BasicMethod)]
+    public partial class OrderDefCmdHandlerShell 
+    {
+        /// <summary>
+        /// This is the handler the MES engineer should write
+        /// This is the ENTRY POINT for the user in VS IDE
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
+        [HandlerEntryPoint]
+        private OrderDefCmd.Response OrderDefCmdHandler(OrderDefCmd command)
+        {
+            try
+            {
+                switch (command.Action)
+                {
+
+                    case "ADD":
+                        AddData(command);
+                        break;
+                    case "UPDATE":
+                        UpdateData(command);
+                        break;
+                    case "DELETE":
+                        DeleteData(command);
+                        break;
+                    case "CHANGE_STATUS":
+                        ChangeStatus(command);
+                        break;
+                    case "SCRAPP":
+                        Scrapp(command);
+                        break;
+                    case "GEN_BATCH":
+                        GenBatch(command);
+                        break;
+                   
+                    default:
+                        break;
+                }
+                return new OrderDefCmd.Response();
+            }
+            catch (Exception ex)
+            {
+                return new OrderDefCmd.Response();
+            }
+        }
+
+      
+
+        private void AddData(OrderDefCmd command)
+        {
+            DateTime now = DateTime.Now;
+            var existingItem = platform.Query<IOrderDef>()
+
+                               .Where(x => x.NId == command.OrderCmd.NId).FirstOrDefault();
+
+            if (existingItem == null)
+            {
+                if (command.OrderCmd.Type == "ProductionOrder")
+                {
+                    var createItem = platform.Create<IProductionOrder>();
+                    createItem.NId = command.OrderCmd.NId;
+                    createItem.Status = command.OrderCmd.Status;
+                    createItem.Type = command.OrderCmd.Type;
+                    createItem.MaterialFinal = command.OrderCmd.MaterialFinal;
+                    createItem.PlanStartDate = command.OrderCmd.PlanStartDate ?? DateTimeOffset.MinValue;
+                    createItem.PlanEndDate = command.OrderCmd.PlanEndDate ?? DateTimeOffset.MinValue;
+                    createItem.Quantity = command.OrderCmd.Quantity;
+
+                    platform.Submit(createItem);
+                }
+                else if (command.OrderCmd.Type == "BatchOrder")
+                {
+                    var newBatch = platform.Create<IBatchOrder>();
+                    newBatch.NId = command.OrderCmd.NId;
+                    newBatch.Status = command.OrderCmd.Status;
+                    newBatch.Type = command.OrderCmd.Type;
+                    newBatch.MaterialFinal = command.OrderCmd.MaterialFinal;
+                    newBatch.PlanStartDate = command.OrderCmd.PlanStartDate ?? DateTimeOffset.MinValue;
+                    newBatch.PlanEndDate = command.OrderCmd.PlanEndDate ?? DateTimeOffset.MinValue;
+                    newBatch.Quantity = command.OrderCmd.Quantity;
+
+                    platform.Submit(newBatch);
+                }
+            }
+            throw new NotImplementedException();
+        }
+        private void UpdateData(OrderDefCmd command)
+        {
+            var ededitting = platform.GetEntity<IOrderDef>(command.CmdId.GetValueOrDefault());
+            if (ededitting.Type == "ProductionOrder")
+            {
+                var ededittingItem = platform.GetEntity<IProductionOrder>(command.CmdId.GetValueOrDefault());
+                ededittingItem.NId = command.OrderCmd.NId;
+                ededittingItem.Status = command.OrderCmd.Status;
+                ededittingItem.Type = command.OrderCmd.Type;
+                ededittingItem.MaterialFinal = command.OrderCmd.MaterialFinal;
+                ededittingItem.PlanStartDate = command.OrderCmd.PlanStartDate ?? DateTimeOffset.MinValue;
+                ededittingItem.PlanEndDate = command.OrderCmd.PlanEndDate ?? DateTimeOffset.MinValue;
+                ededittingItem.ActualStartDate = command.OrderCmd.ActualStartDate ?? DateTimeOffset.MinValue;
+                ededittingItem.ActualEndDate = command.OrderCmd.ActualEndDate ?? DateTimeOffset.MinValue;
+                ededittingItem.Quantity = command.OrderCmd.Quantity;
+
+                platform.Submit(ededittingItem);
+            }
+            else if (ededitting.Type == "BatchOrder")
+            {
+                var ededittingItem = platform.GetEntity<IBatchOrder>(command.CmdId.GetValueOrDefault());
+                ededittingItem.NId = command.OrderCmd.NId;
+                ededittingItem.Status = command.OrderCmd.Status;
+                ededittingItem.Type = command.OrderCmd.Type;
+                ededittingItem.MaterialFinal = command.OrderCmd.MaterialFinal;
+                ededittingItem.PlanStartDate = command.OrderCmd.PlanStartDate ?? DateTimeOffset.MinValue;
+                ededittingItem.PlanEndDate = command.OrderCmd.PlanEndDate ?? DateTimeOffset.MinValue;
+                ededittingItem.ActualStartDate = command.OrderCmd.ActualStartDate ?? DateTimeOffset.MinValue;
+                ededittingItem.ActualEndDate = command.OrderCmd.ActualEndDate ?? DateTimeOffset.MinValue;
+                ededittingItem.Quantity = command.OrderCmd.Quantity;
+            }
+        }
+        private void ChangeStatus(OrderDefCmd command)
+        {
+            DateTime now = DateTime.Now;
+            var changeItem = platform.GetEntity<IOrderDef>(command.CmdId.GetValueOrDefault());
+
+            if (changeItem == null)
+            {
+                throw new Exception($"xx");
+            }
+            else
+            {
+                var item = platform.Query<IChangeStatus>()
+                            .Where(x => x.OrderType == changeItem.Type 
+                            && x.FromStatus == changeItem.Status).FirstOrDefault();
+                if(item == null)
+                {
+                    throw new Exception($"xx");
+                }
+                else if(item.OrderType == "ProductionOrder")
+                {
+                    if(item.ToStatus == "Active")
+                    {
+                        var index = 1;
+                        try
+                        {
+                            string datetime = DateTime.Now.ToString("_yyyyMMdd_");
+                            var maxSerialNumber = platform.Query<IProductionOrder>()
+                                                            .Where(x => x.SerialNumber.Contains(datetime))
+                                                            .Select(x => x.SerialNumber).Max();
+                            var max = maxSerialNumber.Substring(maxSerialNumber.Length - 4, 4);
+                            index = Convert.ToInt32(max) + 1;
+                        }
+                        catch
+                        {
+                        }
+                        var itemProduction = platform.GetEntity<IProductionOrder>(command.CmdId.GetValueOrDefault());
+                        itemProduction.Status = item.ToStatus;
+                        itemProduction.SerialNumber = command.OrderCmd.MaterialFinal  + now.ToString("_yyyyMMdd_") + index.ToString("0000");
+                        platform.Submit(itemProduction);
+                    }
+                    else if(item.ToStatus == "InProgress")
+                    {
+                        var itemProduction = platform.GetEntity<IProductionOrder>(command.CmdId.GetValueOrDefault());
+                        itemProduction.Status = item.ToStatus;
+                        itemProduction.ActualStartDate = DateTime.Today;
+
+                        platform.Submit(itemProduction);
+                    }
+                    else if (item.ToStatus == "Completed")
+                    {
+                        var itemProduction = platform.GetEntity<IProductionOrder>(command.CmdId.GetValueOrDefault());
+                        itemProduction.Status = item.ToStatus;
+                        itemProduction.ActualEndDate = DateTime.Today;
+
+                        platform.Submit(itemProduction);
+
+                        var addDataWhileList = platform.Create<IWhiteListSerialNumber>();
+                        addDataWhileList.NId = itemProduction.NId;
+                        addDataWhileList.SerialNumber = itemProduction.SerialNumber;
+                        addDataWhileList.FinalMaterial = itemProduction.MaterialFinal;
+                        addDataWhileList.ActualStartDate = itemProduction.ActualStartDate;
+                        addDataWhileList.ActualEndDate = itemProduction.ActualEndDate;
+
+                        platform.Submit(addDataWhileList);
+                    }
+
+                }else if(item.OrderType == "BatchOrder")
+                {
+
+                }
+            }
+            throw new NotImplementedException();
+        }
+        private void Scrapp(OrderDefCmd command)
+        {
+            var changeItem = platform.GetEntity<IProductionOrder>(command.CmdId.GetValueOrDefault());
+            if (changeItem == null)
+            {
+                throw new Exception($"xx");
+            }
+            else
+            {
+                var item = platform.Query<IChangeStatus>()
+                            .Where(x => (x.OrderType == changeItem.Type 
+                            && changeItem.Status == "InProgress")).FirstOrDefault();
+                if (item == null)
+                {
+                    throw new Exception($"xx");
+                }
+                else
+                {
+                    changeItem.Status = "Scrapp";
+                    changeItem.ActualEndDate = DateTime.Today;
+                    platform.Submit(changeItem);
+                }
+            }
+           
+            throw new NotImplementedException();
+        }
+        private void DeleteData(OrderDefCmd command)
+        {
+            var deletingItem = platform.GetEntity<IOrderDef>(command.CmdId.GetValueOrDefault());
+            if (deletingItem == null)
+                throw new Exception($"Id {command.CmdId} is not found");
+            platform.Delete(deletingItem);
+            throw new NotImplementedException();
+            
+        }
+        private void GenBatch(OrderDefCmd command)
+        {
+            DateTime now = DateTime.Now;
+            int index = 1;
+            var item = platform.Create<IBatchManagement>();
+            index = Convert.ToInt32(index) + 1;
+            item.BatchID = "LOT_" + command.OrderCmd.MaterialFinal + now.ToString("yyyyMMdd") + index.ToString("000");
+
+            platform.Submit(item);
+            throw new Exception($"xx");
+            //platform.BulkImport(item, new BulkImportOptions() { });
+        }
+    }
+}
+
+
+
+
+
+

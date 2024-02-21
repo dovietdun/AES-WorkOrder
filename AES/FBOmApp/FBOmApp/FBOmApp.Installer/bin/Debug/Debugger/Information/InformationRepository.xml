@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <InformationRepository Id="c664f80c-a74d-4e02-87e8-7386383f2061">
+    <DefaultDatabase>ab78f32f-0934-4fa8-9878-416f9ee5c459</DefaultDatabase>
+    <Mode>RD</Mode>
+    <Storage>
+      <Id>40fe939b-7c74-4fd5-bbd7-4bdcd611938e</Id>
+      <Id>0845236a-6cdc-44dc-82a3-d6b4f1624daa</Id>
+      <Id>5349ece2-8be9-4b48-ba9e-db3e6755e912</Id>
+      <Id>734c4e9b-f1bf-498c-8802-bad79db337a0</Id>
+      <Id>38c0de09-b058-4e6d-8b39-860353baf531</Id>
+    </Storage>
+    <Name>MOM-READ</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </InformationRepository>
+  <InformationRepository Id="875abb04-6956-45a5-a860-98bc850e5116">
+    <DefaultDatabase>ab78f32f-0934-4fa8-9878-416f9ee5c459</DefaultDatabase>
+    <Mode>WR</Mode>
+    <Storage>
+      <Id>7fbe8350-dba1-446a-8d20-3bbbb234fb2a</Id>
+      <Id>45c2bedd-5269-4cab-b989-532e2c18e34c</Id>
+      <Id>ca896524-9a86-4d2d-9cd5-a4ca9e2822bf</Id>
+      <Id>02c49606-baec-40d8-a0ab-04c575c92918</Id>
+      <Id>1cd75027-13b6-4afa-8db1-9e0c7f05ec39</Id>
+    </Storage>
+    <Name>MOM-WRITE</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </InformationRepository>
+  <InformationRepository Id="daf79f20-3e1b-4ae1-bafd-b4a5aaaadbb6">
+    <DefaultDatabase>ab78f32f-0934-4fa8-9878-416f9ee5c459</DefaultDatabase>
+    <Mode>ES</Mode>
+    <Storage />
+    <Name>MOM-EVENTSTORE</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </InformationRepository>
+  <InformationRepository Id="04f1a04d-ac99-4e1d-b625-8cad39a9fb48">
+    <Mode>RD</Mode>
+    <Storage>
+      <Id>30794d76-a5e5-40cb-8d76-a478b038ef3b</Id>
+    </Storage>
+    <Name>System</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </InformationRepository>
+  <InformationRepository Id="bbfb39a8-eac5-4baa-b6aa-a5261663870c">
+    <Mode>RD</Mode>
+    <Storage>
+      <Id>f9194f7b-8b9b-46b1-a490-e0f2904f1480</Id>
+    </Storage>
+    <Name>FBOmApp</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </InformationRepository>
+</Items>

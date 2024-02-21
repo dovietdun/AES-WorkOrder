@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <SecurableObjectExtendedInfo Id="19a0aa59-885b-e511-827c-0050569f6b31">
+    <Domain>command</Domain>
+    <FilteringTags />
+    <ObjectType>Command</ObjectType>
+    <Name>command_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="1ca0aa59-885b-e511-827c-0050569f6b31">
+    <Domain>command</Domain>
+    <FilteringTags />
+    <ObjectType>Command</ObjectType>
+    <Name>engineering_command_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="7a64e879-c91d-4b26-965e-1c7d384f7a08">
+    <Domain>command</Domain>
+    <FilteringTags />
+    <ObjectType>Command</ObjectType>
+    <Name>administration_command_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="1fa0aa59-885b-e511-827c-0050569f6b31">
+    <Domain>business_command</Domain>
+    <FilteringTags />
+    <ObjectType>Command</ObjectType>
+    <Name>business_command_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="22a0aa59-885b-e511-827c-0050569f6b31">
+    <Domain>event</Domain>
+    <FilteringTags />
+    <ObjectType>Event</ObjectType>
+    <Name>event_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="27a0aa59-885b-e511-827c-0050569f6b31">
+    <Domain>event</Domain>
+    <FilteringTags />
+    <ObjectType>Event</ObjectType>
+    <Name>engineering_event_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="2aa0aa59-885b-e511-827c-0050569f6b31">
+    <Domain>business_event</Domain>
+    <FilteringTags />
+    <ObjectType>Event</ObjectType>
+    <Name>business_event_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="f172d2ca-192b-482f-bff5-2cf45e1c1b67">
+    <Domain>reading_function</Domain>
+    <FilteringTags />
+    <ObjectType>ReadingFunction</ObjectType>
+    <Name>reading_function_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="ad845ecb-9e1b-42ce-826b-4007cba4ad8e">
+    <Domain>reading_function</Domain>
+    <FilteringTags />
+    <ObjectType>ReadingFunction</ObjectType>
+    <Name>engineering_reading_function_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="53eef1ed-740b-4111-894e-71720b64d9cd">
+    <Domain>business_reading_function</Domain>
+    <FilteringTags />
+    <ObjectType>ReadingFunction</ObjectType>
+    <Name>business_reading_function_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="41a0aa59-885b-e511-827c-0050569f6b31">
+    <Domain>signal</Domain>
+    <FilteringTags />
+    <ObjectType>Signal</ObjectType>
+    <Name>signal_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="43a0aa59-885b-e511-827c-0050569f6b31">
+    <Domain>signal</Domain>
+    <FilteringTags />
+    <ObjectType>Signal</ObjectType>
+    <Name>engineering_signal_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="45a0aa59-885b-e511-827c-0050569f6b31">
+    <Domain>business_signal</Domain>
+    <FilteringTags />
+    <ObjectType>Signal</ObjectType>
+    <Name>business_signal_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="2da0aa59-885b-e511-827c-0050569f6b31">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>entity_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="32a0aa59-885b-e511-827c-0050569f6b31">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>engineering_entity_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="37a0aa59-885b-e511-827c-0050569f6b31">
+    <Domain>business_entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>business_entity_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="d0a087f6-4fe3-44bb-b7f1-9711e855a1d1">
+    <Domain>administratiob_entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>administration_entity_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="3aa0aa59-885b-e511-827c-0050569f6b31">
+    <Domain>screen</Domain>
+    <FilteringTags />
+    <ObjectType>Screen</ObjectType>
+    <Name>screen_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="8521b627-d2c2-41b9-99ae-a9d29e1529c2">
+    <Domain>webrequest</Domain>
+    <FilteringTags />
+    <ObjectType>WebRequest</ObjectType>
+    <Name>webrequest_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="2559e9d6-6ed7-40b4-a770-3ae0a922a79f">
+    <Domain>webrequest</Domain>
+    <FilteringTags />
+    <ObjectType>WebRequest</ObjectType>
+    <Name>administration_webrequest_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="c41971a8-8502-46c3-a86b-71af50986518">
+    <Domain>webrequest</Domain>
+    <FilteringTags />
+    <ObjectType>WebRequest</ObjectType>
+    <Name>monitoring</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="91ed1157-3c05-45a3-850f-f9240ab101bb">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.FunctionalBlockReference</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="5b2e987c-4230-4ca2-933b-b360385cf26b">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.CommandDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="27e84bbd-ab1d-4500-85bb-93bac8e74e50">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.HandlerDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="a49ed642-7665-4a54-ac87-1ed21726a355">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.CommandPomDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="2455ac4f-7756-4657-9c93-7757b291c56d">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.EventDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="59224244-92dc-4a04-a40f-481903f62b6e">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.EventHandlerDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="eea769e1-12cf-40cd-8cef-385736d3a68a">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.EventSubscriptionDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="d2e38b26-7ddc-4eaa-825e-d6ca8621cbd4">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.HostRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="61b3b29e-a9d9-4872-ac1d-a01212b1d46b">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.Package</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="861eb70b-2846-45e9-80c0-1c13f18702d9">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.ProjectDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="5f2c4025-e137-4e3e-ae8b-b0bfe1d23464">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SignalDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="c1117322-78dd-40bd-99ef-fea3fa383e26">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SolutionDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="f204f524-5e49-4677-bcf6-73843ffe2117">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SubscriptionFilterDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="f3d21167-6134-43fe-a7f4-75b2a3a31d67">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.Tag</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="9b6a8036-fe50-4578-baf4-e8b5a29377bf">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.VersionInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="7e749518-a956-4edd-b615-4246f9c55d98">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.WorkerDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="1fcac36a-8827-44d6-9d43-ebe1dfefd2ed">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.WorkerRoleDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="e823c73c-beed-4e66-b128-356a89c42d9d">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.DatabaseInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="fdb1fc52-730e-4052-98c9-00d594555f2c">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.DataModelAssembly</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="95d900b7-4c2a-4944-9cad-85a5b56c5455">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.DataProvider</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="1879d20f-1e79-4b40-909c-274038d77e69">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.DomainStorageInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="37d4f7f6-94ca-4510-921f-85849f26fe6e">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.InformationRepository</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="d29f58ee-ad3c-43c3-a6b4-90c2a349a370">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.EntityDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="7ec47840-84d9-4831-a76a-dff8afb5b0da">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.CertificateRoles</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="b6d27545-9344-4553-bbe6-c658b0021198">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.Role</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="2c6bc537-27d6-485a-a8ca-bdf71ce2d1c2">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.Domain</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="817f157a-67a9-470e-bfa2-d3c0821c0d6d">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.FilteringTag</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="96d92a41-8f80-411d-a32a-894b117dcfd2">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SecurableObject</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="0de4203f-9acc-4557-b47c-1fa9851d0fae">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SecurableCategory</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="de55bc41-d308-4ba3-bd1b-d0aaff2f71f7">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SecurableObjectExtendedInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="4c9b2938-92f9-4c79-8318-f4a18da04f5f">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.Operation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="91a08f29-4679-452b-af4f-c8ead2190cfa">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.FunctionRight</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="782aafb0-ebd8-4c05-877c-1f0b8be83125">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.RoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="9c0bf0f5-075b-44d2-92fc-c2bfea98655b">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.GroupRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="a68e0fdb-0174-4276-835c-08ac0ddb7f47">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.UserRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="d0494191-13bb-4221-8d6d-9e1b9f67cc6c">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.UIApplication</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="9bef3a4a-79b7-4941-9d82-f15ccc01ed36">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.UIModule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="3b3c6be5-d5ad-48a1-9117-c190490b62de">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.UIComponent</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="5725dc2d-b183-4f06-981d-a00bc7ef8566">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SWACComponent</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="8d7a0be5-e5a5-40c7-a069-e6f316ace5e3">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.UIScreen</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="03e1064f-705d-4292-94bb-56fdadb9607d">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceViews.Engineering.DataModel.ReadingModel.PublicRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="f6a842ea-3d23-45d0-943a-77daabf781f1">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceViews.Engineering.DataModel.ReadingModel.PublicUserRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="9c1d9671-3f69-4440-b40b-a0c184f070e4">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.GovernanceViews.Engineering.DataModel.ReadingModel.PublicGroupRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="f71807e7-9662-4108-9857-d9d180ec6401">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.Platform.Common.QoS.PublicGroup</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+  <SecurableObjectExtendedInfo Id="da21a3dc-50ba-4bdb-898a-a702ecf62bb6">
+    <Domain>entity</Domain>
+    <FilteringTags />
+    <ObjectType>Entity</ObjectType>
+    <Name>Siemens.SimaticIT.Platform.Common.QoS.PublicUser</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </SecurableObjectExtendedInfo>
+</Items>

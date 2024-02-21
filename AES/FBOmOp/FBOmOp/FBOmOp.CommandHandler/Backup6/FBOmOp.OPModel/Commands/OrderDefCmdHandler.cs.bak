@@ -1,0 +1,127 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Siemens.SimaticIT.Unified.Common;
+using Siemens.SimaticIT.Unified.Common.Information;
+using Siemens.SimaticIT.Handler;
+using Siemens.SimaticIT.Unified;
+using VF.OperationalData.FBOmOp.OPModel.DataModel;
+
+namespace VF.OperationalData.FBOmOp.OPModel.Commands
+{
+    /// <summary>
+    /// Partial class init
+    /// </summary>
+    [Handler(HandlerCategory.BasicMethod)]
+    public partial class OrderDefCmdHandlerShell 
+    {
+        /// <summary>
+        /// This is the handler the MES engineer should write
+        /// This is the ENTRY POINT for the user in VS IDE
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
+        [HandlerEntryPoint]
+        private OrderDefCmd.Response OrderDefCmdHandler(OrderDefCmd command)
+        {
+            try
+            {
+                switch (command.Action)
+                {
+
+                    case "ADD":
+                        AddData(command);
+                        break;
+                    case "UPDATE":
+                        UpdateData(command);
+                        break;
+                    case "DELETE":
+                        DeleteData(command);
+                        break;
+                    case "CHANGE STATUS":
+                        ChangeStatus(command);
+                        break;
+                    default:
+                        break;
+                }
+                return new OrderDefCmd.Response();
+            }
+            catch (Exception ex)
+            {
+                return new OrderDefCmd.Response();
+            }
+        }
+
+        
+
+        private void AddData(OrderDefCmd command)
+        {
+            var existingItem = platform.Query<IOrderDef>()
+
+                               .Where(x => x.NId == command.OrderCmd.NId).FirstOrDefault();
+
+            if (existingItem == null)
+            {
+                var createItem = platform.Create<IOrderDef>();
+                createItem.NId = command.OrderCmd.NId;
+                createItem.Status = command.OrderCmd.Status;
+                createItem.Type = command.OrderCmd.Type;
+                createItem.MaterialFinal = command.OrderCmd.MaterialFinal;
+                createItem.PlanStartDate = command.OrderCmd.PlanStartDate;
+                createItem.PlanEndDate = command.OrderCmd.PlanEndDate;
+                createItem.ActualStartDate = command.OrderCmd.ActualStartDate;
+                createItem.ActualEndDate = command.OrderCmd.ActualEndDate;
+                createItem.Quantity = command.OrderCmd.Quantity;
+               
+
+
+                platform.Submit(createItem);
+            }
+            throw new NotImplementedException();
+        }
+        private void UpdateData(OrderDefCmd command)
+        {
+            var ededittingItem = platform.GetEntity<IOrderDef>(command.CmdId.GetValueOrDefault());
+            if (ededittingItem == null)
+                throw new Exception($"xx");
+            ededittingItem.NId = command.OrderCmd.NId;
+            ededittingItem.Status = command.OrderCmd.Status;
+            ededittingItem.Type = command.OrderCmd.Type;
+            ededittingItem.MaterialFinal = command.OrderCmd.MaterialFinal;
+            ededittingItem.PlanStartDate = command.OrderCmd.PlanStartDate;
+            ededittingItem.PlanEndDate = command.OrderCmd.PlanEndDate;
+            ededittingItem.ActualStartDate = command.OrderCmd.ActualStartDate;
+            ededittingItem.ActualEndDate = command.OrderCmd.ActualEndDate;
+            ededittingItem.Quantity = command.OrderCmd.Quantity;
+
+            platform.Submit(ededittingItem);
+            throw new NotImplementedException();
+        }
+        private void ChangeStatus(OrderDefCmd command)
+        {
+            var changeItem = platform.GetEntity<IOrderDef>(command.CmdId.GetValueOrDefault());
+            if (changeItem == null)
+                throw new Exception($"xx");
+            changeItem.NId = command.OrderCmd.NId;
+            changeItem.Status = command.OrderCmd.Status;
+            changeItem.Type = command.OrderCmd.Type;
+            changeItem.MaterialFinal = command.OrderCmd.MaterialFinal;
+            changeItem.PlanStartDate = command.OrderCmd.PlanStartDate;
+            changeItem.PlanEndDate = command.OrderCmd.PlanEndDate;
+            changeItem.ActualStartDate = command.OrderCmd.ActualStartDate;
+            changeItem.ActualEndDate = command.OrderCmd.ActualEndDate;
+            changeItem.Quantity = command.OrderCmd.Quantity;
+
+            platform.Submit(changeItem);
+            throw new NotImplementedException();
+        }
+        private void DeleteData(OrderDefCmd command)
+        {
+            var deletingItem = platform.GetEntity<IOrderDef>(command.CmdId.GetValueOrDefault());
+            if (deletingItem == null)
+                throw new Exception($"Id {command.CmdId} is not found");
+            platform.Delete(deletingItem);
+            throw new NotImplementedException();
+        }
+    }
+}

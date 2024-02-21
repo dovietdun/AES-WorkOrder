@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Worker Id="1d7e84b9-39a6-4967-adb4-0ef9519d8eb1">
+    <HostTemplate>$AnyHost</HostTemplate>
+    <WorkerRole>8e73a710-7e68-4044-bd54-90365e4daf1a</WorkerRole>
+    <WorkerType>ADM</WorkerType>
+    <NameTemplate>$AnyHost.ADM.0</NameTemplate>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Worker>
+  <Worker Id="dfa8b5f2-ed2c-4701-82b6-c75d5a485281">
+    <HostTemplate>UAFPC</HostTemplate>
+    <WorkerRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</WorkerRole>
+    <WorkerType>ENG</WorkerType>
+    <NameTemplate>UAFPC.ENG.0</NameTemplate>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Worker>
+  <Worker Id="b00b71dd-5f29-4db7-8ff6-a1e5ef7fcabf">
+    <HostTemplate>$AnyHost</HostTemplate>
+    <WorkerRole>c2627316-a585-429b-ab37-805156ccc6ea</WorkerRole>
+    <WorkerType>APP</WorkerType>
+    <NameTemplate>$AnyHost.Default WorkerRoleDefinition (x64).0</NameTemplate>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Worker>
+  <Worker Id="ddcc693f-99c0-457f-b856-34d6a09371d4">
+    <HostTemplate>$AnyHost</HostTemplate>
+    <WorkerRole>bbca0605-066e-4a58-b956-5f469741ed2f</WorkerRole>
+    <WorkerType>APP</WorkerType>
+    <NameTemplate>$AnyHost.Default WorkerRoleDefinition (x86).0</NameTemplate>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Worker>
+</Items>

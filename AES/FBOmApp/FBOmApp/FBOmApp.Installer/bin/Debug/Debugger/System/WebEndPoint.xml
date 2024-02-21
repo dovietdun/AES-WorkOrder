@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <WebEndPoint Id="38822b2a-4e47-4071-9026-69d2394e7da2">
+    <Name>engineeringServicesUrl</Name>
+    <Fqdn></Fqdn>
+    <Protocol>Http</Protocol>
+    <Port>80</Port>
+    <IsInConfigJson>true</IsInConfigJson>
+    <Group>UAF</Group>
+    <RelativePath>/sit-svc/engineering/odata/</RelativePath>
+    <SupportedProtocols>
+      <Value>http</Value>
+      <Value>https</Value>
+    </SupportedProtocols>
+    <Url>/sit-svc/engineering/odata/</Url>
+    <Label>Engineering</Label>
+    <IsSystemEntity>false</IsSystemEntity>
+  </WebEndPoint>
+  <WebEndPoint Id="c05cd088-8751-4952-8fa7-738a8dfc2bdf">
+    <Name>administrationServicesUrl</Name>
+    <Fqdn></Fqdn>
+    <Protocol>Http</Protocol>
+    <Port>80</Port>
+    <IsInConfigJson>true</IsInConfigJson>
+    <Group>UAF</Group>
+    <RelativePath>/sit-svc/administration/odata/</RelativePath>
+    <SupportedProtocols>
+      <Value>http</Value>
+      <Value>https</Value>
+    </SupportedProtocols>
+    <Url>/sit-svc/administration/odata/</Url>
+    <Label>Administration</Label>
+    <IsSystemEntity>false</IsSystemEntity>
+  </WebEndPoint>
+  <WebEndPoint Id="9e6fe0cf-0a5b-4ad0-a0c0-d78a411131b1">
+    <Name>authorizationServiceUrl</Name>
+    <Fqdn></Fqdn>
+    <Protocol>Http</Protocol>
+    <Port>80</Port>
+    <IsInConfigJson>true</IsInConfigJson>
+    <Group>UAF</Group>
+    <RelativePath>/sit-auth/OAuth/Authorize</RelativePath>
+    <SupportedProtocols>
+      <Value>http</Value>
+      <Value>https</Value>
+    </SupportedProtocols>
+    <Url>/sit-auth/OAuth/Authorize</Url>
+    <Label>Authorization</Label>
+    <IsSystemEntity>false</IsSystemEntity>
+  </WebEndPoint>
+  <WebEndPoint Id="c60f4394-65e5-4f41-b29d-2680dc691c76">
+    <Name>tokenServiceUrl</Name>
+    <Fqdn></Fqdn>
+    <Protocol>Http</Protocol>
+    <Port>80</Port>
+    <IsInConfigJson>true</IsInConfigJson>
+    <Group>UAF</Group>
+    <RelativePath>/sit-auth/OAuth/Token</RelativePath>
+    <SupportedProtocols>
+      <Value>http</Value>
+      <Value>https</Value>
+    </SupportedProtocols>
+    <Url>/sit-auth/OAuth/Token</Url>
+    <Label>Token</Label>
+    <IsSystemEntity>false</IsSystemEntity>
+  </WebEndPoint>
+  <WebEndPoint Id="0276f251-b645-4e55-afc5-3c9d121f4848">
+    <Name>applicationServiceUrls</Name>
+    <Fqdn></Fqdn>
+    <Protocol>Http</Protocol>
+    <Port>80</Port>
+    <IsInConfigJson>false</IsInConfigJson>
+    <Group>UAF</Group>
+    <RelativePath>/sit-svc/Application/</RelativePath>
+    <SupportedProtocols>
+      <Value>http</Value>
+      <Value>https</Value>
+    </SupportedProtocols>
+    <Url>/sit-svc/Application/</Url>
+    <Label>Application Service</Label>
+    <IsSystemEntity>false</IsSystemEntity>
+  </WebEndPoint>
+  <WebEndPoint Id="fa81dde2-9e7c-4bf1-8be2-a9e3d97288b1">
+    <Name>applicationArchivingServiceUrls</Name>
+    <Fqdn></Fqdn>
+    <Protocol>Http</Protocol>
+    <Port>80</Port>
+    <IsInConfigJson>false</IsInConfigJson>
+    <Group>UAF</Group>
+    <RelativePath>/sit-arch/Application/</RelativePath>
+    <SupportedProtocols>
+      <Value>http</Value>
+      <Value>https</Value>
+    </SupportedProtocols>
+    <Url>/sit-arch/Application/</Url>
+    <Label>Application Archiving Service</Label>
+    <IsSystemEntity>false</IsSystemEntity>
+  </WebEndPoint>
+  <WebEndPoint Id="63d72e47-da0d-44d3-afbc-641e60780d69">
+    <Name>applicationSignalManagerUrls</Name>
+    <Fqdn></Fqdn>
+    <Protocol>Http</Protocol>
+    <Port>80</Port>
+    <IsInConfigJson>false</IsInConfigJson>
+    <Group>UAF</Group>
+    <RelativePath>/sit-svc/Application/</RelativePath>
+    <SupportedProtocols>
+      <Value>http</Value>
+      <Value>https</Value>
+    </SupportedProtocols>
+    <Url>/sit-svc/Application/</Url>
+    <Label>Signal Manager Application Service</Label>
+    <IsSystemEntity>false</IsSystemEntity>
+  </WebEndPoint>
+  <WebEndPoint Id="397a8447-8a15-492b-b784-24f556e7398a">
+    <Name>runtimeServicesUrl</Name>
+    <Fqdn></Fqdn>
+    <Protocol>Http</Protocol>
+    <Port>80</Port>
+    <IsInConfigJson>true</IsInConfigJson>
+    <Group>UAF</Group>
+    <RelativePath>/sit-svc/runtime/odata/</RelativePath>
+    <SupportedProtocols>
+      <Value>http</Value>
+      <Value>https</Value>
+    </SupportedProtocols>
+    <Url>/sit-svc/runtime/odata/</Url>
+    <Label>Application Service (obsolete)</Label>
+    <IsSystemEntity>false</IsSystemEntity>
+  </WebEndPoint>
+  <WebEndPoint Id="8641fb1a-336a-4bff-82b8-3f6a3606aa2d">
+    <Name>signalManagerApplicationUrl</Name>
+    <Fqdn></Fqdn>
+    <Protocol>Http</Protocol>
+    <Port>80</Port>
+    <IsInConfigJson>false</IsInConfigJson>
+    <Group>UAF</Group>
+    <RelativePath>/sit-svc/runtime/signals/</RelativePath>
+    <SupportedProtocols>
+      <Value>http</Value>
+      <Value>https</Value>
+    </SupportedProtocols>
+    <Url>/sit-svc/runtime/signals/</Url>
+    <Label>Signal Manager Application Service (obsolete)</Label>
+    <IsSystemEntity>false</IsSystemEntity>
+  </WebEndPoint>
+  <WebEndPoint Id="9087fe5a-819f-4a1e-9259-a887b9f09988">
+    <Name>identityProviderUrl</Name>
+    <Fqdn></Fqdn>
+    <Protocol>Http</Protocol>
+    <Port>80</Port>
+    <IsInConfigJson>true</IsInConfigJson>
+    <Group>UMC</Group>
+    <RelativePath>/umc-sso</RelativePath>
+    <SupportedProtocols>
+      <Value>http</Value>
+      <Value>https</Value>
+    </SupportedProtocols>
+    <Url>/umc-sso</Url>
+    <Label>Identity Provider</Label>
+    <IsSystemEntity>false</IsSystemEntity>
+  </WebEndPoint>
+  <WebEndPoint Id="a13fdd4f-a7ba-4140-ae30-a894c4b371e5">
+    <Name>documentationServicesUrl</Name>
+    <Fqdn></Fqdn>
+    <Protocol>Http</Protocol>
+    <Port>80</Port>
+    <IsInConfigJson>true</IsInConfigJson>
+    <Group>DocCenter</Group>
+    <RelativePath>/sit-svc/documentation/odata/</RelativePath>
+    <SupportedProtocols>
+      <Value>http</Value>
+      <Value>https</Value>
+    </SupportedProtocols>
+    <Url>/sit-svc/documentation/odata/</Url>
+    <Label>Documentation Service</Label>
+    <IsSystemEntity>false</IsSystemEntity>
+  </WebEndPoint>
+  <WebEndPoint Id="e7fd96aa-3cb5-4025-aa36-d824a665583a">
+    <Name>documentationCenterUrl</Name>
+    <Fqdn></Fqdn>
+    <Protocol>Http</Protocol>
+    <Port>80</Port>
+    <IsInConfigJson>true</IsInConfigJson>
+    <Group>DocCenter</Group>
+    <RelativePath>/sit-ui/system/doc/index.html</RelativePath>
+    <SupportedProtocols>
+      <Value>http</Value>
+      <Value>https</Value>
+    </SupportedProtocols>
+    <Url>/sit-ui/system/doc/index.html</Url>
+    <Label>Documentation Center</Label>
+    <IsSystemEntity>false</IsSystemEntity>
+  </WebEndPoint>
+  <WebEndPoint Id="1a8949c7-54e1-43b2-82cd-45ee85a8fa37">
+    <Name>customLoginPageUrl</Name>
+    <Fqdn></Fqdn>
+    <Protocol>Http</Protocol>
+    <Port>80</Port>
+    <IsInConfigJson>true</IsInConfigJson>
+    <Group>UMC</Group>
+    <RelativePath>/sit-ui/system/login</RelativePath>
+    <SupportedProtocols>
+      <Value>http</Value>
+      <Value>https</Value>
+    </SupportedProtocols>
+    <Url>/sit-ui/system/login</Url>
+    <Label>Opcenter Execution Login Page</Label>
+    <IsSystemEntity>false</IsSystemEntity>
+  </WebEndPoint>
+</Items>

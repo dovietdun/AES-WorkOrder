@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <ESBConfiguration Id="749448c7-105e-4405-818d-3e054053e326">
+    <NumberOfParallelCommands>0</NumberOfParallelCommands>
+    <RabbitMQConnection>e5768898-18ba-48a6-8fb9-fd3478d402f0</RabbitMQConnection>
+    <SenderSerialization>application/json</SenderSerialization>
+    <CommittedEventPollingDelay>500</CommittedEventPollingDelay>
+    <CommittedEventPollingTimeout>15000</CommittedEventPollingTimeout>
+    <IsSystemEntity>false</IsSystemEntity>
+  </ESBConfiguration>
+</Items>

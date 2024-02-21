@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Operation Id="08a0aa59-885b-e511-827c-0050569f6b31">
+    <Name>invoke</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Operation>
+  <Operation Id="09a0aa59-885b-e511-827c-0050569f6b31">
+    <Name>fire</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Operation>
+  <Operation Id="0aa0aa59-885b-e511-827c-0050569f6b31">
+    <Name>subscribe</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Operation>
+  <Operation Id="0ba0aa59-885b-e511-827c-0050569f6b31">
+    <Name>unsubscribe</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Operation>
+  <Operation Id="0ca0aa59-885b-e511-827c-0050569f6b31">
+    <Name>read</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Operation>
+  <Operation Id="510d694d-957c-4190-9639-c9c376aaf050">
+    <Name>write</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Operation>
+  <Operation Id="0da0aa59-885b-e511-827c-0050569f6b31">
+    <Name>view</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Operation>
+  <Operation Id="6f0f9214-e723-452c-a999-41b36b1c9618">
+    <Name>execute</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Operation>
+</Items>

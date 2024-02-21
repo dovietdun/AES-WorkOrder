@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<BuildInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ModelTimestamp>20240125072332910</ModelTimestamp>
+  <GeneratedAssemblies>
+    <Assembly>
+      <Name>VF.FBOmApp.FBOmApp.VFPOMModel.PublicModel.dll</Name>
+    </Assembly>
+    <Assembly>
+      <Name>VF.FBOmApp.FBOmApp.VFPOMModel.PublicModel.Internal.dll</Name>
+    </Assembly>
+    <Assembly>
+      <Name>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.dll</Name>
+    </Assembly>
+    <Assembly>
+      <Name>VF.FBOmApp.FBOmApp.VFPOMModel.ReadingFunctions.dll</Name>
+    </Assembly>
+  </GeneratedAssemblies>
+  <References>
+    <Reference>
+      <Id>92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78</Id>
+      <Timestamp>20240125070811238</Timestamp>
+    </Reference>
+    <Reference>
+      <Id>7c8f4e80-941b-4d99-8cd1-14ba4bc4f670</Id>
+      <Timestamp>20240124031606165</Timestamp>
+    </Reference>
+  </References>
+  <AssemblyInfoHash>6L+WrVXf4XMbZ37kzLfUdA==</AssemblyInfoHash>
+</BuildInfo>

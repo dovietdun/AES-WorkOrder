@@ -1,0 +1,20 @@
+<readingFunctionRoot>
+        <readingFunctions>
+                <readingFunction>
+                        <name>VF.FBOmApp.FBOmApp.VFPOMModel.ReadingFunctions.RFOrderDef</name>
+                        <shortname>RFOrderDef</shortname>
+                        <description></description>
+                        <assembly>VF.FBOmApp.FBOmApp.VFPOMModel.ReadingFunctions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>VF.FBOmApp.FBOmApp.VFPOMModel.ReadingFunctions.RFOrderDefHandlerShell</name>
+                                        <assembly></assembly>
+                                        <target_cpu></target_cpu>
+                                </handler>
+                        </handlers>
+                </readingFunction>
+        </readingFunctions>
+</readingFunctionRoot>

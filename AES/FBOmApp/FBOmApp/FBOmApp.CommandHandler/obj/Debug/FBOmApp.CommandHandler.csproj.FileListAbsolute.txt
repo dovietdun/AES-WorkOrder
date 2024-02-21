@@ -1,0 +1,12 @@
+C:\AES\FBOmApp\FBOmApp\FBOmApp.CommandHandler\bin\Debug\VF.FBOmApp.CommandHandler.dll
+C:\AES\FBOmApp\FBOmApp\FBOmApp.CommandHandler\bin\Debug\VF.FBOmApp.CommandHandler.pdb
+C:\AES\FBOmApp\FBOmApp\FBOmApp.CommandHandler\obj\Debug\FBOmApp.CommandHandler.csprojAssemblyReference.cache
+C:\AES\FBOmApp\FBOmApp\FBOmApp.CommandHandler\obj\Debug\FBOmApp.CommandHandler.csproj.CoreCompileInputs.cache
+C:\AES\FBOmApp\FBOmApp\FBOmApp.CommandHandler\obj\Debug\VF.FBOmApp.CommandHandler.dll
+C:\AES\FBOmApp\FBOmApp\FBOmApp.CommandHandler\obj\Debug\VF.FBOmApp.CommandHandler.pdb
+C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.CommandHandler\bin\Debug\VF.FBOmApp.CommandHandler.dll
+C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.CommandHandler\bin\Debug\VF.FBOmApp.CommandHandler.pdb
+C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.CommandHandler\obj\Debug\FBOmApp.CommandHandler.csprojAssemblyReference.cache
+C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.CommandHandler\obj\Debug\FBOmApp.CommandHandler.csproj.CoreCompileInputs.cache
+C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.CommandHandler\obj\Debug\VF.FBOmApp.CommandHandler.dll
+C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.CommandHandler\obj\Debug\VF.FBOmApp.CommandHandler.pdb

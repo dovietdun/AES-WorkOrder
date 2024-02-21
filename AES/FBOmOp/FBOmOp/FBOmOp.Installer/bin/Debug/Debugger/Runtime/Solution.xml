@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Solution Id="7c84102c-e0aa-ee11-ab37-00155da8800f">
+    <Version>01.00.00</Version>
+    <Build>20</Build>
+    <Name>UAF_DEV</Name>
+    <IsDataSegregationEnabled>false</IsDataSegregationEnabled>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Solution>
+</Items>

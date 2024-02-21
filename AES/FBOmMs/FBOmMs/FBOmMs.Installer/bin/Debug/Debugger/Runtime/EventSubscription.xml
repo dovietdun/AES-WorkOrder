@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <EventSubscription Id="f586102c-e0aa-ee11-ab37-00155da8800f">
+    <EventHandler>3a86102c-e0aa-ee11-ab37-00155da8800f</EventHandler>
+    <App>b469957c-4faf-489e-be06-1e5c413501c4</App>
+    <SubscribedEvent>fb85102c-e0aa-ee11-ab37-00155da8800f</SubscribedEvent>
+    <SubscriptionFilter>f786102c-e0aa-ee11-ab37-00155da8800f</SubscriptionFilter>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Events.MaintenanceCleaningSubscription</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </EventSubscription>
+  <EventSubscription Id="0187102c-e0aa-ee11-ab37-00155da8800f">
+    <EventHandler>3486102c-e0aa-ee11-ab37-00155da8800f</EventHandler>
+    <App>b469957c-4faf-489e-be06-1e5c413501c4</App>
+    <SubscribedEvent>fb85102c-e0aa-ee11-ab37-00155da8800f</SubscribedEvent>
+    <SubscriptionFilter>0387102c-e0aa-ee11-ab37-00155da8800f</SubscriptionFilter>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Events.MaintenanceArchivingSubscription</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </EventSubscription>
+  <EventSubscription Id="0d87102c-e0aa-ee11-ab37-00155da8800f">
+    <EventHandler>2286102c-e0aa-ee11-ab37-00155da8800f</EventHandler>
+    <App>b469957c-4faf-489e-be06-1e5c413501c4</App>
+    <SubscribedEvent>0886102c-e0aa-ee11-ab37-00155da8800f</SubscribedEvent>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Events.PerformExport_PerformExportEvtHandler</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </EventSubscription>
+  <EventSubscription Id="1587102c-e0aa-ee11-ab37-00155da8800f">
+    <EventHandler>1c86102c-e0aa-ee11-ab37-00155da8800f</EventHandler>
+    <App>b469957c-4faf-489e-be06-1e5c413501c4</App>
+    <SubscribedEvent>0386102c-e0aa-ee11-ab37-00155da8800f</SubscribedEvent>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Events.KeepOperationAlive_KeepOperationAliveEvtHandler</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </EventSubscription>
+  <EventSubscription Id="1d87102c-e0aa-ee11-ab37-00155da8800f">
+    <EventHandler>2886102c-e0aa-ee11-ab37-00155da8800f</EventHandler>
+    <App>b469957c-4faf-489e-be06-1e5c413501c4</App>
+    <SubscribedEvent>0d86102c-e0aa-ee11-ab37-00155da8800f</SubscribedEvent>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Events.PerformImport_PerformImportEvtHandler</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </EventSubscription>
+</Items>

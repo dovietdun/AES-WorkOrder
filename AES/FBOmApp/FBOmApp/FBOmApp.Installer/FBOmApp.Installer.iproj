@@ -1,0 +1,87 @@
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>ae9286f3-f22e-4d62-8b26-548aae75431b</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>VF.FBOmApp.Installer</RootNamespace>
+    <AssemblyName>VF.FBOmApp.Installer</AssemblyName>
+    <Name>FBOmApp.Installer</Name>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FunctionalBlockType>Project</FunctionalBlockType>
+    <FunctionalBlockVersion>01.00.00</FunctionalBlockVersion>
+    <FunctionalBlockName>FBOmApp</FunctionalBlockName>
+    <FunctionalBlockPrefix>VF</FunctionalBlockPrefix>
+    <FunctionalBlockModels>VF.FBOmApp.FBOmApp.VFPOMModel</FunctionalBlockModels>
+    <FunctionalBlockDescription>
+    </FunctionalBlockDescription>
+    <SitPlatformVersion>3.3</SitPlatformVersion>
+    <AutoDeployPackage>True</AutoDeployPackage>
+    <CanBeExtended>False</CanBeExtended>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU'  ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config" />
+    <Folder Include="ExternalDependencies" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\VF.FBOmApp.Dbinit.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\VF.FBOmApp.References.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\VF.FBOmApp.ApplicationLog.en-US.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FBOmApp.CommandHandler\FBOmApp.CommandHandler.csproj">
+      <Name>FBOmApp.CommandHandler</Name>
+      <Project>{04b51a25-7d75-4bd8-a46b-b5aaf8606168}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\FBOmApp.EventHandler\FBOmApp.EventHandler.csproj">
+      <Name>FBOmApp.EventHandler</Name>
+      <Project>{77e5feff-9c26-44f0-8c1f-227e234e122a}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\FBOmApp.ReadingFunctionHandler\FBOmApp.ReadingFunctionHandler.csproj">
+      <Name>FBOmApp.ReadingFunctionHandler</Name>
+      <Project>{ab81b045-9d25-433f-988d-523f768c4690}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\FBOmApp.UserInterface\FBOmApp.UserInterface.csproj">
+      <Name>FBOmApp.UserInterface</Name>
+      <Project>{bd38b5d4-a66b-4af5-a034-ae8a216ee7ec}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\FBOmApp.VFPOMModel\FBOmApp.VFPOMModel.pmproj">
+      <Name>FBOmApp.VFPOMModel</Name>
+      <Project>{2a0b0468-6cda-46e6-b1e7-7003106d37d5}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(SITUnifiedVSToolingPlatformBin)\Siemens.SimaticIt.Build.Installer.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

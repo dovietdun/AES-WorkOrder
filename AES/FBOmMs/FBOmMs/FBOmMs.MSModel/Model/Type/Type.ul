@@ -1,0 +1,32 @@
+VERSION '01.13'
+
+[@Guid(b892d607-739f-4bac-9d59-d9ae77aae66c)]
+PARAMETERTYPE TypeDefPrm
+WITH
+    [Length = 255]
+    [@Guid(8e49dd77-970f-40bf-b61d-7d92bac59fb4)]
+    NId AS string
+    [Length = 255]
+    [@Guid(84bc7033-fd79-448e-8ae0-366dc7e7c187)]
+    Name AS string
+
+[@Guid(be89a739-b8ab-4cd1-a051-de203c21f711)]
+PARAMETERTYPE StatusDefPrm
+WITH
+    [Length = 255]
+    [@Guid(00e37ad6-7fc7-4146-b979-f5020e7c7a7f)]
+    NId AS string
+    [Length = 255]
+    [@Guid(7e75823c-9903-447d-8169-f8b6385ba44f)]
+    Name AS string
+
+[@Guid(92e1b67e-6b4e-40c4-ba1a-3e66051806fa)]
+PARAMETERTYPE MaterialDefPrm
+WITH
+    [Length = 255]
+    [@Guid(ed2c00c9-b1bd-4b74-a0c6-c8c8e6009c32)]
+    NId AS string
+    [Length = 255]
+    [@Guid(597b034e-4c02-4d1e-9dc0-4d2f6cf088a6)]
+    Name AS string
+

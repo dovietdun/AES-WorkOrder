@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <FunctionalBlock Id="85a7f353-95a8-4d16-bb72-4b82ddbb269d">
+    <Apps>
+      <Id>78f873f1-90a1-402a-8f70-3ec833e26836</Id>
+    </Apps>
+    <Version>01.00.00</Version>
+    <CompanyName>VF</CompanyName>
+    <Type>Project</Type>
+    <Name>VF.FBOmApp</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </FunctionalBlock>
+  <FunctionalBlock Id="90140b6b-ff3e-4a40-8847-6aa45cacdae8">
+    <Apps>
+      <Id>78f873f1-90a1-402a-8f70-3ec833e26836</Id>
+    </Apps>
+    <Version>01.00.00</Version>
+    <CompanyName>VF</CompanyName>
+    <Type>Library</Type>
+    <Name>VF.FBOmMs</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </FunctionalBlock>
+  <FunctionalBlock Id="18e3e253-5f62-4509-bdcf-e12ab9cd7273">
+    <Apps>
+      <Id>78f873f1-90a1-402a-8f70-3ec833e26836</Id>
+    </Apps>
+    <Version>01.00.00</Version>
+    <CompanyName>VF</CompanyName>
+    <Type>Library</Type>
+    <Name>VF.FBOmOp</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </FunctionalBlock>
+  <FunctionalBlock Id="8a29b679-01a9-4756-8fae-180d2f046618">
+    <Apps>
+      <Id>b469957c-4faf-489e-be06-1e5c413501c4</Id>
+    </Apps>
+    <Version>01.04.01</Version>
+    <CompanyName>Siemens.SimaticIT</CompanyName>
+    <Type>Project</Type>
+    <Name>Siemens.SimaticIT.System</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </FunctionalBlock>
+  <FunctionalBlock Id="1de6bb22-5551-4661-8792-acca72fe3581">
+    <Apps>
+      <Id>b469957c-4faf-489e-be06-1e5c413501c4</Id>
+    </Apps>
+    <Version>01.04.01</Version>
+    <CompanyName>Siemens.SimaticIT</CompanyName>
+    <Type>Library</Type>
+    <Name>Siemens.SimaticIT.SITUASys</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </FunctionalBlock>
+</Items>

@@ -1,0 +1,14 @@
+C:\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\bin\VF.FBOmApp.UserInterface.dll.config
+C:\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\bin\VF.FBOmApp.UserInterface.dll
+C:\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\bin\VF.FBOmApp.UserInterface.pdb
+C:\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\obj\Debug\FBOmApp.UserInterface.csproj.CoreCompileInputs.cache
+C:\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\obj\Debug\VF.FBOmApp.UserInterface.dll
+C:\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\obj\Debug\VF.FBOmApp.UserInterface.pdb
+C:\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\obj\Debug\FBOmApp.UserInterface.csprojAssemblyReference.cache
+C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\bin\VF.FBOmApp.UserInterface.dll.config
+C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\bin\VF.FBOmApp.UserInterface.dll
+C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\bin\VF.FBOmApp.UserInterface.pdb
+C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\obj\Debug\FBOmApp.UserInterface.csprojAssemblyReference.cache
+C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\obj\Debug\FBOmApp.UserInterface.csproj.CoreCompileInputs.cache
+C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\obj\Debug\VF.FBOmApp.UserInterface.dll
+C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\obj\Debug\VF.FBOmApp.UserInterface.pdb

@@ -1,0 +1,10 @@
+VERSION '01.13'
+
+PUBLISH COMMAND VF.MasterData.FBOmMs.MSModel.Commands.MaterialDefCmd AS MaterialDefCmd
+PUBLISH COMMAND VF.MasterData.FBOmMs.MSModel.Commands.StatusDefCmd AS StatusDefCmd
+PUBLISH COMMAND VF.MasterData.FBOmMs.MSModel.Commands.TypeDefCmd AS TypeDefCmd
+PUBLISH COMMAND VF.OperationalData.FBOmOp.OPModel.Commands.OrderDefCmd AS OrderDefCmd
+PUBLISH COMMAND VF.OperationalData.FBOmOp.OPModel.Commands.SplitCmd AS SplitCmd
+PUBLISH COMMAND VF.OperationalData.FBOmOp.OPModel.Commands.ChangeStatusCmd AS ChangeStatusCmd
+PUBLISH COMMAND VF.OperationalData.FBOmOp.OPModel.Commands.UploadCmd AS UploadCmd
+PUBLISH COMMAND VF.OperationalData.FBOmOp.OPModel.Commands.ListDataCmd AS ListDataCmd

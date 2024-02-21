@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <SubscriptionFilter Id="f786102c-e0aa-ee11-ab37-00155da8800f">
+    <Category>Maintenance</Category>
+    <Topic>SystemApp</Topic>
+    <UserField1>Cleaning</UserField1>
+    <IsSystemEntity>false</IsSystemEntity>
+  </SubscriptionFilter>
+  <SubscriptionFilter Id="0387102c-e0aa-ee11-ab37-00155da8800f">
+    <Category>Maintenance</Category>
+    <Topic>SystemApp</Topic>
+    <UserField1>Archiving</UserField1>
+    <IsSystemEntity>false</IsSystemEntity>
+  </SubscriptionFilter>
+</Items>

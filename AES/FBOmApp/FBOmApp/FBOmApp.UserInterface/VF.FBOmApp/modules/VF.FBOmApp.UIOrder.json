@@ -1,0 +1,19 @@
+{
+  "name": "VF.FBOmApp.UIOrder",
+  "type": "standard",
+  "title": "UIOrder",
+  "header": "",
+  "icon": "fa-folder",
+  "functionalBlock": "VF.FBOmApp",
+  "dependencies": [],
+  "states": [
+    {
+      "id": "home.VF_FBOmApp_UIOrder_UIOrderScreen",
+      "title": "UIOrderScreen",
+      "header": "",
+      "securable": true,
+      "roles": []
+    }
+  ],
+  "manifestVersion": "01.01.00"
+}

@@ -1,0 +1,38 @@
+VERSION '01.13'
+
+[Protected]
+[@Guid(0191a013-c4a5-443e-9210-9020501e5c30)]
+COMMAND TypeDefCmd
+WITH
+    [Optional]
+    CmdId AS Guid
+    [Optional]
+    [@GuidRef(7c8f4e80-941b-4d99-8cd1-14ba4bc4f670, b892d607-739f-4bac-9d59-d9ae77aae66c)]
+    TypeCmd AS VF.MasterData.FBOmMs.MSModel.Types.TypeDefPrm
+    [Length = 255]
+    Action AS string
+
+[Protected]
+[@Guid(63c233ce-1412-4e1b-9b09-0e7bf2b43c35)]
+COMMAND StatusDefCmd
+WITH
+    [Optional]
+    CmdId AS Guid
+    [Optional]
+    [@GuidRef(7c8f4e80-941b-4d99-8cd1-14ba4bc4f670, be89a739-b8ab-4cd1-a051-de203c21f711)]
+    StatusCmd AS VF.MasterData.FBOmMs.MSModel.Types.StatusDefPrm
+    [Length = 255]
+    Action AS string
+
+[Protected]
+[@Guid(467b4d70-91da-4fda-b13b-9fb2f3620a58)]
+COMMAND MaterialDefCmd
+WITH
+    [Optional]
+    CmdId AS Guid
+    [Optional]
+    [@GuidRef(7c8f4e80-941b-4d99-8cd1-14ba4bc4f670, 92e1b67e-6b4e-40c4-ba1a-3e66051806fa)]
+    MaterialCmd AS VF.MasterData.FBOmMs.MSModel.Types.MaterialDefPrm
+    [Length = 255]
+    Action AS string
+

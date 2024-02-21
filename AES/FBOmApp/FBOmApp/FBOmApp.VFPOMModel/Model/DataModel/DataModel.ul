@@ -1,0 +1,38 @@
+VERSION '01.13'
+
+[@Guid(4112e373-4576-4fc6-8626-122254b75073)]
+[@GuidRef(7c8f4e80-941b-4d99-8cd1-14ba4bc4f670, 5146df9f-2838-4248-87a2-3da49fac9137)]
+ENTITYLINK MaterialDef TO VF.MasterData.FBOmMs.MSModel.DataModel.MaterialDef
+
+[@Guid(3fd65e8e-8f3a-4e36-b90b-bab0ce77feb9)]
+[@GuidRef(7c8f4e80-941b-4d99-8cd1-14ba4bc4f670, 2436b54a-3de2-4cb3-9ba1-4e46101041b3)]
+ENTITYLINK StatusDef TO VF.MasterData.FBOmMs.MSModel.DataModel.StatusDef
+
+[@Guid(183c676d-6afd-4252-8544-48988f1c9924)]
+[@GuidRef(7c8f4e80-941b-4d99-8cd1-14ba4bc4f670, 35d3e7ec-acac-4d90-b635-899322d45a74)]
+ENTITYLINK TypeDef TO VF.MasterData.FBOmMs.MSModel.DataModel.TypeDef
+
+[@Guid(700cd043-8382-4826-a604-c5f8e19aca87)]
+[@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, c6d8f9e0-4d5d-4680-be5f-963cb86c9689)]
+ENTITYLINK OrderDef TO VF.OperationalData.FBOmOp.OPModel.DataModel.OrderDef
+
+[@Guid(681584c7-6105-47cb-81c8-78afc0d85e76)]
+[@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, da64ab16-3ea0-4fe2-b1ea-d3e16c7535c7)]
+ENTITYLINK ProductionOrder TO VF.OperationalData.FBOmOp.OPModel.DataModel.ProductionOrder
+
+[@Guid(7bd1e792-09d8-4399-93aa-e6674b0cf4c6)]
+[@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, 821cd018-8fb9-46bf-ad0a-92f08641828c)]
+ENTITYLINK ChangeStatus TO VF.OperationalData.FBOmOp.OPModel.DataModel.ChangeStatus
+
+[@Guid(f4d4e55d-d8ef-4135-8b5a-e92968ddd8cd)]
+[@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, e6b6653a-3fd2-406b-847b-eead44916f28)]
+ENTITYLINK WhiteListSerialNumber TO VF.OperationalData.FBOmOp.OPModel.DataModel.WhiteListSerialNumber
+
+[@Guid(68fddfca-f919-4c5f-a739-0df85d0f1271)]
+[@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, 1531851f-7662-48e4-9b21-313ea15ea663)]
+ENTITYLINK BatchOrder TO VF.OperationalData.FBOmOp.OPModel.DataModel.BatchOrder
+
+[@Guid(96ed5692-8faf-44c4-bd21-badd16caa5db)]
+[@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, b98e0225-5840-47d4-b539-7a3de68b0029)]
+ENTITYLINK BatchManagement TO VF.OperationalData.FBOmOp.OPModel.DataModel.BatchManagement
+

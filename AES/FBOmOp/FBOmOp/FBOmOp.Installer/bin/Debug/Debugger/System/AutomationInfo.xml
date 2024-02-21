@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <AutomationInfo Id="a5650776-bc59-4e3a-bbe6-c76c40ad3a0c">
+    <IsEnabled>true</IsEnabled>
+    <IsRedundant>false</IsRedundant>
+    <HostName>UAFPC</HostName>
+    <HostName2></HostName2>
+    <IsSystemEntity>false</IsSystemEntity>
+  </AutomationInfo>
+</Items>

@@ -1,0 +1,75 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Siemens.SimaticIT.Unified.Common;
+using Siemens.SimaticIT.Unified.Common.Information;
+using Siemens.SimaticIT.Handler;
+using Siemens.SimaticIT.Unified;
+using VF.OperationalData.FBOmOp.OPModel.DataModel;
+
+namespace VF.OperationalData.FBOmOp.OPModel.Commands
+{
+    /// <summary>
+    /// Partial class init
+    /// </summary>
+    [Handler(HandlerCategory.BasicMethod)]
+    public partial class SplitOrderCmdHandlerShell
+    {
+        /// <summary>
+        /// This is the handler the MES engineer should write
+        /// This is the ENTRY POINT for the user in VS IDE
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
+        [HandlerEntryPoint]
+        private SplitOrderCmd.Response SplitOrderCmdHandler(SplitOrderCmd command)
+        {
+            // Put your code here
+            // return new SplitOrderCmd.Response() { ... };
+            try
+            {
+                switch (command.Action)
+                {
+                    case "SPLIT":
+                        handleSplit(command);
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                return new SplitOrderCmd.Response();
+            }
+            return new SplitOrderCmd.Response();
+
+        }
+
+        private void handleSplit(SplitOrderCmd command)
+        {
+
+           List<ISplitOrder> insertList = new List<ISplitOrder>();
+
+            for (int i = 0; i < command.SplitCmd.Quantity; i++)
+            {
+                if (command.SplitCmd.Type == "BatchOrder")
+                {
+
+                    var itemSplit = platform.Create<ISplitOrder>();
+                    itemSplit.NId =Guid.NewGuid();
+                    itemSplit.ParrentId = command.SplitCmd.NId;
+                    itemSplit.Type = "ProductionOrder";
+                    itemSplit.Status = command.SplitCmd.Status;
+                    itemSplit.MaterialFinal = command.SplitCmd.MaterialFinal;
+                    itemSplit.PlanStartDate = command.SplitCmd.PlanStartDate;
+                    itemSplit.PlanEndDate = command.SplitCmd.PlanEndDate;
+                    itemSplit.Quantity = 1;
+
+                    insertList.Add(itemSplit);
+                }
+            }
+            platform.BulkImport(insertList, new BulkImportOptions() { });
+
+
+           // throw new NotImplementedException();
+        }
+    }
+}

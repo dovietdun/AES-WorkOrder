@@ -1,0 +1,19 @@
+{
+  "name": "VF.FBOmApp.UIType",
+  "type": "standard",
+  "title": "UIType",
+  "header": "",
+  "icon": "fa-folder",
+  "functionalBlock": "VF.FBOmApp",
+  "dependencies": [],
+  "states": [
+    {
+      "id": "home.VF_FBOmApp_UIType_UITypeScreen",
+      "title": "UITypeScreen",
+      "header": "",
+      "securable": true,
+      "roles": []
+    }
+  ],
+  "manifestVersion": "01.01.00"
+}

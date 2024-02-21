@@ -1,0 +1,14 @@
+<projectmanifest>
+  <datamodels>
+    <datamodel>
+      <assembly>VF.OperationalData.FBOmOp.OPModel.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>OperationalData</domain>
+    </datamodel>
+    <datamodel>
+      <assembly>VF.OperationalData.FBOmOp.OPModel.Types.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>OperationalData</domain>
+    </datamodel>
+  </datamodels>
+</projectmanifest>

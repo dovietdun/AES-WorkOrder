@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Signal Id="4086102c-e0aa-ee11-ab37-00155da8800f">
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Events.Signals#TimerEvent#TimerEvent</Name>
+    <ShortName>TimerEvent</ShortName>
+    <Diagram>Siemens.SimaticIT.System.System.SAPOMModel.Events.Signals.TimerEvent.sdjson</Diagram>
+    <Descriptor>Siemens.SimaticIT.System.System.SAPOMModel.Events.Signals.TimerEvent.json</Descriptor>
+    <PublicSignal>f4c4b813-3e4a-43c4-af21-d412b847b90c</PublicSignal>
+    <SerializationKind>JSon</SerializationKind>
+    <FunctionalBlock>f5156693-8095-4653-9fb7-5c729bbb9632</FunctionalBlock>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Signal>
+  <Signal Id="4686102c-e0aa-ee11-ab37-00155da8800f">
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Events.Signals#ExportCompleted#ExportCompleted</Name>
+    <ShortName>ExportCompleted</ShortName>
+    <Diagram>Siemens.SimaticIT.System.System.SAPOMModel.Events.Signals.ExportCompleted.sdjson</Diagram>
+    <Descriptor>Siemens.SimaticIT.System.System.SAPOMModel.Events.Signals.ExportCompleted.json</Descriptor>
+    <PublicSignal>3ed182d4-69c0-452f-834b-cbf538d46116</PublicSignal>
+    <SerializationKind>JSon</SerializationKind>
+    <FunctionalBlock>f5156693-8095-4653-9fb7-5c729bbb9632</FunctionalBlock>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Signal>
+  <Signal Id="4c86102c-e0aa-ee11-ab37-00155da8800f">
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Events.Signals#ImportCompleted#ImportCompleted</Name>
+    <ShortName>ImportCompleted</ShortName>
+    <Diagram>Siemens.SimaticIT.System.System.SAPOMModel.Events.Signals.ImportCompleted.sdjson</Diagram>
+    <Descriptor>Siemens.SimaticIT.System.System.SAPOMModel.Events.Signals.ImportCompleted.json</Descriptor>
+    <PublicSignal>ed346ba5-13d4-4b2e-8973-225236bda119</PublicSignal>
+    <SerializationKind>JSon</SerializationKind>
+    <FunctionalBlock>f5156693-8095-4653-9fb7-5c729bbb9632</FunctionalBlock>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Signal>
+</Items>

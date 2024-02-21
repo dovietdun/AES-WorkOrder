@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <DatabaseInfo Id="ab78f32f-0934-4fa8-9878-416f9ee5c459">
+    <CommandTimeout>30000</CommandTimeout>
+    <ConnectionTimeout>15000</ConnectionTimeout>
+    <DataSource>UAFPC</DataSource>
+    <DatabaseType>MSSQLServer</DatabaseType>
+    <InitialCatalog>UAF_DEV</InitialCatalog>
+    <NumberOfRetries>500</NumberOfRetries>
+    <RetriesDelay>500</RetriesDelay>
+    <Schema></Schema>
+    <ArchiveDatabase>a01892ad-b1e5-4673-90c2-2df8c427cd68</ArchiveDatabase>
+    <Name>MOM</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </DatabaseInfo>
+</Items>

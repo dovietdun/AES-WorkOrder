@@ -1,0 +1,25 @@
+VERSION '01.13'
+
+[@Guid(5f81068a-0b3c-4b69-8e87-40f29abaa3be)]
+READING FUNCTION RFOrderDef
+INPUT
+    [Optional]
+    [Length = 255]
+    Type AS string
+    [Optional]
+    [Length = 255]
+    BatchID AS string
+    [Optional]
+    [Length = 255]
+    Status AS string
+    [Optional]
+    [Length = 255]
+    SerialNumber AS string
+    [Optional]
+    [Length = 255]
+    ParentID AS string
+OUTPUT
+    [Optional]
+    [@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, 45c41fc1-f130-4ddd-b77a-e48a3d5345d7)]
+    Results AS list of VF.OperationalData.FBOmOp.OPModel.Types.OrderDefPrm
+

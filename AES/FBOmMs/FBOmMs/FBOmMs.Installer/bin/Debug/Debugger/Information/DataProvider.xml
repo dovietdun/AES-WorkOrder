@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <DataProvider Id="0aeed59e-103e-422c-a2d3-b95214e96c6f">
+    <InformationRepositories>
+      <Id>4f273304-2dec-4883-9761-ae09190cd654</Id>
+    </InformationRepositories>
+    <Type>Pom</Type>
+    <Name>FBOmApp</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </DataProvider>
+  <DataProvider Id="754663ae-3483-448e-bc1c-73e308caff37">
+    <DefaultDatabase>9241a73a-981d-46d6-8a61-663fae69daab</DefaultDatabase>
+    <InformationRepositories>
+      <Id>9e08f83c-9c89-400e-a057-447b9e4854c8</Id>
+      <Id>54489a81-7c14-4746-9201-8195417814a2</Id>
+      <Id>da48b3fa-9b6d-4b76-8d35-cc366b6aec1b</Id>
+    </InformationRepositories>
+    <Type>System</Type>
+    <Name>MOM</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </DataProvider>
+  <DataProvider Id="45d64c31-e893-4d17-aba3-803af8113a79">
+    <InformationRepositories>
+      <Id>357d59e2-4953-48ab-b99f-39fadfb7478a</Id>
+    </InformationRepositories>
+    <Type>Pom</Type>
+    <Name>System</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </DataProvider>
+</Items>

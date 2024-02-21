@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <BackupAdapterInfo Id="6c6bd3b7-1552-4aa1-96f4-fb3ab870ee15">
+    <UpdateCycle>2000</UpdateCycle>
+    <NumberOfMissingCycle>3</NumberOfMissingCycle>
+    <PendingTimeout>30000</PendingTimeout>
+    <MaxConsecutiveFails>30</MaxConsecutiveFails>
+    <ConsecutiveFailsInterval>900000</ConsecutiveFailsInterval>
+    <Name>Default</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </BackupAdapterInfo>
+  <BackupAdapterInfo Id="9145b6fd-b686-4f40-9353-66c1f180f6c2">
+    <UpdateCycle>23000</UpdateCycle>
+    <NumberOfMissingCycle>3</NumberOfMissingCycle>
+    <PendingTimeout>30000</PendingTimeout>
+    <MaxConsecutiveFails>30</MaxConsecutiveFails>
+    <ConsecutiveFailsInterval>900000</ConsecutiveFailsInterval>
+    <Name>DefaultSequential</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </BackupAdapterInfo>
+</Items>

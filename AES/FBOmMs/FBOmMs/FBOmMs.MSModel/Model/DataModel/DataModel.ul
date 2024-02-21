@@ -1,0 +1,45 @@
+VERSION '01.13'
+
+[Securable]
+[@Guid(35d3e7ec-acac-4d90-b635-899322d45a74)]
+[@GuidId(3142c8b9-4c66-4726-94d5-aaefbde79bfd)]
+ENTITY TypeDef
+WITH
+    [LogicalKey]
+    [Mandatory]
+    [Length = 255]
+    [@Guid(ede81f7b-3489-43fc-9175-1b2146ec539d)]
+    NId AS string
+    [Length = 255]
+    [@Guid(0431da6b-0e2d-446e-b205-d6980da7e6a3)]
+    Name AS string
+
+[Securable]
+[@Guid(2436b54a-3de2-4cb3-9ba1-4e46101041b3)]
+[@GuidId(c88bb0ef-1165-4022-ab64-f0b7e590ad5e)]
+ENTITY StatusDef
+WITH
+    [LogicalKey]
+    [Mandatory]
+    [Length = 255]
+    [@Guid(1fe6669f-bf2c-4e89-ba44-8ff1776c1071)]
+    NId AS string
+    [Length = 255]
+    [@Guid(4df9b24c-dedb-422c-ad42-6dc8e225830a)]
+    Name AS string
+
+[Securable]
+[@Guid(5146df9f-2838-4248-87a2-3da49fac9137)]
+[@GuidId(ce3dd5ff-d3b5-44bd-9a02-7e6249644fc0)]
+ENTITY MaterialDef
+WITH
+    [LogicalKey]
+    [Mandatory]
+    [Length = 255]
+    [@Guid(bda31f4d-54f9-49b4-8606-60abd5bd8ef7)]
+    NId AS string
+    [Mandatory]
+    [Length = 255]
+    [@Guid(cc5a3516-c6ab-4f97-8643-132eff10e98f)]
+    Name AS string
+

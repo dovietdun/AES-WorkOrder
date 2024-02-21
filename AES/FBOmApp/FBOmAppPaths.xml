@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<projects>
+  <project>
+    <type>CommandHandler</type>
+    <path>C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.CommandHandler\bin\Debug\</path>
+  </project>
+  <project>
+    <type>ReadingFunctionHandler</type>
+    <path>C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.ReadingFunctionHandler\bin\Debug\</path>
+  </project>
+  <project>
+    <type>EventHandler</type>
+    <path>C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.EventHandler\bin\Debug\</path>
+  </project>
+  <project>
+    <type>Model</type>
+    <path>C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.VFPOMModel\bin\</path>
+  </project>
+  <project>
+    <type>UserInterface</type>
+    <path>C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.UserInterface\bin\</path>
+  </project>
+  <project>
+    <type>Installer</type>
+    <path>C:\AES\AES\FBOmApp\FBOmApp\FBOmApp.Installer\bin\Debug\</path>
+  </project>
+</projects>

@@ -1,0 +1,106 @@
+VERSION '01.13'
+
+[Securable]
+[@Guid(c6d8f9e0-4d5d-4680-be5f-963cb86c9689)]
+[@GuidId(2b22224c-4b17-4c19-a17a-8990e5888278)]
+ENTITY OrderDef
+WITH
+    [Mandatory]
+    [Length = 255]
+    [@Guid(04aa7d09-07df-443d-a212-9a06e50382ad)]
+    NId AS string
+    [Length = 255]
+    [@Guid(3801365c-eb64-4f5d-ad90-fb31754e34f5)]
+    Type AS string
+    [Length = 255]
+    [@Guid(80d6508d-f004-42de-8181-b08a55ae227f)]
+    MaterialFinal AS string
+    [Mandatory]
+    [@Guid(4b87839a-50f3-4588-8814-23fe4356fbbd)]
+    PlanStartDate AS DateTime
+    [Mandatory]
+    [@Guid(84726604-5ec4-46bf-a920-bd50c1937465)]
+    PlanEndDate AS DateTime
+    [@Guid(8389edca-bd51-4f30-bb39-fac33d07f772)]
+    ActualStartDate AS DateTime
+    [@Guid(2664fbae-1619-46a1-83f4-14e9e198657a)]
+    ActualEndDate AS DateTime
+    [Length = 255]
+    [@Guid(dc9ef4c2-191d-42f9-ab22-418acaba7044)]
+    ParrentId AS string
+    [Length = 255]
+    [@Guid(bbb9a075-81a8-4c93-a520-b2180739b88c)]
+    Status AS string
+
+[Securable]
+[@Guid(e6b6653a-3fd2-406b-847b-eead44916f28)]
+[@GuidId(5ee3a382-a6a6-4717-b3f4-6854c808f95f)]
+ENTITY WhiteListSerialNumber
+WITH
+    [LogicalKey]
+    [Mandatory]
+    [Length = 255]
+    [@Guid(ef2bb3a6-986f-4442-9e54-e5715f82c206)]
+    NId AS string
+    [Length = 255]
+    [@Guid(b79c6099-d672-45b1-bba8-9216fb29e463)]
+    SerialNumber AS string
+    [Length = 255]
+    [@Guid(5827827d-92d5-403c-8b3a-14ba3a110647)]
+    FinalMaterial AS string
+    [Length = 255]
+    [@Guid(c5ba8422-39d5-4a27-a34b-547485fff1b8)]
+    BatchId AS string
+    [@Guid(f5d706f9-659a-44ec-933c-fd26120780e7)]
+    ActualStartDate AS DateTime
+    [@Guid(e8d6a8a4-1b6f-42ab-b28a-590dbed6590c)]
+    ActualEndDate AS DateTime
+
+[@Guid(da64ab16-3ea0-4fe2-b1ea-d3e16c7535c7)]
+[@GuidId(b84341ef-e3d3-4370-b7c9-bd610475aaa0)]
+[@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, c6d8f9e0-4d5d-4680-be5f-963cb86c9689)]
+ENTITY ProductionOrder EXTENDS OrderDef
+WITH
+    [Length = 255]
+    [@Guid(c26fce01-a9fd-49dc-a48c-e1053ba53dbe)]
+    SerialNumber AS string
+    [@Guid(eecd99a8-db0f-4fbb-9201-0a381c3d6e95)]
+    Quantity AS int
+
+[Securable]
+[@Guid(821cd018-8fb9-46bf-ad0a-92f08641828c)]
+[@GuidId(bf0c263a-fa94-445f-b534-f853ffa64e74)]
+ENTITY ChangeStatus
+WITH
+    [LogicalKey]
+    [Mandatory]
+    [Length = 255]
+    [@Guid(71bc9301-be26-43b7-af61-fc728e936ea1)]
+    ChangeStatusID AS string
+    [Length = 255]
+    [@Guid(99f06122-43c5-43e5-a3be-873503b1b5ed)]
+    OrderType AS string
+    [Length = 255]
+    [@Guid(e5be9253-4701-4ab0-9fba-48688d95708d)]
+    FromStatus AS string
+    [Length = 255]
+    [@Guid(de72dc08-6e24-42a4-a159-80074d397d87)]
+    ToStatus AS string
+
+[@Guid(1531851f-7662-48e4-9b21-313ea15ea663)]
+[@GuidId(d9a3b575-5161-40c7-b3d7-d9663225cad5)]
+[@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, c6d8f9e0-4d5d-4680-be5f-963cb86c9689)]
+ENTITY BatchOrder EXTENDS OrderDef
+WITH
+    [@Guid(0f39f58e-c247-4716-bf15-b9b9c82a8a3a)]
+    Quantity AS int
+
+[@Guid(b98e0225-5840-47d4-b539-7a3de68b0029)]
+[@GuidId(c5d8fe29-873a-4585-b964-945800f7fab0)]
+[@GuidRef(92f9e1cd-cbf8-4ad0-84ee-3bf68aec1a78, c6d8f9e0-4d5d-4680-be5f-963cb86c9689)]
+FACET BatchManagement EXTENDS OrderDef
+WITH
+    [Length = 255]
+    [@Guid(8bc648e2-1a43-4981-b04b-1d21c1f6e16d)]
+    BatchID AS string
+

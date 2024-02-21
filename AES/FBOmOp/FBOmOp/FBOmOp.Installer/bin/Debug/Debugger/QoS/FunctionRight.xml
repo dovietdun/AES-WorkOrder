@@ -1,0 +1,1661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <FunctionRight Id="1ba0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>1ea0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>21a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>35a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>ebe7c09c-c5a4-4064-83b9-7f4353721df0</Id>
+    </FunctionRights>
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>1aa0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_invoke_command_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="1ea0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>36a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>39a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>03616a74-1193-47d5-a80a-b0eccdb78389</Id>
+      <Id>ae11d99a-e32a-4bfc-86e8-58b36f0e734d</Id>
+      <Id>62e45d32-ee93-4f62-bf29-5f2bec257fce</Id>
+      <Id>62a4a368-47cf-4539-9dc0-1d9a23ead6eb</Id>
+      <Id>0c004990-7433-4c08-84cb-05cea6f3094a</Id>
+      <Id>b8575f90-e403-49b1-ac91-05946230be04</Id>
+      <Id>9425ab64-e7d2-45c9-a8c8-ef25d96436fa</Id>
+      <Id>afd62a65-98b5-49a0-949c-144033ca7e7d</Id>
+      <Id>5175311c-449b-4681-b77b-33934410760b</Id>
+      <Id>cfa03d92-5d90-4d10-a8ac-09af4d0463ad</Id>
+      <Id>c14ebacc-1e36-46d0-8283-240fb9a1b17f</Id>
+      <Id>c1583c01-22b7-4cb1-8c55-99fd5f7d3582</Id>
+      <Id>55f9431a-06e6-49ea-a5da-1678b777760b</Id>
+      <Id>fa912887-122d-494c-8626-91f46ca5912d</Id>
+      <Id>aa8056f6-d25f-47ea-a422-2aa2fbafc70a</Id>
+      <Id>c39ffa8b-659e-402f-ac3a-637572578b07</Id>
+      <Id>f8c6ec11-f058-4e31-93ad-c32eadfb16ed</Id>
+      <Id>4a09f9b5-1b51-40fe-92ed-24b1732f16c2</Id>
+      <Id>dffbb289-e2ab-4a85-8e81-e339b14454c3</Id>
+      <Id>2f1dcf8a-df38-4515-90e6-17ec7a944d5b</Id>
+      <Id>7e5984c1-ffea-463d-b8f3-03ceb72205f8</Id>
+      <Id>08bed7fa-29b4-43be-84a6-5d900db8595f</Id>
+      <Id>956a1de7-b6af-42df-8b6a-37d07a9d1bcb</Id>
+      <Id>8cb5de32-0df2-472e-bf2b-e351b112c689</Id>
+      <Id>1057a74f-1f93-45c1-91ed-68846fd78287</Id>
+      <Id>3f42d79a-92a0-4ff4-b57e-809ac8478c39</Id>
+      <Id>707e0860-fa91-4430-adca-5368ae6db37d</Id>
+      <Id>314eb71e-be60-4de1-9b13-1e8a0829f31c</Id>
+      <Id>0e359901-5bbc-484f-87b5-cfafab4ab3c5</Id>
+      <Id>e7b5e46a-eac0-4771-90ac-38bd38ed5027</Id>
+      <Id>75c7a554-d8b6-4138-a42b-6b2386b2c924</Id>
+      <Id>b996daa1-6d16-45f1-8f13-877cebd3604c</Id>
+      <Id>3fb0abfc-9237-4710-90b7-2549a4ca2fd5</Id>
+      <Id>51a50b27-960b-4f3a-b1ae-6915299b92fb</Id>
+      <Id>805926eb-5560-4f19-b575-3c6dda22648b</Id>
+      <Id>ba6a4b83-9414-479d-8575-288063714bd6</Id>
+      <Id>b0d97431-2a00-491f-88f4-195fe1ce5210</Id>
+      <Id>31b5027e-44b6-4d4b-a8b0-7127d0724f12</Id>
+      <Id>1e33c406-e5d3-4580-a9c9-fc976215f76c</Id>
+      <Id>2a173702-1be4-4051-a8f1-1ad776c4feee</Id>
+      <Id>781f7bb2-4e1a-4d6c-9467-17047ca243d3</Id>
+      <Id>f76bd0ff-1f5c-454b-9dfb-03d175d8157e</Id>
+      <Id>fff85191-0a89-47e2-8e70-8ce0a1ad54ae</Id>
+      <Id>316608cd-32dd-4f64-b145-b619212ea6dc</Id>
+      <Id>ab01e52a-253a-4e0d-9475-334568f082d9</Id>
+      <Id>02a7146b-68a6-4e05-b51a-aa2f3970f5fd</Id>
+      <Id>054d2001-2be5-4bd2-a5c4-bf3225170466</Id>
+      <Id>445f149c-12ff-471d-abf2-89a916ac0420</Id>
+      <Id>b608589a-218e-4ed7-a2a5-e0555bd7ba9e</Id>
+      <Id>f9803a21-0190-4824-ac3e-122e8cc8666b</Id>
+      <Id>ab6159c6-6636-493a-8c14-f9e27f6a5318</Id>
+      <Id>e47d245e-0d96-4b88-9f2a-db8b5a5bd3e7</Id>
+      <Id>50c08016-949a-4a2d-a617-64997cea0817</Id>
+      <Id>f0109959-2dd8-4622-90b7-c7e176415481</Id>
+      <Id>80f0a6ba-19be-4d9c-b187-5e2d15904c75</Id>
+      <Id>f803fb0c-3794-4f06-ab15-6919fe7b5ef8</Id>
+      <Id>1276069b-7fa1-4099-b14f-5c4670168278</Id>
+      <Id>e9549258-6658-4eeb-abe8-59513a00aa30</Id>
+      <Id>6bfa5796-0387-49c6-b1dc-9b6a0c7173a3</Id>
+      <Id>1e02b34e-ae2c-4844-a2e1-c14ad7b9f4f1</Id>
+      <Id>792e5ce1-d97d-44c4-a295-b43a066ce3f3</Id>
+      <Id>160bed5f-5ada-41a0-a762-a60db9445bc5</Id>
+      <Id>88097ef6-ac4c-4e80-8674-93b40587f525</Id>
+      <Id>3bfbee24-3ff1-49e6-bd1b-22e39e60de48</Id>
+      <Id>3d716d86-2492-4491-a5a3-58c1987fbc97</Id>
+      <Id>be8ddb2c-bf26-487a-8ba5-c30591b1ada2</Id>
+      <Id>131ab07d-9e58-4ad7-8d29-9f76f52da0ba</Id>
+      <Id>3f8cafd9-e447-4c35-b9c4-1b84646a04fe</Id>
+      <Id>2f25d7f2-4070-4292-bdc6-6809a73e3d4b</Id>
+      <Id>567359a8-0a42-474e-9184-f7585ccf640a</Id>
+      <Id>8d015eb1-8501-4dc5-9654-c1363a0d6f37</Id>
+      <Id>fa37e0e5-9e6c-439d-adee-72d0ba41dfa5</Id>
+      <Id>a7a7129e-d532-4989-95a6-3d16aedf0d98</Id>
+      <Id>33935d99-ed13-4c73-8014-688ac3debb6b</Id>
+      <Id>0b5c31f6-aeb1-466e-8d14-1ae7a7eab2e0</Id>
+      <Id>029bb5d6-b033-4598-9767-7d1a41c7c02c</Id>
+      <Id>cb6bfa6a-afba-4409-a396-85c6b494900d</Id>
+      <Id>f41ff3fb-192e-444f-84d8-ce08876da44e</Id>
+      <Id>20362074-eb94-4e08-8f1c-1239cceca29f</Id>
+      <Id>f0d6c0ac-68ef-427e-81da-5c3b3ea7c704</Id>
+      <Id>7c05ef6c-fcf9-4c03-aae8-01e9d3d4dda6</Id>
+      <Id>a28f90aa-efb5-4e8c-8e48-c28436c56070</Id>
+      <Id>13f843f1-324f-4552-86c9-e5a0b2a3fc35</Id>
+      <Id>3b7202ba-bf32-4b52-9f5b-5b6c7013be2e</Id>
+      <Id>88d5774c-62a7-42c5-a4a7-c79c03c48762</Id>
+      <Id>47c4f2e3-363a-4bfb-a396-644a3277939c</Id>
+      <Id>115d47fe-93c0-453d-abe4-02e4292165ca</Id>
+      <Id>a9cbe7fa-82ad-4eb2-980e-923737f445bd</Id>
+      <Id>063ee65d-2876-4cec-84d0-03341b2acf7a</Id>
+      <Id>4f9c6d98-23f2-4940-a2a7-0a441bf1c4c2</Id>
+      <Id>84c3b7fe-72e6-4cc4-9dc9-7c0bd62e31e4</Id>
+      <Id>2146fc8f-83bc-44ea-ba20-a0199d9016f7</Id>
+      <Id>4afe4bd6-1d97-4f0c-8373-d8c0cae1a085</Id>
+      <Id>d8bd86d9-c0e9-4584-aa42-981987ee5a64</Id>
+      <Id>483bf72a-89ec-48c2-9049-f83ac1c4ac19</Id>
+      <Id>9a4a5557-8dbf-4792-ab93-56edc48f73a7</Id>
+      <Id>b209053e-6920-4b5d-a451-73d1d48e2974</Id>
+      <Id>3dd90eba-03d5-4aa9-b930-ef98a56db4b6</Id>
+      <Id>7e9d6ea9-2ea2-4254-b0ac-5358d2f15427</Id>
+      <Id>55be7cee-2528-4494-a45a-141a1d12483e</Id>
+      <Id>a6480853-0263-4f3a-845d-24bb5020c7c0</Id>
+      <Id>33034c74-a299-4aa7-9112-df70b9f2dfd5</Id>
+      <Id>9a87d350-5079-4510-810f-5d10612dfb02</Id>
+      <Id>3dea35d0-9cfc-4b4a-bd73-1148c6e2048f</Id>
+      <Id>859ee809-ce04-42f7-a904-54e176b61b9f</Id>
+      <Id>c35f711a-1986-42da-a731-009847e9d0a3</Id>
+      <Id>5a3ba63a-3b7c-4e01-8140-61eb69b47067</Id>
+      <Id>cea969de-70ae-4390-abcf-b3696c594f34</Id>
+      <Id>76524b36-ae3c-4447-9090-798f56b9d80d</Id>
+      <Id>cf895f15-3040-4f60-846d-d59ca5f256a3</Id>
+      <Id>c8ff27eb-5464-438d-adf8-b298f9888610</Id>
+      <Id>1d580629-6b24-4de7-8dc7-7bff05494c3c</Id>
+      <Id>393d54df-ecd3-481d-af73-1ee57b5bb328</Id>
+      <Id>10bd94d8-f51a-4396-a63e-3b091aba9614</Id>
+    </FunctionRights>
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>1da0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_invoke_engineering_command_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="21a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>20a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_invoke_business_command_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="ebe7c09c-c5a4-4064-83b9-7f4353721df0">
+    <FunctionRights>
+      <Id>f0bc09f9-76a5-48da-b748-2965c1af466f</Id>
+      <Id>abc42985-6c1c-4d1e-a6b9-64a17a7213dd</Id>
+      <Id>af414256-20f0-48c0-82b3-f692c5bd9fc3</Id>
+      <Id>0e451665-73b0-410e-85ae-6baf66645bd2</Id>
+      <Id>3d3cdb8a-40c0-4a16-ace6-74e9c67a3dbc</Id>
+      <Id>63be30fe-b33b-41ba-b81b-20c9c8090365</Id>
+      <Id>ce9f0dca-c0e3-488b-a49a-2c83f6c588b3</Id>
+      <Id>e9710b28-341b-47ba-a2bd-895fd774e148</Id>
+      <Id>8cade2dc-0b95-4e92-bf6f-8d61d2046313</Id>
+      <Id>cb87d4f8-a972-4a4a-8edc-d2996b64802d</Id>
+      <Id>0e86cc50-4693-4c5b-984a-7cf4ab1d2123</Id>
+      <Id>befa040c-f45a-4712-ae0b-4629851c6f31</Id>
+      <Id>8b77783b-7fd1-4dc7-b548-f4a2d3fd762c</Id>
+    </FunctionRights>
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>403d05e7-b87b-4f47-bd92-6ae745dbf4e8</SecurableObject>
+    <Name>fr_invoke_administration_command_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="24a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>25a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>26a0aa59-885b-e511-827c-0050569f6b31</Id>
+    </FunctionRights>
+    <Operation>09a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>23a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_fire_event_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="25a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights />
+    <Operation>09a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>28a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_fire_engineering_event_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="26a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights />
+    <Operation>09a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>2ba0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_fire_business_event_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="29a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>2ca0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>2fa0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>30a0aa59-885b-e511-827c-0050569f6b31</Id>
+    </FunctionRights>
+    <Operation>0aa0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>23a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_subscribe_event_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="2ca0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>31a0aa59-885b-e511-827c-0050569f6b31</Id>
+    </FunctionRights>
+    <Operation>0aa0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>28a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_subscribe_engineering_event_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="2fa0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>34a0aa59-885b-e511-827c-0050569f6b31</Id>
+    </FunctionRights>
+    <Operation>0aa0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>2ba0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_subscribe_business_event_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="30a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>31a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>34a0aa59-885b-e511-827c-0050569f6b31</Id>
+    </FunctionRights>
+    <Operation>0ba0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>23a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_unsubscribe_event_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="31a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights />
+    <Operation>0ba0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>28a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_unsubscribe_engineering_event_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="34a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights />
+    <Operation>0ba0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>2ba0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_unsubscribe_business_event_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="46a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>47a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>48a0aa59-885b-e511-827c-0050569f6b31</Id>
+    </FunctionRights>
+    <Operation>09a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>40a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_fire_signal_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="47a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights />
+    <Operation>09a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>42a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_fire_engineering_signal_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="48a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights />
+    <Operation>09a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>44a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_fire_business_signal_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="49a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>4aa0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>4ba0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>4ca0aa59-885b-e511-827c-0050569f6b31</Id>
+    </FunctionRights>
+    <Operation>0aa0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>40a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_subscribe_signal_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="4aa0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>4da0aa59-885b-e511-827c-0050569f6b31</Id>
+    </FunctionRights>
+    <Operation>0aa0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>42a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_subscribe_engineering_signal_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="4ba0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>4ea0aa59-885b-e511-827c-0050569f6b31</Id>
+    </FunctionRights>
+    <Operation>0aa0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>44a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_subscribe_business_signal_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="4ca0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>4da0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>4ea0aa59-885b-e511-827c-0050569f6b31</Id>
+    </FunctionRights>
+    <Operation>0ba0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>40a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_unsubscribe_signal_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="4da0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights />
+    <Operation>0ba0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>42a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_unsubscribe_engineering_signal_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="4ea0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights />
+    <Operation>0ba0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>44a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_unsubscribe_business_signal_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="35a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>36a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>39a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>03616a74-1193-47d5-a80a-b0eccdb78389</Id>
+    </FunctionRights>
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>2ea0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_read_entity_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="36a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>26921491-ba94-424d-824c-6d288ddc2324</Id>
+      <Id>e908bcb5-12be-4d54-ba4c-21ebd4d4e8aa</Id>
+      <Id>5ff5f6da-23ac-4dc6-bdba-1840da6fe2f1</Id>
+      <Id>266e4648-c286-4431-94b9-65d198d25cb4</Id>
+      <Id>ce714189-ac34-4986-aa63-1e59ad9d0eb1</Id>
+      <Id>67ac9740-91fa-4b2c-bc2c-07fc764e7a71</Id>
+      <Id>365d10f4-c516-4dce-af92-c5ffc7c3ca2a</Id>
+      <Id>ab9fe0d1-b74a-4795-bc3b-f3bff226535d</Id>
+      <Id>89866e3c-990d-45b1-b220-ce0554e7d139</Id>
+      <Id>9a030eeb-2be0-411d-9e66-137669ef0ce6</Id>
+      <Id>b0b8ddea-8ee2-49d2-8ac8-4a238682d865</Id>
+      <Id>2202923a-fc8e-4390-99b0-d4fda7e143d5</Id>
+      <Id>09cba40d-d511-4b19-8b9d-638b87f63d77</Id>
+      <Id>6829ec64-246f-4a7e-8923-e1f5fee6a2cc</Id>
+      <Id>73e59a74-4e7b-43e2-b8d1-a02fd3f12efa</Id>
+      <Id>d7527163-51cf-4bb3-87ce-7675399d68ec</Id>
+      <Id>a1a1cd4d-fb8c-416f-a09c-c82e66eb04b4</Id>
+      <Id>9737f79a-b68b-4383-b026-607b8c1ac1bb</Id>
+      <Id>ac1938ba-7a52-4cac-9c56-41645f0fdf02</Id>
+      <Id>d87d042d-0d69-4e03-98fd-e36caceb1882</Id>
+      <Id>0830c4d0-330b-4625-84e6-4d91ae1cf25c</Id>
+      <Id>572f3d10-c595-4b7a-95e7-6c90c1819d04</Id>
+      <Id>87b5213b-140f-4201-aae7-5e8d70375a9c</Id>
+      <Id>a477a0f4-3b0b-42a1-ab8b-5fc9e54c53f4</Id>
+      <Id>c8da0d96-bb25-42d0-b5b9-5b109b66d8d9</Id>
+      <Id>87780f5e-b42a-40e2-868a-97b5da939dc7</Id>
+      <Id>9d616a1d-1f24-4a5d-b442-83a54c727364</Id>
+      <Id>7f0073b0-db3f-42a4-90be-6747ea0078e0</Id>
+      <Id>ad679262-239f-43f2-a303-e5d93420779a</Id>
+      <Id>bc010aa3-1447-4570-9a5a-2257fa930c0c</Id>
+      <Id>8e373961-b6c0-4147-9a08-5b6f583cdcb6</Id>
+      <Id>742cb654-cde5-4e8e-874f-a4ba168b7958</Id>
+      <Id>a653fb25-d49c-4af2-bc1e-cf3e15fe9983</Id>
+      <Id>47d6ddf1-eba9-4a16-a9c6-1b7d30a11d50</Id>
+      <Id>7af2159e-2df2-49fb-b174-5fba237e891d</Id>
+      <Id>c70ac622-e36a-4746-9fab-a36be8d9765b</Id>
+      <Id>cd3d8ce0-3d89-480b-b996-f129df5d1272</Id>
+      <Id>38ec580b-04a3-4131-b1fb-92cd7f8c452f</Id>
+      <Id>7c538cb6-ced0-4893-b6b2-c6af77970b83</Id>
+      <Id>a1cdd080-2d02-4eed-8c1e-08773b5ad6e7</Id>
+      <Id>63dcd289-2c71-488d-9181-09ee93640669</Id>
+      <Id>6a601310-35c1-4aae-ace3-018ccd654913</Id>
+      <Id>cb911bab-4def-42f9-bb49-8e9dce342f46</Id>
+      <Id>3e54baf9-c15c-478c-820a-31d1957d62ac</Id>
+      <Id>1937ebc4-1cf3-4e03-974f-ee31439ae127</Id>
+    </FunctionRights>
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>33a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_read_engineering_entity_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="39a0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>38a0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_read_business_entity_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="03616a74-1193-47d5-a80a-b0eccdb78389">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>b2e0d536-3377-4a4f-9360-7218c9c61f2a</SecurableObject>
+    <Name>fr_read_administration_entity_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="3ca0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights />
+    <Operation>0da0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>3ba0aa59-885b-e511-827c-0050569f6b31</SecurableObject>
+    <Name>fr_view_screen_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="7ad49fc6-50dd-45be-b282-a772170b35e3">
+    <FunctionRights>
+      <Id>d2b185ae-ab9f-488b-bb56-99ccd56f0c9b</Id>
+      <Id>01d6e21c-ff30-4096-bbc5-4eb512028cac</Id>
+    </FunctionRights>
+    <Operation>6f0f9214-e723-452c-a999-41b36b1c9618</Operation>
+    <SecurableObject>f4a1889e-86f0-4f31-a8cd-c819c7704e92</SecurableObject>
+    <Name>fr_execute_reading_function_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="d2b185ae-ab9f-488b-bb56-99ccd56f0c9b">
+    <FunctionRights>
+      <Id>9f22e62a-46e7-40f2-8e03-a55c81c7e5a4</Id>
+    </FunctionRights>
+    <Operation>6f0f9214-e723-452c-a999-41b36b1c9618</Operation>
+    <SecurableObject>4a965339-5a4d-44cc-8fd4-e5a8874d81fe</SecurableObject>
+    <Name>fr_execute_engineering_reading_function_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="01d6e21c-ff30-4096-bbc5-4eb512028cac">
+    <FunctionRights />
+    <Operation>6f0f9214-e723-452c-a999-41b36b1c9618</Operation>
+    <SecurableObject>596c5fec-7d72-47c3-8bb4-1a399368d2b8</SecurableObject>
+    <Name>fr_execute_business_reading_function_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="0316582e-9cf8-49a6-835c-7ab5f2ba205f">
+    <FunctionRights>
+      <Id>e2a9ca2c-fcc6-4494-a566-846ea869c619</Id>
+    </FunctionRights>
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>39f26467-f24f-4a19-92f7-d0f8553c1ace</SecurableObject>
+    <Name>fr_read_webrequest_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="e2a9ca2c-fcc6-4494-a566-846ea869c619">
+    <FunctionRights>
+      <Id>8c97e0f2-edda-4f83-b0c1-68da7277ff5e</Id>
+    </FunctionRights>
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>9fb5cb44-556c-449c-8efd-b3643772dde6</SecurableObject>
+    <Name>fr_read_administration_webrequest_root</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="8c97e0f2-edda-4f83-b0c1-68da7277ff5e">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>f43f5d5a-172f-4a6a-92b7-c1f1339a6890</SecurableObject>
+    <Name>fr_read_monitoring</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="26921491-ba94-424d-824c-6d288ddc2324">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>5f0bcd21-451f-48a5-ab8d-b3e067319c6c</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.FunctionalBlockReference</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="e908bcb5-12be-4d54-ba4c-21ebd4d4e8aa">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>3211892d-2143-4705-8ccc-0eed4b2c8550</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.CommandDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="5ff5f6da-23ac-4dc6-bdba-1840da6fe2f1">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>6b9632ba-cbb3-4105-9294-f0a0211d6b35</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.HandlerDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="266e4648-c286-4431-94b9-65d198d25cb4">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>ccec8462-3ea5-473c-b4ac-25e1342724f5</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.CommandPomDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="ce714189-ac34-4986-aa63-1e59ad9d0eb1">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>de864105-5820-47c2-a987-16797b936161</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.EventDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="67ac9740-91fa-4b2c-bc2c-07fc764e7a71">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>fb07e6ce-1c40-4259-9c28-f2600dc58bdf</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.EventHandlerDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="365d10f4-c516-4dce-af92-c5ffc7c3ca2a">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>6140c025-f57f-49d6-b050-4a1c21cfdfdf</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.EventSubscriptionDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="ab9fe0d1-b74a-4795-bc3b-f3bff226535d">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>31a470ba-a53a-444a-9e6d-cc6361d724c5</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.HostRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="89866e3c-990d-45b1-b220-ce0554e7d139">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>2a4069f7-83b4-4c6e-af6d-f450cbeaada3</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.Package</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="9a030eeb-2be0-411d-9e66-137669ef0ce6">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>c6c167b3-be61-406d-9e71-9b8c332ec6f9</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.ProjectDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="b0b8ddea-8ee2-49d2-8ac8-4a238682d865">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>6b5f2edc-e195-4d78-a14f-d0110c1e5513</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SignalDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="2202923a-fc8e-4390-99b0-d4fda7e143d5">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>daebffa6-fa3a-45f1-b644-ba86b2586be7</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SolutionDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="09cba40d-d511-4b19-8b9d-638b87f63d77">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>fc376cbd-9055-43f5-94a2-3deed3579e93</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SubscriptionFilterDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="6829ec64-246f-4a7e-8923-e1f5fee6a2cc">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>97cb599e-f162-4457-8f97-b391a316af49</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.Tag</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="73e59a74-4e7b-43e2-b8d1-a02fd3f12efa">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>6ce34490-3015-4ac7-8bc2-dca028158045</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.VersionInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="d7527163-51cf-4bb3-87ce-7675399d68ec">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>7d1076bf-fb90-4679-9107-539a85431c71</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.WorkerDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="a1a1cd4d-fb8c-416f-a09c-c82e66eb04b4">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>e2241cdb-adca-4ba0-968a-dda39cf6782b</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.WorkerRoleDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="9737f79a-b68b-4383-b026-607b8c1ac1bb">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>88d797a7-2897-4b6d-8d42-532dabb0d80c</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.DatabaseInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="ac1938ba-7a52-4cac-9c56-41645f0fdf02">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>43bb32fd-f4f9-45bd-bb0b-53dbcd42a420</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.DataModelAssembly</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="d87d042d-0d69-4e03-98fd-e36caceb1882">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>300cc96f-d20f-4079-beba-4aba74893956</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.DataProvider</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="0830c4d0-330b-4625-84e6-4d91ae1cf25c">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>0591bc42-72fc-4db1-9ae0-64169494b5fa</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.DomainStorageInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="572f3d10-c595-4b7a-95e7-6c90c1819d04">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>28706194-1df9-4207-a4ad-a2827fed6ea6</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.InformationRepository</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="87b5213b-140f-4201-aae7-5e8d70375a9c">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>75273ebd-21ca-4b06-b67d-17ea80c59ad0</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.EntityDefinition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="a477a0f4-3b0b-42a1-ab8b-5fc9e54c53f4">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>5492906a-ca3c-4626-bc71-219b93673456</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.CertificateRoles</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="c8da0d96-bb25-42d0-b5b9-5b109b66d8d9">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>9b939d7f-dcde-4bbc-9026-3c4719e3d8cf</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.Role</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="87780f5e-b42a-40e2-868a-97b5da939dc7">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>61473380-6ad6-4867-8c94-3f2863f18796</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.Domain</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="9d616a1d-1f24-4a5d-b442-83a54c727364">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>d3aee7f5-5d47-4e22-81ff-c307edf2b59d</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.FilteringTag</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="7f0073b0-db3f-42a4-90be-6747ea0078e0">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>468a3d53-fe42-44c6-9a15-df4ecac3a147</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SecurableObject</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="ad679262-239f-43f2-a303-e5d93420779a">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>3a891d93-4dea-490d-bc7f-dd1d9b248d9e</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SecurableCategory</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="bc010aa3-1447-4570-9a5a-2257fa930c0c">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>4b2a0f3c-b473-42f8-bd20-77c5ee80d1e4</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SecurableObjectExtendedInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="8e373961-b6c0-4147-9a08-5b6f583cdcb6">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>304ff1ad-a0a8-403d-8e5f-23032780a5f3</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.Operation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="742cb654-cde5-4e8e-874f-a4ba168b7958">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>3749636c-9b41-456a-9260-3d7378057e42</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.FunctionRight</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="a653fb25-d49c-4af2-bc1e-cf3e15fe9983">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>925f876a-c241-4a57-925b-96667193b384</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.RoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="47d6ddf1-eba9-4a16-a9c6-1b7d30a11d50">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>71e2b3f1-64ba-429b-bb76-a27d0e92a7f2</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.GroupRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="7af2159e-2df2-49fb-b174-5fba237e891d">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>00ac2a31-6898-45ae-b481-9868099a3390</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.UserRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="c70ac622-e36a-4746-9fab-a36be8d9765b">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>506c155b-15c1-410f-9a48-9f24e1bfa953</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.UIApplication</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="cd3d8ce0-3d89-480b-b996-f129df5d1272">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>de6a5d49-17c5-4e3d-89af-36a65e979e07</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.UIModule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="38ec580b-04a3-4131-b1fb-92cd7f8c452f">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>1e0255df-2454-4264-85f8-11bbf634c387</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.UIComponent</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="7c538cb6-ced0-4893-b6b2-c6af77970b83">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>650541ed-4d5e-427b-8127-7aca8e91b5ca</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.SWACComponent</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="a1cdd080-2d02-4eed-8c1e-08773b5ad6e7">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>86c34048-e794-4780-b280-3f9f540baea6</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceData.Engineering.DataModel.ReadingModel.UIScreen</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="63dcd289-2c71-488d-9181-09ee93640669">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>1db5c792-e7f5-44e4-a5bc-e9766170ae59</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceViews.Engineering.DataModel.ReadingModel.PublicRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="6a601310-35c1-4aae-ace3-018ccd654913">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>26425320-b51a-4141-b437-844d51c7c566</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceViews.Engineering.DataModel.ReadingModel.PublicUserRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="cb911bab-4def-42f9-bb49-8e9dce342f46">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>4da15095-553e-4aae-8ae1-ddc7d3b64b94</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.GovernanceViews.Engineering.DataModel.ReadingModel.PublicGroupRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="3e54baf9-c15c-478c-820a-31d1957d62ac">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>5e2671cb-0ffa-45eb-b47f-468ce4d5cfbd</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.Platform.Common.QoS.PublicGroup</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="1937ebc4-1cf3-4e03-974f-ee31439ae127">
+    <FunctionRights />
+    <Operation>0ca0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>cd31d5e6-02ce-4531-aa31-4691e6f1531b</SecurableObject>
+    <Name>FR_read_Siemens.SimaticIT.Platform.Common.QoS.PublicUser</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="f0bc09f9-76a5-48da-b748-2965c1af466f">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>9032d0b7-b48c-4b8c-bd0f-f82b2ebce237</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Administration.Start</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="abc42985-6c1c-4d1e-a6b9-64a17a7213dd">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>aec7d8c4-c70e-45ce-96ac-f9e31d9512a8</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Administration.Stop</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="af414256-20f0-48c0-82b3-f692c5bd9fc3">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>a8d70801-c38f-4d02-bbdc-9ebae1173fe5</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Administration.Enable</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="0e451665-73b0-410e-85ae-6baf66645bd2">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>2f87047c-f31c-4458-98b7-ba186b953213</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Administration.Disable</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="3d3cdb8a-40c0-4a16-ace6-74e9c67a3dbc">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>94bb4844-6afb-4c67-89b8-aef9efd05034</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Administration.Deploy</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="63be30fe-b33b-41ba-b81b-20c9c8090365">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>57cdd2db-1d8a-4602-b2e4-7bfbad0c9620</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Administration.ScaffoldDatabase</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="ce9f0dca-c0e3-488b-a49a-2c83f6c588b3">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>9e5f42c8-d776-411d-a18c-17800b67de37</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Administration.GetCurrentSolutionPackageToDeployInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="e9710b28-341b-47ba-a2bd-895fd774e148">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>1423becd-1593-4c8b-bb1a-ffe018c9243c</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Administration.GetSysGovernancePackage</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="8cade2dc-0b95-4e92-bf6f-8d61d2046313">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>09193714-dff9-422b-9348-e128f9256dc9</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Administration.GetHostsInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="cb87d4f8-a972-4a4a-8edc-d2996b64802d">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>9b73924a-c672-4cab-a515-9e9e770c4f9b</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Administration.GetNodeStatus</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="0e86cc50-4693-4c5b-984a-7cf4ab1d2123">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>2787b819-7364-4dc1-adb0-59e6959d4c0f</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Administration.CreateHost</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="befa040c-f45a-4712-ae0b-4629851c6f31">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>536f35ef-8154-4040-897b-0bed1532f464</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Administration.DeleteHost</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="8b77783b-7fd1-4dc7-b548-f4a2d3fd762c">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>4f197e2e-c2ab-404a-a219-f0894f73961a</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Administration.UpdateHost</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="ae11d99a-e32a-4bfc-86e8-58b36f0e734d">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>0e42d543-3e1d-42e4-a2a4-53d8c955ea7e</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="62e45d32-ee93-4f62-bf29-5f2bec257fce">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>166c0f90-9ebe-4413-b8b9-09ff6ecdc9bc</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="62a4a368-47cf-4539-9dc0-1d9a23ead6eb">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>86354a69-b685-4ffd-971f-512ad7aacd24</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="0c004990-7433-4c08-84cb-05cea6f3094a">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>3eacec75-1ec4-4538-8e6f-5a56a919b9a9</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.AddCommandToWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="b8575f90-e403-49b1-ac91-05946230be04">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>2f0e12b7-e5d1-4659-b655-fcf775ec3caf</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.AddCommandsToWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="9425ab64-e7d2-45c9-a8c8-ef25d96436fa">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>3ceb293d-cb2d-4c14-9047-42f308911dc2</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.AddWorkerRoleToHostRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="afd62a65-98b5-49a0-949c-144033ca7e7d">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>af8fc977-8a8e-40d4-98cc-9d551843cb23</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RemoveWorkerRoleFromHostRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="5175311c-449b-4681-b77b-33934410760b">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>06b91ec6-a59f-4b89-bcbc-7a84ea8908d7</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RemoveCommandFromWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="cfa03d92-5d90-4d10-a8ac-09af4d0463ad">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>6115ca86-f3d1-4bdc-b3ea-947ee2d3c2bf</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RemoveCommandsFromWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="c14ebacc-1e36-46d0-8283-240fb9a1b17f">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>75c36ea6-79fe-4fef-a75f-fa26f716c6bc</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.ApplyUMAC</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="c1583c01-22b7-4cb1-8c55-99fd5f7d3582">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>55731605-522b-44d3-a70d-1f5f42fedf7e</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.PublicApplyUMAC</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="55f9431a-06e6-49ea-a5da-1678b777760b">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>77eab673-bc79-44d6-8cd3-1497ce1288f7</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.AddSubscriptionToWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="fa912887-122d-494c-8626-91f46ca5912d">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>17ffca55-4d2e-4157-bb3c-f6532e7834cf</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RemoveSubscriptionFromWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="aa8056f6-d25f-47ea-a422-2aa2fbafc70a">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>c362f96d-e21e-4531-ba9c-3859bf19b3f8</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="c39ffa8b-659e-402f-ac3a-637572578b07">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>0f630b2f-f2b6-4394-b2b8-306972605563</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.AddFilterToEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="f8c6ec11-f058-4e31-93ad-c32eadfb16ed">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>22bfbc50-c5eb-4586-b93d-c3c794d3651f</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateFilterInEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="4a09f9b5-1b51-40fe-92ed-24b1732f16c2">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>fe757a57-49bf-4854-9fcc-8e07584fe05c</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RemoveFilterFromEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="dffbb289-e2ab-4a85-8e81-e339b14454c3">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>82475942-7d4d-4c50-b19c-04582fb3a704</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="2f1dcf8a-df38-4515-90e6-17ec7a944d5b">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>a8e80b9c-d347-4c14-8675-ea932ebb1113</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="7e5984c1-ffea-463d-b8f3-03ceb72205f8">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>8aec4aff-4e6e-4e95-a606-0cf548368e07</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RenameEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="08bed7fa-29b4-43be-84a6-5d900db8595f">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>3e4af2e4-08dc-4aa7-8cfd-585b6fd3d28e</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="956a1de7-b6af-42df-8b6a-37d07a9d1bcb">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>adf8d3c2-7e13-4743-8a5e-36511d09be2d</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="8cb5de32-0df2-472e-bf2b-e351b112c689">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>5894cb49-f3b4-4728-9c35-08dad871e253</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="1057a74f-1f93-45c1-91ed-68846fd78287">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>b6b7aa8d-d3c6-4c77-8e2b-4b17704d7541</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateDomain</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="3f42d79a-92a0-4ff4-b57e-809ac8478c39">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>250dbf76-10df-4b2d-a234-d45aff5df09d</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateDomain</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="707e0860-fa91-4430-adca-5368ae6db37d">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>42ac7f23-bf94-4642-b0be-a1d3d5354b24</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteDomain</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="314eb71e-be60-4de1-9b13-1e8a0829f31c">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>e4fdba06-70c1-4171-b38c-b80bce1adb16</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateUserRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="0e359901-5bbc-484f-87b5-cfafab4ab3c5">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>93ccd411-e733-4604-a862-f1754ccc2f03</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.PublicCreateUserRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="e7b5e46a-eac0-4771-90ac-38bd38ed5027">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>25663ac6-20a9-4d49-ae47-33517c52db80</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteUserRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="75c7a554-d8b6-4138-a42b-6b2386b2c924">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>55338b42-f8da-4f0f-b807-f813ac24c81e</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.PublicDeleteUserRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="b996daa1-6d16-45f1-8f13-877cebd3604c">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>9180b729-c99f-4ff8-ba42-3032e04a6e67</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateGroupRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="3fb0abfc-9237-4710-90b7-2549a4ca2fd5">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>94631f7e-ec77-44b7-9c5e-ed57170ac853</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.PublicCreateGroupRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="51a50b27-960b-4f3a-b1ae-6915299b92fb">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>dee54b6e-b2b6-43ab-9b1d-2184ea5dc345</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteGroupRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="805926eb-5560-4f19-b575-3c6dda22648b">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>5e3ab3dd-dfaf-4b88-82e2-de4bc7955dd5</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.PublicDeleteGroupRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="ba6a4b83-9414-479d-8575-288063714bd6">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>a79b7a07-a2fe-4fb6-8735-13e78f2ea79a</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.AddFunctionRightToRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="b0d97431-2a00-491f-88f4-195fe1ce5210">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>86901c59-17a4-409d-9e3e-a1364c43a110</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RemoveFunctionRightFromRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="31b5027e-44b6-4d4b-a8b0-7127d0724f12">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>11ab2449-bd36-4917-9e15-4788fdb96bd9</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateUIModule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="1e33c406-e5d3-4580-a9c9-fc976215f76c">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>1a511285-202c-488d-ad69-3f5c8779cff9</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteUIModule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="2a173702-1be4-4051-a8f1-1ad776c4feee">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>d25f0ea1-3252-4c7c-b9dd-52c8062bff74</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateUIModule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="781f7bb2-4e1a-4d6c-9467-17047ca243d3">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>3326ec22-74da-4da7-9ad9-c021cd2a44aa</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.ReadUIModuleManifest</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="f76bd0ff-1f5c-454b-9dfb-03d175d8157e">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>26d449f1-fefe-4e79-a1c0-7dfd63ccc012</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.ReadUIComponentManifest</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="fff85191-0a89-47e2-8e70-8ce0a1ad54ae">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>1f3ff25c-764e-47b0-a2f2-9df4367cbf36</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateDataProvider</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="316608cd-32dd-4f64-b145-b619212ea6dc">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>8446e245-0ca4-4f4b-a0d0-7aadf5c38ffd</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.GenerateUIModule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="ab01e52a-253a-4e0d-9475-334568f082d9">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>db8538fc-e807-42b8-958f-f8d6775c2908</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateUIApplication</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="02a7146b-68a6-4e05-b51a-aa2f3970f5fd">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>b0ae4673-bbb0-4fcb-baa3-0fd624fa4d7a</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteUIApplication</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="054d2001-2be5-4bd2-a5c4-bf3225170466">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>18203216-8ccf-4c23-bb67-afa3e026d39d</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateUIApplication</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="445f149c-12ff-471d-abf2-89a916ac0420">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>9ea0dd01-c6f8-455e-8e9c-f1e1facda32b</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.ReadUIApplicationManifest</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="b608589a-218e-4ed7-a2a5-e0555bd7ba9e">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>ef14a04a-5f7d-49f4-90b1-f7d8e43490cb</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeployUIApplication</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="f9803a21-0190-4824-ac3e-122e8cc8666b">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>0a6dbe0b-1462-4d9a-a6a3-df3492ba4cd6</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RetrieveAppList</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="ab6159c6-6636-493a-8c14-f9e27f6a5318">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>3ac2ad53-a91e-4e53-ae57-38ea0e600ff6</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateWorkerRoleToHostRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="e47d245e-0d96-4b88-9f2a-db8b5a5bd3e7">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>a5cb8253-95ce-44cb-a6a7-06cc02267dba</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.GenerateDebugRegistry</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="50c08016-949a-4a2d-a617-64997cea0817">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>0887965b-729f-4e0c-901b-f4b88ed41ae1</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateSolution</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="f0109959-2dd8-4622-90b7-c7e176415481">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>be22ce3d-499e-469b-91b6-f124a11458d2</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateSolution</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="80f0a6ba-19be-4d9c-b187-5e2d15904c75">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>09fd1b18-f105-4379-b2c7-13f6762da920</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteSolution</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="f803fb0c-3794-4f06-ab15-6919fe7b5ef8">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>638487ca-bd5e-4499-9904-2fb26526c15b</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.AddUIAppToSolutionPackage</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="1276069b-7fa1-4099-b14f-5c4670168278">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>81b367c3-2545-45cd-a0cf-277a01b61cda</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RemoveUIAppFromSolutionPackage</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="e9549258-6658-4eeb-abe8-59513a00aa30">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>97d6a833-1093-401a-9b66-637875612936</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.BuildSolutionPackage</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="6bfa5796-0387-49c6-b1dc-9b6a0c7173a3">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>c13ecf56-98ac-4bdb-bb7e-193d4ef194e4</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.BackupSolution</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="1e02b34e-ae2c-4844-a2e1-c14ad7b9f4f1">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>c9d0090e-cdd3-4f9b-8658-019ba4635fbf</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RestoreSolution</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="792e5ce1-d97d-44c4-a295-b43a066ce3f3">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>dcbf9ebd-f5a9-4a2e-8667-3b7590f85c4f</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RetrieveSolutionBackupPackages</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="160bed5f-5ada-41a0-a762-a60db9445bc5">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>690de934-3546-43fe-9cd1-8783e1ad911b</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateSWACComponent</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="88097ef6-ac4c-4e80-8674-93b40587f525">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>25a6f7e4-c5db-461c-bf05-94e007a6a3e0</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteSWACComponent</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="3bfbee24-3ff1-49e6-bd1b-22e39e60de48">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>dd17d7e5-5716-4ece-990b-aa738ca97a9c</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.AddSolutionApp</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="3d716d86-2492-4491-a5a3-58c1987fbc97">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>885e413c-9944-41f0-84de-331c1993fa3d</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateSolutionApp</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="be8ddb2c-bf26-487a-8ba5-c30591b1ada2">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>93a20a5f-9d19-4e9a-b0ab-6340a2559f47</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.ReloadSolutionApp</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="131ab07d-9e58-4ad7-8d29-9f76f52da0ba">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>46bb404e-1203-47a6-ac34-2a5e5a1dea87</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RemoveSolutionApp</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="3f8cafd9-e447-4c35-b9c4-1b84646a04fe">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>f1a899bc-8929-41e0-9a31-47d972066b62</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RemoveFunctionRightsFromRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="2f25d7f2-4070-4292-bdc6-6809a73e3d4b">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>97cdbd83-3b5c-497b-884a-a6009ae50f39</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.AddFunctionRightsToRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="567359a8-0a42-474e-9184-f7585ccf640a">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>21110a34-c2e4-4e00-9afc-cfe6dc3e457e</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateCommands</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="8d015eb1-8501-4dc5-9654-c1363a0d6f37">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>0de5a307-b899-4efe-8cf3-cd05ef057cdd</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RetrieveSolutionApps</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="fa37e0e5-9e6c-439d-adee-72d0ba41dfa5">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>6f83de59-829e-49dc-a11c-98f1461d0b5e</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteEventSubscriptions</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="a7a7129e-d532-4989-95a6-3d16aedf0d98">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>b8ed0bba-760f-4ab1-9cad-e6f15e767f46</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateEventSubscriptions</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="33935d99-ed13-4c73-8014-688ac3debb6b">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>aa3b8d9a-2f85-4ff6-a965-ace367238749</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeployDiagrams</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="0b5c31f6-aeb1-466e-8d14-1ae7a7eab2e0">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>7cffe0d3-b734-44f0-914c-150646b96057</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CopyRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="029bb5d6-b033-4598-9767-7d1a41c7c02c">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>bd56c617-e35f-4415-b2a9-5bfe333fa799</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RefreshAppCatalog</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="cb6bfa6a-afba-4409-a396-85c6b494900d">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>0e88a4ae-e9f8-435d-a1f9-ffec465aaa36</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.AddAppExtension</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="f41ff3fb-192e-444f-84d8-ce08876da44e">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>d7cf68e5-b8f7-4ea7-899c-5da64de7b5f6</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateAppExtension</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="20362074-eb94-4e08-8f1c-1239cceca29f">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>4fccb3a6-437d-4c04-9284-5dcc2dae2a0a</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RemoveAppExtension</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="f0d6c0ac-68ef-427e-81da-5c3b3ea7c704">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>824355b8-9ab2-429e-8f01-7f6b02b026d3</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.ReloadAppExtension</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="7c05ef6c-fcf9-4c03-aae8-01e9d3d4dda6">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>6ab2b0f1-eeaf-49c4-ba21-6066799ef40d</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="a28f90aa-efb5-4e8c-8e48-c28436c56070">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>ea0f9514-60b4-4669-a577-0153c2203538</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="13f843f1-324f-4552-86c9-e5a0b2a3fc35">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>c197f05a-fc97-4354-8777-3786d48b4afa</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="3b7202ba-bf32-4b52-9f5b-5b6c7013be2e">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>5c2dd691-ff31-4218-ab1e-2d62b5ff1288</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.SetATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="88d5774c-62a7-42c5-a4a7-c79c03c48762">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>8b7c54a1-0c19-43c6-a110-8ad5e790ae69</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.EnableAuditTrail</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="47c4f2e3-363a-4bfb-a396-644a3277939c">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>0f8b5bff-9f63-40eb-9174-0e5e3c18e1a1</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DisableAuditTrail</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="115d47fe-93c0-453d-abe4-02e4292165ca">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>8cc8b1a7-8168-443a-8443-951fbd23bd8e</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.ApplyATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="a9cbe7fa-82ad-4eb2-980e-923737f445bd">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>2909c804-a14f-4a67-8383-3ab772df60f4</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.ExportATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="063ee65d-2876-4cec-84d0-03341b2acf7a">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>6bd91caa-ad46-44d3-9253-748e138364bb</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.ImportATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="4f9c6d98-23f2-4940-a2a7-0a441bf1c4c2">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>3939b648-ffc2-4422-b3d2-b7815089ae84</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.RetrieveExportedATConfigurationList</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="84c3b7fe-72e6-4cc4-9dc9-7c0bd62e31e4">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>6a7fd778-da7e-4065-965c-236cd750fcdf</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateMTConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="2146fc8f-83bc-44ea-ba20-a0199d9016f7">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>e5c20569-6ef9-4237-a37f-f4080e3614cb</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateMTConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="4afe4bd6-1d97-4f0c-8373-d8c0cae1a085">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>86675709-65e1-4814-8b6c-0cc6d995448e</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteMTConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="d8bd86d9-c0e9-4584-aa42-981987ee5a64">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>db16d1ef-390f-4943-a8c3-7b02f28f9221</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateMTCleaningCondition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="483bf72a-89ec-48c2-9049-f83ac1c4ac19">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>b8e91fb9-6a5a-41d5-9560-e0d332c829bd</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateMTCleaningCondition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="9a4a5557-8dbf-4792-ab93-56edc48f73a7">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>ee40a261-b679-4bae-89b7-6d66ee4b5a55</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteMTCleaningCondition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="b209053e-6920-4b5d-a451-73d1d48e2974">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>04917274-25a9-459b-98ce-4a6eb4d1ef49</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateMTSchedule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="3dd90eba-03d5-4aa9-b930-ef98a56db4b6">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>7a385b04-84ce-44df-8684-b42fb77d4e15</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateMTSchedule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="7e9d6ea9-2ea2-4254-b0ac-5358d2f15427">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>e8c26004-c2f8-4890-a444-101975f75189</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteMTSchedule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="55be7cee-2528-4494-a45a-141a1d12483e">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>4b9bfd6a-aad7-48e3-b24f-65a28825d22d</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateMTRule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="a6480853-0263-4f3a-845d-24bb5020c7c0">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>13ee4bd5-17ae-494d-94f7-06807f0b2948</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.SetMTRules</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="33034c74-a299-4aa7-9112-df70b9f2dfd5">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>ea53b871-cb19-485d-8123-3b1cb5e99a99</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteMTRules</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="9a87d350-5079-4510-810f-5d10612dfb02">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>31285c00-ed6f-44a3-9193-aa451c0d57f6</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.EnableMaintenance</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="3dea35d0-9cfc-4b4a-bd73-1148c6e2048f">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>11d898c7-02fa-40d8-9e69-c1670a0e82f1</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DisableMaintenance</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="859ee809-ce04-42f7-a904-54e176b61b9f">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>cb92a2ce-3889-4318-80fc-9c5b81d8e9ce</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.GetTimeZones</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="c35f711a-1986-42da-a731-009847e9d0a3">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>7aa08472-f3fa-4e56-aac1-00134aabc421</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateArchiveDatabaseInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="5a3ba63a-3b7c-4e01-8140-61eb69b47067">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>73918289-f4c7-4774-a497-1e191eb1781e</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.CreateMTCopySchedule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="cea969de-70ae-4390-abcf-b3696c594f34">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>069a5840-1e3f-4401-9d9d-c78bec9706cb</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateMTCopySchedule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="76524b36-ae3c-4447-9090-798f56b9d80d">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>199c6148-1189-4657-8f5a-79e667674c52</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.DeleteMTCopySchedule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="cf895f15-3040-4f60-846d-d59ca5f256a3">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>349724fb-9d8c-4d2f-82ce-e6076ec23988</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdatePreCheckConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="c8ff27eb-5464-438d-adf8-b298f9888610">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>117a4a0a-c6d1-4a29-b5af-fd0fa7b2103e</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.SuspendArchiving</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="1d580629-6b24-4de7-8dc7-7bff05494c3c">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>45075d15-e453-4281-ba51-1dba3ce9011a</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.ResumeArchiving</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="393d54df-ecd3-481d-af73-1ee57b5bb328">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>823875b0-6aaa-470c-8f06-19cced84947a</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.Purge</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="10bd94d8-f51a-4396-a63e-3b091aba9614">
+    <FunctionRights />
+    <Operation>08a0aa59-885b-e511-827c-0050569f6b31</Operation>
+    <SecurableObject>d2ad3a9f-af88-47e6-a922-589b6ef60cba</SecurableObject>
+    <Name>FR_invoke_Siemens.SimaticIT.Unified.Engineering.UpdateCommandActionConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+  <FunctionRight Id="9f22e62a-46e7-40f2-8e03-a55c81c7e5a4">
+    <FunctionRights />
+    <Operation>6f0f9214-e723-452c-a999-41b36b1c9618</Operation>
+    <SecurableObject>8e5030aa-446e-45fc-9f49-0b558675cb7f</SecurableObject>
+    <Name>FR_execute_Siemens.SimaticIT.Engineering.ReadingFunctions.GetDatabaseResourceInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </FunctionRight>
+</Items>

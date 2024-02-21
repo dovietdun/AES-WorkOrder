@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <App Id="3a0a144c-8fff-4ce0-9ad5-6a85604cb599">
+    <Version>01.04.01</Version>
+    <Author>Siemens.SimaticIT</Author>
+    <CompanyName>Siemens.SimaticIT</CompanyName>
+    <Name>Siemens.SimaticIT.System</Name>
+    <ShortName>System</ShortName>
+    <Solution>7c84102c-e0aa-ee11-ab37-00155da8800f</Solution>
+    <SystemAppLabel>System</SystemAppLabel>
+    <IsSystemEntity>false</IsSystemEntity>
+  </App>
+  <App Id="0e711b67-22cd-45a0-aed9-9f3afe8cc294">
+    <Version>01.00.00</Version>
+    <Author>VF</Author>
+    <CompanyName>VF</CompanyName>
+    <Name>VF.FBOmApp</Name>
+    <ShortName>FBOmApp</ShortName>
+    <Solution>7c84102c-e0aa-ee11-ab37-00155da8800f</Solution>
+    <SystemAppLabel>Undefined</SystemAppLabel>
+    <IsSystemEntity>false</IsSystemEntity>
+  </App>
+</Items>

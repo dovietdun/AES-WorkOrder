@@ -1,0 +1,84 @@
+﻿<div id="itemlist" class="content-area content-area-relative" style="height: calc(100% - 30px) !important">
+    <sit-command-bar sit-type="action">
+        <sit-command sit-icon="fa-edit"
+                     sit-name="com.siemens.customcommand.edit"
+                     sit-tooltip="Edit"
+                     ng-click="vm.editButtonHandler"
+                     sit-label="Edit"
+                     ng-show="vm.isButtonVisible"></sit-command>
+        <sit-command sit-icon="fa-list-alt"
+                     sit-name="com.siemens.customcommand.select"
+                     sit-tooltip="View"
+                     ng-click="vm.selectButtonHandler"
+                     sit-label="View"
+                     ng-show="vm.isButtonVisible"></sit-command>
+        <sit-command sit-icon="fa-trash"
+                     sit-name="com.siemens.customcommand.delete"
+                     sit-tooltip="Delete"
+                     ng-click="vm.deleteButtonHandler"
+                     sit-label="Delete"
+                     ng-show="vm.isButtonVisible"></sit-command>
+        <sit-command sit-icon="fa-plus"
+                     sit-name="com.siemens.customcommand.add"
+                     ng-click="vm.addButtonHandler"
+                     sit-tooltip="Add"
+                     sit-label="Add"
+                     sit-type="main"></sit-command>
+        <sit-command sit-icon="fa-scissors"
+                     sit-name="com.siemens.customcommand.split"
+                     ng-click="vm.splitButtonHandler"
+                     sit-tooltip="Split"
+                     sit-label="Split"
+                     sit-type="main"
+                     ng-show="vm.isSplitButtonVisible"></sit-command>
+        <sit-command sit-icon="fa-ban"
+                     sit-name="com.siemens.customcommand.scrapp"
+                     ng-click="vm.changeScrapp"
+                     sit-tooltip="Scrapp"
+                     sit-label="Scrapp"
+                     sit-type="main"
+                     ng-show="vm.isScrappButtonVisible"></sit-command>
+        <sit-command sit-icon="fa-forward"
+                     sit-name="com.siemens.customcommand.changeStatus"
+                     ng-click="vm.changeStatus"
+                     sit-tooltip="NextStatus"
+                     sit-label="NextStatus"
+                     sit-type="main"
+                     ng-show="vm.isChangeStatusButtonVisible"></sit-command>
+        <sit-command sit-icon="fa-wrench"
+                     sit-name="com.siemens.customcommand.genBatch"
+                     ng-click="vm.genBatch"
+                     sit-tooltip="Generate BatchID"
+                     sit-label="Generate BatchID"
+                     sit-type="main"
+                     ng-show="vm.isGenBatchButtonVisible"></sit-command>
+
+
+
+
+    </sit-command-bar>
+    <div class="p-2-ml-auto">
+
+        <sit-property sit-widget="sit-file-uploader"
+                      sit-value="vm.valueInputFile"
+                      sit-min-size="'1kb'"
+                      sit-max-size="'10MB'"
+                      accept="'.csv'"></sit-property>
+        <sit-command-bar sit-type="action">
+            <sit-command sit-icon="fa-upload"
+                         sit-name="com.siemens.customcommand.upload"
+                         ng-click="vm.uploadFile"
+                         sit-tooltip="UploadFile"
+                         sit-label="UploadFile"></sit-command>
+            <sit-command sit-icon="fa-download"
+                         sit-name="com.siemens.customcommand.export"
+                         ng-click="vm.exportFile"
+                         sit-tooltip="ExportXML"
+                         sit-label="ExportXML"></sit-command>
+
+        </sit-command-bar>
+
+
+        <sit-item-collection-viewer sit-data="vm.viewerData" sit-options="vm.viewerOptions"></sit-item-collection-viewer>
+    </div>
+</div>

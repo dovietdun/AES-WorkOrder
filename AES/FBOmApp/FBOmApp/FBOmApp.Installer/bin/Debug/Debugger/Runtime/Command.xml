@@ -1,0 +1,3037 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Command Id="a782a136-e7ef-4e1d-8fac-c9aa292cac4e">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>f10df4fd-53ba-45f5-926f-ea672f18d945</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>Start</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.Start</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="db8ca986-3e26-405f-9642-7ec9f9c2cdd8">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>7c82f0b7-59c7-497f-8cf1-e3c109b7d2ad</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>Stop</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.Stop</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="e8361da4-5a0e-447f-a53b-4b3c9c712cb1">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>3fcfdf59-efd9-4166-99ba-fbba9f576606</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>Enable</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.Enable</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="8f497877-fe44-448c-87f5-8161ea586d53">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>60fc7a69-89c7-4f8b-bab1-b695e993a2b2</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>Disable</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.Disable</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="ed526172-1cb0-4d5f-abab-114541792bc5">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>19fbdbf6-77c4-4671-8dbb-f40acffe720a</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>Deploy</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.Deploy</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="0ba2b478-d059-4a71-a4e6-94890d2ae6bc">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>7079a825-b534-4347-89e6-39a3e0a5b81b</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>ScaffoldDatabase</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.ScaffoldDatabase</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="be78e6ac-7fa0-4fc5-a434-20fc758ce96b">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>f5174cfa-452c-4ce1-aa65-a0719e820520</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>GetCurrentSolutionPackageToDeployInfo</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.GetCurrentSolutionPackageToDeployInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="8073f609-983a-4250-af1e-7a75218f4f93">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>8b735eee-3e61-47e1-9bcb-d629057a3cd2</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>GetSysGovernancePackage</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.GetSysGovernancePackage</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="aaf9259a-715f-40db-a9a6-56f9461c5c25">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>ca28f01b-94e0-4375-980f-28dd3bad4ab9</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>GetHostsInfo</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.GetHostsInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="adee82be-8482-4f63-b086-d1a8854648b3">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>7d6aa941-06e7-4088-897e-68b2d5394beb</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>GetCurrentIdentityClaims</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.GetCurrentIdentityClaims</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="a326903b-c8dd-49f1-8e05-447c320b301e">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>4652fe77-75c3-43cf-8b96-2413895b0d94</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>GetNodeStatus</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.GetNodeStatus</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="8fd5d127-ec36-4949-826c-d33508d0108e">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>e0430278-6efc-45bc-b082-11c5cff9eaa3</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>CreateHost</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.CreateHost</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="3a30d50f-5eb9-402f-8375-8ac43c357c93">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>b9a2a974-4c03-488d-a179-340fbae5dc90</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>DeleteHost</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.DeleteHost</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="d61a2167-00b4-4371-b1f7-617d41bf40bc">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>2580608d-b6be-4da2-9313-a3285d6e04f2</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>UpdateHost</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.UpdateHost</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="eee3cc19-b384-4d0b-9a3b-243f46274e21">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Administration.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ADM</CommandType>
+    <Composite>false</Composite>
+    <Handler>896508e4-cead-47e3-9b5a-576f48b65aa7</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>8e73a710-7e68-4044-bd54-90365e4daf1a</PublishedInRole>
+    <ShortName>GetLicenseStatus</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Administration.GetLicenseStatus</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="307c3397-9a6c-42ca-8cd4-70640ebe68c1">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>ad45afbc-d370-404d-9943-c526865be313</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateWorkerRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="6e919522-8266-4ce8-8e8f-ddabd149563c">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>bfdcab43-39a9-4e90-b053-5727c7f9b25b</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateWorkerRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="5b7e4377-23e0-40f6-ab43-555cbf094cdd">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>72f48ec5-a296-476c-bbde-911496c92041</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteWorkerRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="c3ac2c57-f7f0-4585-8d76-8db35d9fd071">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>118acfb1-bb1e-4783-bc88-a4581d53314e</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>AddCommandToWorkerRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.AddCommandToWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="d6336836-9644-447a-9ae7-3ff9692cfb26">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>8f52e2dc-744e-44cc-b8a8-f2c1d806eefb</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>AddCommandsToWorkerRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.AddCommandsToWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="61f6ff34-de84-4b6b-868d-30333335cdd0">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>a6839c27-c2e4-4115-9f14-247648b87c42</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>AddWorkerRoleToHostRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.AddWorkerRoleToHostRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="f91b8dba-658e-4f71-aebd-e8fdb0c3a0eb">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>d1097f5d-cbb2-465b-b998-ece238afaab7</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RemoveWorkerRoleFromHostRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RemoveWorkerRoleFromHostRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="f95b68f5-4baf-4d34-9b6d-bd8482887d52">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>17792ced-70f8-4975-b405-078759a2e9f6</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RemoveCommandFromWorkerRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RemoveCommandFromWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="db088b50-1181-47b1-9dca-493446c810eb">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>f257b5b8-edc9-4890-95d1-3fb6b09fd427</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RemoveCommandsFromWorkerRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RemoveCommandsFromWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="2df20446-f832-4443-ab81-2a9399f12603">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>c630b6d7-5f31-4d0d-a44c-e0546767ad3b</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>ApplyUMAC</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.ApplyUMAC</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="1ffb17cb-b98c-414f-bccc-0722c660e079">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>4cdcb293-d811-4a0f-bb85-423c823a210e</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>PublicApplyUMAC</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.PublicApplyUMAC</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="cbaf8407-42d1-483e-8e31-e6b1a68f8530">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>f14104bb-4ed7-4b39-9278-bde1e347461a</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>AddSubscriptionToWorkerRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.AddSubscriptionToWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="5385ffe8-dbf2-46a6-b030-59c0b93a8adc">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>ce5dedbf-3c98-4d60-974e-4d296d2de9d2</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RemoveSubscriptionFromWorkerRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RemoveSubscriptionFromWorkerRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="9eb014ef-0fc6-42bf-8a7a-0efc7ce1360a">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>ab65611d-c8ac-402a-809d-f1f9b77e0d45</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateEventSubscription</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="3a7d4b6e-080b-45a6-a59c-1aa04e800c1b">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>3410acfa-c157-46bf-b2ae-935509a5de08</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>AddFilterToEventSubscription</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.AddFilterToEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="08c214e4-2f41-487d-8b77-97b7320aac6b">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>c34aea99-bf0a-40ab-9322-db4e0c8eb189</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateFilterInEventSubscription</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateFilterInEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="dfc80bc3-9343-49f5-82ba-53075df55fd0">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>0faf1dcc-7513-4655-a86a-35acaad4d956</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RemoveFilterFromEventSubscription</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RemoveFilterFromEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="d98d0efa-996b-499f-852a-92a48e7e9a1e">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>18e08f60-d2b7-4e1d-890f-18baefb7079b</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateEventSubscription</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="0d173515-2171-438e-85ce-66339a1f68ee">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>29c5b2d7-a9af-421d-9cc7-3a8440a7e78a</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteEventSubscription</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="5da3c7d3-bb5e-4a4a-9143-a4077adbe37a">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>f4594b8b-b046-4477-83c5-1f0d060f15ba</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RenameEventSubscription</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RenameEventSubscription</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="be1f426b-b6f2-4ab2-a912-cdf1d8a6bd01">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>e008486a-7bd5-4ab8-b318-a1c4d3bbfb50</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="09f7fb15-532d-4bb3-981f-9d1e8766f1b4">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>ca95a8a2-021c-4081-a7f3-fee4c9852328</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="25a6c426-061b-417f-91a9-6e6a86962f32">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>83f71408-cd21-4d27-9088-6f2a05724738</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="ed0c38c3-b621-441c-ba1a-c4e037dab39e">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>767720fa-4fd7-4160-afb3-5b891f3fcd75</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateDomain</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateDomain</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="0c9645ee-d900-45d0-864a-117fd4dcedf9">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>898d3a6c-0b5c-4a5d-a934-2a864851a5a4</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateDomain</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateDomain</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="f8f58a31-07e0-4a28-b389-69ae9a64bdf8">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>67cfb1ed-10ff-4c47-b6a9-c99fa21d4955</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteDomain</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteDomain</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="c3220795-5b18-40ce-82f5-1a771882b2b2">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>6599c966-5f5d-4765-9867-ee62cfb4bbbb</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateUserRoleAssociation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateUserRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="e1e7a2a3-9438-4fd3-b56c-87122cd0bd32">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>93411c61-ee7b-44f8-b101-150ba6e1e3dd</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>PublicCreateUserRoleAssociation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.PublicCreateUserRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="a5103755-5306-411a-9698-dddd95186b46">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>8a01894a-bcae-44c6-a248-ff0c1d57ad2b</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteUserRoleAssociation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteUserRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="202fc6f3-0b83-4d13-ade5-9acf09aa5c29">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>fde14f47-4a51-47b5-8728-d227c753d9fb</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>PublicDeleteUserRoleAssociation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.PublicDeleteUserRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="c46e7bfb-aab9-42ca-850a-44b490889173">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>c7d55f49-7899-4428-91e3-2f25474fd28f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateGroupRoleAssociation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateGroupRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="3750c8e5-7ef8-49d4-8e8d-41f1d5f7b09b">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>0b44d0f5-f8f8-47d4-b66a-581a28d1dbda</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>PublicCreateGroupRoleAssociation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.PublicCreateGroupRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="8690b313-a46c-4aae-948e-cfc4bdd98b0c">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>5b603dae-c22b-4bd8-8062-165081dcdf05</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteGroupRoleAssociation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteGroupRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="0c00c93a-8d4f-4bb8-aa69-1e47b48746c7">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>eb1d22d8-9347-492b-8d2c-b1b0186a89ac</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>PublicDeleteGroupRoleAssociation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.PublicDeleteGroupRoleAssociation</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="cbeedb91-c9f0-4810-9972-c8af16f253ae">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>9ef96ad7-496a-4a80-8ab0-28c662f5ade4</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>AddFunctionRightToRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.AddFunctionRightToRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="a055179a-d267-45b9-8ba5-104ad1884698">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>31811c48-f9e4-41ce-ba32-695b56cb2eb9</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RemoveFunctionRightFromRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RemoveFunctionRightFromRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="615db6b6-61bf-4bf4-95bd-4d24545be62a">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>23f09c7f-a08b-46ae-9a7b-18dcdebb0fed</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateUIModule</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateUIModule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="58cb14cd-3b3c-42a8-be1c-58eb3511cbf4">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>cd9187c5-4130-430e-9364-e5b0ebca6a05</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteUIModule</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteUIModule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="1948ebd3-e011-4487-86f8-a28495e1e4da">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>9e6752e4-9378-42d6-b7c0-4cbd113147e5</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateUIModule</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateUIModule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="bf8344b2-e72e-4086-acd8-c537e52b5ae5">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>d6ea67dd-427e-46b3-91fc-68c28e54099a</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>ReadUIModuleManifest</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.ReadUIModuleManifest</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="2e676a8e-33ff-450d-b63d-38a2a542c168">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>e84cf5a9-300b-4869-bc77-6c9772bc017a</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>ReadUIComponentManifest</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.ReadUIComponentManifest</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="677a7fa2-c545-4c64-8386-c7dc6a2fb891">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>0cd147d2-079c-4709-8406-05de0d931198</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateDataProvider</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateDataProvider</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="59517465-0f48-4ecf-a791-320b6452007a">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>1a59d472-7d1a-44a1-8d43-2b1986500910</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>GenerateUIModule</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.GenerateUIModule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="9e818f11-4b46-49ea-bee7-b460f7af0345">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>b9eb8903-d944-4353-9648-0c872fa0a96e</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateUIApplication</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateUIApplication</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="3dcd119b-ae4d-45c0-8ef3-01d0a900f5ee">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>7c7742e0-304d-40e4-bf19-e00c78654a4a</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteUIApplication</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteUIApplication</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="c4723073-50f7-4bb9-8e6e-ac1426bb419c">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>eadabe05-d948-4304-a564-dce871892873</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateUIApplication</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateUIApplication</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="71dd2837-5ef5-4494-9989-a2f03e023992">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>0299c183-649a-4268-a24e-66b1cb27a8ee</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>ReadUIApplicationManifest</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.ReadUIApplicationManifest</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="dfbdc54e-c6b8-4d63-a91a-5fdaa776f1e8">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>274a488d-3b0e-47a0-9f18-8242ea02c683</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeployUIApplication</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeployUIApplication</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="e93a0d66-0b00-4601-9351-6a9a5cce5973">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>c463f304-51fc-42e6-a57b-85f485a7bc48</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RetrieveAppList</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RetrieveAppList</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="b4b224c1-aa49-4476-9b00-2de23c4a29d9">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>6e069b24-7111-4c26-8958-305da0c2f4ae</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateWorkerRoleToHostRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateWorkerRoleToHostRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="1dccb776-8fd4-4806-bce8-8386835022b2">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>38f7a42e-829c-406d-95f3-bc6b8422e56e</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>GenerateDebugRegistry</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.GenerateDebugRegistry</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="c40bb515-39ff-4df2-b679-3fbb84e878e4">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>7efa9737-0733-4ab9-87cf-ae67ce3e1a9b</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateSolution</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateSolution</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="d8810daf-d84f-44c6-8cc0-a0325bf8297f">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>ec9dc61b-b514-41be-8900-d91132b394ba</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateSolution</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateSolution</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="3284d353-f6c2-4da1-97ff-2d3bff30f784">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>7cf11262-e32f-4b9c-9c92-6201597680e6</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteSolution</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteSolution</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="756a3251-a71b-472f-9799-fbf22e83af14">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>a0404431-489c-4cd9-b34a-8a888bfc3e4b</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>AddUIAppToSolutionPackage</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.AddUIAppToSolutionPackage</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="b4a84ae7-ac31-4a9e-bcdd-77b051d9b6bd">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>e9873dc0-fc93-457e-b390-3ab4bee202c5</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RemoveUIAppFromSolutionPackage</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RemoveUIAppFromSolutionPackage</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="127c4385-53a3-41f7-8d49-f68b7e9710c3">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>fa0a8441-3aca-4de6-b703-a768615e1a24</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>BuildSolutionPackage</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.BuildSolutionPackage</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="f3671c6d-f75c-4680-a35a-bf56918e4690">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>03790b52-3afe-4248-8f54-f8667615a8ef</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>BackupSolution</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.BackupSolution</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="42f7c963-0354-4e58-b514-543f13b4822d">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>1800000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>13a6f09c-5d5b-49f3-991c-76a1e08b0c3e</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RestoreSolution</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RestoreSolution</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="254322d9-30fc-464f-a73d-4c2081e70a88">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>e0f513e4-39c0-4b47-944e-081f510bf477</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RetrieveSolutionBackupPackages</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RetrieveSolutionBackupPackages</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="e18df989-a915-4fa1-848a-7cec72876b50">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>81e0587d-11e2-40f5-b9d1-596b0d5ebf7e</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateSWACComponent</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateSWACComponent</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="250eb57e-8276-4ec5-9b32-4b9916e07ee2">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>41710871-0ae5-4107-b0a2-74274783d7ca</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteSWACComponent</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteSWACComponent</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="96133d2d-5697-445b-93cf-ebdc6558d8ea">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>7e89432f-a842-4d58-ab25-8fc57a130ea9</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>AddSolutionApp</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.AddSolutionApp</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="7e8f5386-497a-4af3-9771-6d5cd8155bee">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>49a7693a-d96a-42ae-bb27-301abc4beab9</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateSolutionApp</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateSolutionApp</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="e2e81ea1-9a57-46a3-9069-f7e4b7dc229b">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>49b00c55-0bf4-4c87-8745-ff63bd016f72</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>ReloadSolutionApp</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.ReloadSolutionApp</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="3a70104d-ff44-4ee0-ae4e-858d976d660b">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>c33abe44-9117-4917-b2a2-a37a48591e69</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RemoveSolutionApp</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RemoveSolutionApp</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="52692c86-13c3-4165-bdba-d14e73ff5d0b">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>44a87a3f-3bcc-4404-ba73-bc00fc4857e7</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RemoveFunctionRightsFromRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RemoveFunctionRightsFromRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="0fb0e4cf-3624-4e66-8637-692126d26eeb">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>f8eaae68-a5b7-425d-a8dc-c04a4f33c9eb</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>AddFunctionRightsToRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.AddFunctionRightsToRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="fae338f6-3314-46d1-9429-8c0b8ae39aad">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>0e0e96b2-91a9-423e-9570-7e339eaeb193</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateCommands</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateCommands</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="755bf0ca-eb10-4f28-8514-d149ae3d5694">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>fedda8b2-227a-454e-9ff7-ab5f6a18980f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RetrieveSolutionApps</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RetrieveSolutionApps</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="b0efced2-6e78-48f7-b875-1945fe20f91a">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>7c72106b-6f88-4b2c-b0e3-484c4e8db823</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteEventSubscriptions</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteEventSubscriptions</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="30a5a9ac-30b6-46ab-baed-a79c5ec525fd">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>441fe904-ea1c-43ab-8dfa-a7059ab4a48a</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateEventSubscriptions</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateEventSubscriptions</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="a18e9f04-3080-44bd-80c8-ae3da7bdf3a1">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>853273a4-53d1-4328-bf70-78fd13337e98</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeployDiagrams</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeployDiagrams</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="62d78a0d-835d-4021-a60c-852dc857b8ba">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>7a134db9-d70b-49fd-b6ee-29e94ddc57ef</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CopyRole</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CopyRole</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="fbbc34e5-4304-472c-bcfb-b4d242613d46">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>08ba8894-8796-498d-8292-039098f303d9</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RefreshAppCatalog</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RefreshAppCatalog</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="a25b1294-a0be-46dc-82c7-1dc5b18fbb22">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>ee41883d-576f-4f44-b7b9-383b4c74476e</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>AddAppExtension</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.AddAppExtension</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="144f4fca-ff50-464e-9a85-196e038c91ed">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>6c4ae5a2-a9db-4144-91e2-8c03f69a8c4e</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateAppExtension</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateAppExtension</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="07641f6f-75a7-425d-85a8-597f4ba79f3c">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>353949ca-dc50-4749-bea0-d61cc7e1f3ff</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RemoveAppExtension</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RemoveAppExtension</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="64be5435-2168-476f-b1f2-c0634d94050f">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>9b6f3a7d-4d56-47df-a3de-423b079c6aaf</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>ReloadAppExtension</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.ReloadAppExtension</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="00b3ee85-81c8-4cd1-81be-20b77c1d49bf">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>62b56106-7d70-41ff-86ec-a8b52d225981</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateATConfiguration</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="4ba86266-a459-40df-94b2-9b00e8434093">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>30be0810-6445-4165-9cb2-9fb670590133</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateATConfiguration</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="d7f200ee-a373-4a8e-a064-933a825e0cb8">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>0e33ea8f-d22f-4e66-bea1-fd157c1e5b99</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteATConfiguration</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="b3e8da01-9b75-4f03-87a1-5771a2bc7375">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>4009bf9a-2ae4-4cfa-ba73-1a6b3d480a15</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>SetATConfiguration</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.SetATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="d8f99484-9434-41f1-8e46-7d0c4a945c34">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>929f3886-4fb7-461f-ab18-4e411f806e37</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>EnableAuditTrail</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.EnableAuditTrail</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="5c8034c3-0412-4f9b-96e7-92f1bb655611">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>8dd12c30-88ce-41ab-a34a-25d4ef90df36</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DisableAuditTrail</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DisableAuditTrail</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="a352b281-0441-46a9-9b3e-8dd2e03cdb50">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>8f43aa9c-acc9-4d6b-82cf-493ca627cd44</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>ApplyATConfiguration</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.ApplyATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="6c8825a9-9f07-4d05-9cba-b2bcabbacae0">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>edf1f0fa-001f-47e0-ae79-9b9620db6447</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>ExportATConfiguration</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.ExportATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="f4c61370-c67f-40f8-92d3-277e06c23a66">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>600000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>e4ed4a19-ca23-4bf1-b6ac-62b239655a9f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>ImportATConfiguration</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.ImportATConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="eefe21c8-2dba-45e1-a012-1f07236081d2">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>ed8ea65d-7539-40f6-ad28-25d6cc37827c</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>RetrieveExportedATConfigurationList</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.RetrieveExportedATConfigurationList</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="7ac41fa7-abc5-409f-a3f4-e6471da50f29">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>cef2c57c-2df6-4fdc-ad53-93a04eba3c61</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateMTConfiguration</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateMTConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="aa601206-db5c-4c51-a0c9-30a017e2139b">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>c7b4e703-6ccb-4c34-9238-1164aed28eeb</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateMTConfiguration</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateMTConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="2d2f2992-18fa-4cd1-ac95-b15ba34c4032">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>5f3fae28-f453-4609-9c60-5789cbc4f1f5</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteMTConfiguration</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteMTConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="ac517a74-6fce-4327-ad19-7c0b29600bb3">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>a298d90d-3fef-4042-bf7d-415a9503a350</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateMTCleaningCondition</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateMTCleaningCondition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="89b12c92-1fbc-4417-a71a-715109b9c4d0">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>416efd2a-0b88-445b-9627-2e5dd5f9f1ad</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateMTCleaningCondition</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateMTCleaningCondition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="bdb95e20-034e-42da-a18e-10cdb4f5ab9c">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>563252e3-73d4-464e-a957-9fc4542a9129</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteMTCleaningCondition</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteMTCleaningCondition</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="cfb05e63-d2c5-442c-8321-73ebf2ec8124">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>cc52a041-e79a-433c-850f-ce7d4e3c6e81</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateMTSchedule</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateMTSchedule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="5702ef1c-e9fb-4f0f-96af-1ee21c20b628">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>1601bd3f-49cd-450b-855e-637618c729ca</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateMTSchedule</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateMTSchedule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="7b15c43c-e94e-4d52-b0f7-576833fe15bf">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>fe861bc1-d397-402e-9d36-5c9f98bf78fe</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteMTSchedule</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteMTSchedule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="fa9b5eb8-0d90-48dd-83ea-3257ac19b301">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>0eab7f3c-1a60-4495-991b-c0549c960314</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateMTRule</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateMTRule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="44d4d111-c38e-4421-9525-8caf4289f4b0">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>6c86e236-41ce-4d9d-a267-0afa92100857</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>SetMTRules</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.SetMTRules</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="a7bbdf72-a2bc-4d51-a2a8-62395da7c630">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>610f3799-a686-42aa-9566-fe477cf6b5c8</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteMTRules</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteMTRules</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="75ebd645-b820-4a68-8035-ba07358c416e">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>db798e13-556f-413f-b8d7-731f809bc33d</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>EnableMaintenance</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.EnableMaintenance</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="9927da68-e98e-4156-ae7d-f8aa2ffbaf81">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>5d42e71b-99c3-4322-bb18-fee8e8fc661b</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DisableMaintenance</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DisableMaintenance</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="36b89f58-00b5-4d89-9adc-d920835f32d1">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>1de03aec-60dc-4fec-998c-1d24764b3fa1</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>GetTimeZones</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.GetTimeZones</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="8dd847ce-e4c4-47b4-9512-72564637ec63">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>95195997-9dbc-4ab7-a567-defbec49daf2</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateArchiveDatabaseInfo</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateArchiveDatabaseInfo</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="fed5d533-6cee-4270-8d68-e7747a058748">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>6d941876-3814-4455-88ee-5fd7be5d31e0</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>CreateMTCopySchedule</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.CreateMTCopySchedule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="6ba2c723-ed82-4f9f-ab5c-3946e2e61a94">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>8013e419-e759-4c93-8d03-cf6a6b220fce</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateMTCopySchedule</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateMTCopySchedule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="c6aa84f2-5d57-483a-9065-9f6425796005">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>0d78b35e-941a-4a57-987a-ae06d48d3650</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>DeleteMTCopySchedule</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.DeleteMTCopySchedule</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="98875a57-cf5d-4856-9468-e04bfb347632">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>47249e72-21be-4f50-8d12-2cdcad5f7736</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdatePreCheckConfiguration</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdatePreCheckConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="70e34955-604f-4cab-a232-5b5de2e30143">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>2e4f913f-9936-410d-b275-b5a07889c109</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>SuspendArchiving</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.SuspendArchiving</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="334d35e2-5764-434d-b38b-ef3fbe5c5549">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>f97dc73c-da46-4a5a-ada8-42387f0ed0a1</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>ResumeArchiving</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.ResumeArchiving</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="e8cbf394-3f24-47c6-9672-40550a9e4a7d">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>1200000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>e13c8da6-191c-4b3a-ae0d-c95e5dd1edfd</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>Purge</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.Purge</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="c3992ad6-ed00-4549-9fc5-e87c5dd524eb">
+    <PublicCommands />
+    <AssemblyName>SimaticIT.Engineering.Commands, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>ENG</CommandType>
+    <Composite>false</Composite>
+    <Handler>217408cf-6bdd-42d9-bdb2-96032c8fbe9a</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>6d01748e-3a52-4da8-b8fd-7607d7cae292</PublishedInRole>
+    <ShortName>UpdateCommandActionConfiguration</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.Unified.Engineering.UpdateCommandActionConfiguration</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Command>
+  <Command Id="0685102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.System.System.SAPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>true</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>f5156693-8095-4653-9fb7-5c729bbb9632</FunctionalBlock>
+    <Handler>0985102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>Export</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>3a0a144c-8fff-4ce0-9ad5-6a85604cb599</App>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Commands.Export</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="1085102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.System.System.SAPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>true</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>f5156693-8095-4653-9fb7-5c729bbb9632</FunctionalBlock>
+    <Handler>1385102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>Import</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>3a0a144c-8fff-4ce0-9ad5-6a85604cb599</App>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Commands.Import</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="1a85102c-e0aa-ee11-ab37-00155da8800f">
+    <ProtectedCommand>9685102c-e0aa-ee11-ab37-00155da8800f</ProtectedCommand>
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.System.System.SAPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType>Siemens.SimaticIT.System.System.SAPOMModel.Commands.Published.RecoveryOperation</DotNetCommandType>
+    <FunctionalBlock>f5156693-8095-4653-9fb7-5c729bbb9632</FunctionalBlock>
+    <Handler>1d85102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>RecoveryOperation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>3a0a144c-8fff-4ce0-9ad5-6a85604cb599</App>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Commands.Published.RecoveryOperation</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="2485102c-e0aa-ee11-ab37-00155da8800f">
+    <ProtectedCommand>4f85102c-e0aa-ee11-ab37-00155da8800f</ProtectedCommand>
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.System.System.SAPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType>Siemens.SimaticIT.System.System.SAPOMModel.Commands.Published.ResetUserPreference</DotNetCommandType>
+    <FunctionalBlock>f5156693-8095-4653-9fb7-5c729bbb9632</FunctionalBlock>
+    <Handler>2785102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>ResetUserPreference</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>3a0a144c-8fff-4ce0-9ad5-6a85604cb599</App>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Commands.Published.ResetUserPreference</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="2e85102c-e0aa-ee11-ab37-00155da8800f">
+    <ProtectedCommand>6e85102c-e0aa-ee11-ab37-00155da8800f</ProtectedCommand>
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.System.System.SAPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType>Siemens.SimaticIT.System.System.SAPOMModel.Commands.Published.AbortOperation</DotNetCommandType>
+    <FunctionalBlock>f5156693-8095-4653-9fb7-5c729bbb9632</FunctionalBlock>
+    <Handler>3185102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>AbortOperation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>3a0a144c-8fff-4ce0-9ad5-6a85604cb599</App>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Commands.Published.AbortOperation</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="3885102c-e0aa-ee11-ab37-00155da8800f">
+    <ProtectedCommand>4285102c-e0aa-ee11-ab37-00155da8800f</ProtectedCommand>
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.System.System.SAPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType>Siemens.SimaticIT.System.System.SAPOMModel.Commands.Published.SetUserPreference</DotNetCommandType>
+    <FunctionalBlock>f5156693-8095-4653-9fb7-5c729bbb9632</FunctionalBlock>
+    <Handler>3b85102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>SetUserPreference</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>3a0a144c-8fff-4ce0-9ad5-6a85604cb599</App>
+    <Name>Siemens.SimaticIT.System.System.SAPOMModel.Commands.Published.SetUserPreference</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="4285102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands>
+      <Id>3885102c-e0aa-ee11-ab37-00155da8800f</Id>
+    </PublicCommands>
+    <AssemblyName>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <Handler>3b85102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>SetUserPreference</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands.SetUserPreference</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="4f85102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands>
+      <Id>2485102c-e0aa-ee11-ab37-00155da8800f</Id>
+    </PublicCommands>
+    <AssemblyName>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <Handler>2785102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>ResetUserPreference</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands.ResetUserPreference</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="5c85102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <Handler>5e85102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>CreateExportOperation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands.CreateExportOperation</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="6585102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <Handler>6785102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>StartOperation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands.StartOperation</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="6e85102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands>
+      <Id>2e85102c-e0aa-ee11-ab37-00155da8800f</Id>
+    </PublicCommands>
+    <AssemblyName>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <Handler>3185102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>AbortOperation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands.AbortOperation</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="7b85102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <Handler>7d85102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>CompleteExportOperation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands.CompleteExportOperation</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="8485102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>43200000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <Handler>8685102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>ExecuteExport</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands.ExecuteExport</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="8d85102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <Handler>8f85102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>CreateOperation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands.CreateOperation</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="9685102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands>
+      <Id>1a85102c-e0aa-ee11-ab37-00155da8800f</Id>
+    </PublicCommands>
+    <AssemblyName>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <Handler>1d85102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>RecoveryOperation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands.RecoveryOperation</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="a385102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <Handler>a585102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>CreateImportOperation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands.CreateImportOperation</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="ac85102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <Handler>ae85102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>CompleteImportOperation</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands.CompleteImportOperation</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="b585102c-e0aa-ee11-ab37-00155da8800f">
+    <PublicCommands />
+    <AssemblyName>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>43200000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <Handler>b785102c-e0aa-ee11-ab37-00155da8800f</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>0</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>ExecuteImport</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Commands.ExecuteImport</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="cbfb823a-39bb-ee11-ab3e-00155ddad002">
+    <ProtectedCommand>38fc823a-39bb-ee11-ab3e-00155ddad002</ProtectedCommand>
+    <PublicCommands />
+    <AssemblyName>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.OrderDefCmd</DotNetCommandType>
+    <FunctionalBlock>81646998-d55d-42de-9b40-cea49910ca6a</FunctionalBlock>
+    <Handler>cefb823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>OrderDefCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>0e711b67-22cd-45a0-aed9-9f3afe8cc294</App>
+    <Name>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.OrderDefCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="d5fb823a-39bb-ee11-ab3e-00155ddad002">
+    <ProtectedCommand>11fc823a-39bb-ee11-ab3e-00155ddad002</ProtectedCommand>
+    <PublicCommands />
+    <AssemblyName>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.TypeDefCmd</DotNetCommandType>
+    <FunctionalBlock>81646998-d55d-42de-9b40-cea49910ca6a</FunctionalBlock>
+    <Handler>d8fb823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>TypeDefCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>0e711b67-22cd-45a0-aed9-9f3afe8cc294</App>
+    <Name>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.TypeDefCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="dffb823a-39bb-ee11-ab3e-00155ddad002">
+    <ProtectedCommand>52fc823a-39bb-ee11-ab3e-00155ddad002</ProtectedCommand>
+    <PublicCommands />
+    <AssemblyName>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.ChangeStatusCmd</DotNetCommandType>
+    <FunctionalBlock>81646998-d55d-42de-9b40-cea49910ca6a</FunctionalBlock>
+    <Handler>e2fb823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>ChangeStatusCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>0e711b67-22cd-45a0-aed9-9f3afe8cc294</App>
+    <Name>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.ChangeStatusCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="e9fb823a-39bb-ee11-ab3e-00155ddad002">
+    <ProtectedCommand>45fc823a-39bb-ee11-ab3e-00155ddad002</ProtectedCommand>
+    <PublicCommands />
+    <AssemblyName>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.SplitCmd</DotNetCommandType>
+    <FunctionalBlock>81646998-d55d-42de-9b40-cea49910ca6a</FunctionalBlock>
+    <Handler>ecfb823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>SplitCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>0e711b67-22cd-45a0-aed9-9f3afe8cc294</App>
+    <Name>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.SplitCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="f3fb823a-39bb-ee11-ab3e-00155ddad002">
+    <ProtectedCommand>2bfc823a-39bb-ee11-ab3e-00155ddad002</ProtectedCommand>
+    <PublicCommands />
+    <AssemblyName>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.MaterialDefCmd</DotNetCommandType>
+    <FunctionalBlock>81646998-d55d-42de-9b40-cea49910ca6a</FunctionalBlock>
+    <Handler>f6fb823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>MaterialDefCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>0e711b67-22cd-45a0-aed9-9f3afe8cc294</App>
+    <Name>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.MaterialDefCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="fdfb823a-39bb-ee11-ab3e-00155ddad002">
+    <ProtectedCommand>1efc823a-39bb-ee11-ab3e-00155ddad002</ProtectedCommand>
+    <PublicCommands />
+    <AssemblyName>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.StatusDefCmd</DotNetCommandType>
+    <FunctionalBlock>81646998-d55d-42de-9b40-cea49910ca6a</FunctionalBlock>
+    <Handler>00fc823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>StatusDefCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>0e711b67-22cd-45a0-aed9-9f3afe8cc294</App>
+    <Name>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.StatusDefCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="07fc823a-39bb-ee11-ab3e-00155ddad002">
+    <ProtectedCommand>5ffc823a-39bb-ee11-ab3e-00155ddad002</ProtectedCommand>
+    <PublicCommands />
+    <AssemblyName>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.UploadCmd</DotNetCommandType>
+    <FunctionalBlock>81646998-d55d-42de-9b40-cea49910ca6a</FunctionalBlock>
+    <Handler>0afc823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>UploadCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>0e711b67-22cd-45a0-aed9-9f3afe8cc294</App>
+    <Name>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.UploadCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="11fc823a-39bb-ee11-ab3e-00155ddad002">
+    <PublicCommands>
+      <Id>d5fb823a-39bb-ee11-ab3e-00155ddad002</Id>
+    </PublicCommands>
+    <AssemblyName>VF.MasterData.FBOmMs.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>a98666ad-ed3c-4f11-9d5c-1a4426a6a713</FunctionalBlock>
+    <Handler>d8fb823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>TypeDefCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>VF.MasterData.FBOmMs.MSModel.Commands.TypeDefCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="1efc823a-39bb-ee11-ab3e-00155ddad002">
+    <PublicCommands>
+      <Id>fdfb823a-39bb-ee11-ab3e-00155ddad002</Id>
+    </PublicCommands>
+    <AssemblyName>VF.MasterData.FBOmMs.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>a98666ad-ed3c-4f11-9d5c-1a4426a6a713</FunctionalBlock>
+    <Handler>00fc823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>StatusDefCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>VF.MasterData.FBOmMs.MSModel.Commands.StatusDefCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="2bfc823a-39bb-ee11-ab3e-00155ddad002">
+    <PublicCommands>
+      <Id>f3fb823a-39bb-ee11-ab3e-00155ddad002</Id>
+    </PublicCommands>
+    <AssemblyName>VF.MasterData.FBOmMs.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>a98666ad-ed3c-4f11-9d5c-1a4426a6a713</FunctionalBlock>
+    <Handler>f6fb823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>MaterialDefCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>VF.MasterData.FBOmMs.MSModel.Commands.MaterialDefCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="38fc823a-39bb-ee11-ab3e-00155ddad002">
+    <PublicCommands>
+      <Id>cbfb823a-39bb-ee11-ab3e-00155ddad002</Id>
+    </PublicCommands>
+    <AssemblyName>VF.OperationalData.FBOmOp.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>611bd71e-b99a-4b3c-989a-0ff0ca28b152</FunctionalBlock>
+    <Handler>cefb823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>OrderDefCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>VF.OperationalData.FBOmOp.OPModel.Commands.OrderDefCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="45fc823a-39bb-ee11-ab3e-00155ddad002">
+    <PublicCommands>
+      <Id>e9fb823a-39bb-ee11-ab3e-00155ddad002</Id>
+    </PublicCommands>
+    <AssemblyName>VF.OperationalData.FBOmOp.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>611bd71e-b99a-4b3c-989a-0ff0ca28b152</FunctionalBlock>
+    <Handler>ecfb823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>SplitCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>VF.OperationalData.FBOmOp.OPModel.Commands.SplitCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="52fc823a-39bb-ee11-ab3e-00155ddad002">
+    <PublicCommands>
+      <Id>dffb823a-39bb-ee11-ab3e-00155ddad002</Id>
+    </PublicCommands>
+    <AssemblyName>VF.OperationalData.FBOmOp.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>611bd71e-b99a-4b3c-989a-0ff0ca28b152</FunctionalBlock>
+    <Handler>e2fb823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>ChangeStatusCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>VF.OperationalData.FBOmOp.OPModel.Commands.ChangeStatusCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="5ffc823a-39bb-ee11-ab3e-00155ddad002">
+    <PublicCommands>
+      <Id>07fc823a-39bb-ee11-ab3e-00155ddad002</Id>
+    </PublicCommands>
+    <AssemblyName>VF.OperationalData.FBOmOp.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>611bd71e-b99a-4b3c-989a-0ff0ca28b152</FunctionalBlock>
+    <Handler>0afc823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>UploadCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>VF.OperationalData.FBOmOp.OPModel.Commands.UploadCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="6cfc823a-39bb-ee11-ab3e-00155ddad002">
+    <PublicCommands>
+      <Id>6fc4eff5-52bb-ee11-ab40-00155ddad002</Id>
+    </PublicCommands>
+    <AssemblyName>VF.OperationalData.FBOmOp.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType></DotNetCommandType>
+    <FunctionalBlock>611bd71e-b99a-4b3c-989a-0ff0ca28b152</FunctionalBlock>
+    <Handler>6efc823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>false</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>ListDataCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <Name>VF.OperationalData.FBOmOp.OPModel.Commands.ListDataCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+  <Command Id="6fc4eff5-52bb-ee11-ab40-00155ddad002">
+    <ProtectedCommand>6cfc823a-39bb-ee11-ab3e-00155ddad002</ProtectedCommand>
+    <PublicCommands />
+    <AssemblyName>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <CommandExecutionTimeout>30000</CommandExecutionTimeout>
+    <CommandType>Undefined</CommandType>
+    <Composite>false</Composite>
+    <DotNetCommandType>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.ListDataCmd</DotNetCommandType>
+    <FunctionalBlock>81646998-d55d-42de-9b40-cea49910ca6a</FunctionalBlock>
+    <Handler>6efc823a-39bb-ee11-ab3e-00155ddad002</Handler>
+    <CommandActionHandlers />
+    <PreCheckConfigurations />
+    <NumberOfCommandExecutionRetries>3</NumberOfCommandExecutionRetries>
+    <Public>true</Public>
+    <PublishedInRole>d6cea703-9901-4ed0-befd-76bc4756bcfc</PublishedInRole>
+    <ShortName>ListDataCmd</ShortName>
+    <Visibility>Protected</Visibility>
+    <PreCheckExecutionMode>StopAtFirstFail</PreCheckExecutionMode>
+    <App>0e711b67-22cd-45a0-aed9-9f3afe8cc294</App>
+    <Name>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.ListDataCmd</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </Command>
+</Items>

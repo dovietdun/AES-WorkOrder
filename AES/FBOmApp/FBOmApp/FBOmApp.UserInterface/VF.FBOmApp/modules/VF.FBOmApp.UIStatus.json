@@ -1,0 +1,26 @@
+{
+  "name": "VF.FBOmApp.UIStatus",
+  "type": "standard",
+  "title": "UIStatus",
+  "header": "",
+  "icon": "fa-folder",
+  "functionalBlock": "VF.FBOmApp",
+  "dependencies": [],
+  "states": [
+    {
+      "id": "home.VF_FBOmApp_UIStatus_UIStatusScreen",
+      "title": "UIStatusScreen",
+      "header": "",
+      "securable": true,
+      "roles": []
+    },
+    {
+      "id": "home.VF_FBOmApp_UIStatus_UIProcessStatusScreen",
+      "title": "UIProcessStatusScreen",
+      "header": "",
+      "securable": true,
+      "roles": []
+    }
+  ],
+  "manifestVersion": "01.01.00"
+}

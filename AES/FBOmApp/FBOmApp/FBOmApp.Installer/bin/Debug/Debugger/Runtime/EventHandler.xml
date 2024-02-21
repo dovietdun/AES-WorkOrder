@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <EventHandler Id="1c86102c-e0aa-ee11-ab37-00155da8800f">
+    <AssemblyName>Siemens.SimaticIT.SITUASys.EventHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <TargetCPU>AnyCPU</TargetCPU>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Events.KeepOperationAliveEvtHandlerShell</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </EventHandler>
+  <EventHandler Id="2286102c-e0aa-ee11-ab37-00155da8800f">
+    <AssemblyName>Siemens.SimaticIT.SITUASys.EventHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <TargetCPU>AnyCPU</TargetCPU>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Events.PerformExportEvtHandlerShell</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </EventHandler>
+  <EventHandler Id="2886102c-e0aa-ee11-ab37-00155da8800f">
+    <AssemblyName>Siemens.SimaticIT.SITUASys.EventHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <TargetCPU>AnyCPU</TargetCPU>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Events.PerformImportEvtHandlerShell</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </EventHandler>
+  <EventHandler Id="2e86102c-e0aa-ee11-ab37-00155da8800f">
+    <AssemblyName>Siemens.SimaticIT.SITUASys.EventHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <TargetCPU>AnyCPU</TargetCPU>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Events.TimerEvent_ExportImportAutomaticRecovery_HandlerShell</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </EventHandler>
+  <EventHandler Id="3486102c-e0aa-ee11-ab37-00155da8800f">
+    <AssemblyName>Siemens.SimaticIT.SITUASys.EventHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <TargetCPU>AnyCPU</TargetCPU>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Events.TimerEvent_MaintenanceArchiving_HandlerShell</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </EventHandler>
+  <EventHandler Id="3a86102c-e0aa-ee11-ab37-00155da8800f">
+    <AssemblyName>Siemens.SimaticIT.SITUASys.EventHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+    <FunctionalBlock>bc66d413-1f66-4af3-b823-2e8db9e340d0</FunctionalBlock>
+    <TargetCPU>AnyCPU</TargetCPU>
+    <Name>Siemens.SimaticIT.SystemData.SITUASys.SDModel.Events.TimerEvent_MaintenanceCleaning_HandlerShell</Name>
+    <IsSystemEntity>false</IsSystemEntity>
+  </EventHandler>
+</Items>

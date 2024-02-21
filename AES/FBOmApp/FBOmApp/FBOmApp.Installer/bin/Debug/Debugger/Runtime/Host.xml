@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Host Id="3b62d6e7-5024-4d44-bc7c-e25e537f9eca">
+    <NameTemplate>$AnyHost</NameTemplate>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Host>
+</Items>

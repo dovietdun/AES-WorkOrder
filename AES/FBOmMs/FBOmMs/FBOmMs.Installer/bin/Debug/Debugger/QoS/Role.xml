@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Role Id="0ea0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>1ba0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>24a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>29a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>30a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>46a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>49a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>4ca0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>35a0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>3ca0aa59-885b-e511-827c-0050569f6b31</Id>
+      <Id>7ad49fc6-50dd-45be-b282-a772170b35e3</Id>
+      <Id>0316582e-9cf8-49a6-835c-7ab5f2ba205f</Id>
+    </FunctionRights>
+    <IsSystemRole>true</IsSystemRole>
+    <Name>SysAdmin</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Role>
+  <Role Id="8fa0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>63dcd289-2c71-488d-9181-09ee93640669</Id>
+      <Id>6a601310-35c1-4aae-ace3-018ccd654913</Id>
+      <Id>cb911bab-4def-42f9-bb49-8e9dce342f46</Id>
+      <Id>1937ebc4-1cf3-4e03-974f-ee31439ae127</Id>
+      <Id>3e54baf9-c15c-478c-820a-31d1957d62ac</Id>
+    </FunctionRights>
+    <IsSystemRole>true</IsSystemRole>
+    <Name>AccessControlViewer</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Role>
+  <Role Id="9fa0aa59-885b-e511-827c-0050569f6b31">
+    <FunctionRights>
+      <Id>63dcd289-2c71-488d-9181-09ee93640669</Id>
+      <Id>6a601310-35c1-4aae-ace3-018ccd654913</Id>
+      <Id>cb911bab-4def-42f9-bb49-8e9dce342f46</Id>
+      <Id>1937ebc4-1cf3-4e03-974f-ee31439ae127</Id>
+      <Id>3e54baf9-c15c-478c-820a-31d1957d62ac</Id>
+      <Id>c1583c01-22b7-4cb1-8c55-99fd5f7d3582</Id>
+      <Id>3fb0abfc-9237-4710-90b7-2549a4ca2fd5</Id>
+      <Id>0e359901-5bbc-484f-87b5-cfafab4ab3c5</Id>
+      <Id>805926eb-5560-4f19-b575-3c6dda22648b</Id>
+      <Id>75c7a554-d8b6-4138-a42b-6b2386b2c924</Id>
+    </FunctionRights>
+    <IsSystemRole>true</IsSystemRole>
+    <Name>AccessControlAdmin</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Role>
+  <Role Id="5d079dbe-4295-4c45-bc0d-a5e02724188b">
+    <FunctionRights>
+      <Id>8c97e0f2-edda-4f83-b0c1-68da7277ff5e</Id>
+    </FunctionRights>
+    <IsSystemRole>true</IsSystemRole>
+    <Name>SystemMonitoring</Name>
+    <IsSystemEntity>true</IsSystemEntity>
+  </Role>
+</Items>

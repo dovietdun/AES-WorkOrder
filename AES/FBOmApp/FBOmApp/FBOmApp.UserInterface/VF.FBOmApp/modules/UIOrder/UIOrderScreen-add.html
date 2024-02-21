@@ -1,0 +1,54 @@
+﻿<div class="command-bar-side-panel">
+    <button ng-click="vm.cancel()" class="btn side-panel-button">Cancel</button>
+    <button ng-click="vm.save()" class="btn side-panel-button" ng-show="vm.validInputs">Save</button>
+    <button ng-click="vm.save()" class="btn side-panel-button" ng-show="vm.validInputs">ReadFileUpload</button>
+</div>
+<div class="side-panel-property-area-body">
+    <sit-property-grid sit-id="add_form"
+                       sit-layout="Vertical"
+                       sit-type="Fluid"
+                       sit-mode="edit"
+                       sit-columns="1">
+        <!-- TODO: Put here the properties of the entity managed by the service -->
+
+        <sit-property sit-widget="sit-text"
+                      sit-value="vm.currentItem.NId"
+                      sit-validation="{required: true}"
+                      sit-read-only="false">ID:</sit-property>
+        <sit-property sit-widget="sit-select"
+                      sit-value="vm.currentItem.Type"
+                      sit-options="vm.orderType"
+                      sit-to-display="'Name'"
+                      sit-to-keep="'Name'"
+                      sit-validation="{required: true}"
+                      sit-read-only="false">Order Type:</sit-property>
+        <sit-property sit-widget="sit-select"
+                      sit-value="vm.currentItem.Status"
+                      sit-options="vm.status"
+                      sit-to-display="'Name'"
+                      sit-to-keep="'Name'"
+                      sit-validation="{required: true}"
+                      sit-read-only="true">Status:</sit-property>
+        <sit-property sit-widget="sit-entity-picker"
+                      sit-value="vm.currentItem.Name"
+                      sit-datasource="vm.optionsPicker"
+                      sit-selected-attribute-to-display="'Name'"
+                      sit-validation="{required: true}"
+                      sit-read-only="false"
+                      sit-limit="10"
+                      sit-change="vm.onChangeEntityPicker">MaterialFinal:</sit-property>
+        <sit-property sit-widget="sit-datePicker"
+                      sit-value="vm.currentItem.PlanStartDate"
+                      sit-validation="{required: false}"
+                      sit-read-only="false">PlanStartDate:</sit-property>
+        <sit-property sit-widget="sit-datePicker"
+                      sit-value="vm.currentItem.PlanEndDate"
+                      sit-validation="{required: false}"
+                      sit-read-only="false">PlanEndDate:</sit-property>
+        <sit-property sit-widget="sit-text"
+                      sit-value="vm.currentItem.Quantity"
+                      sit-validation="{required: false}"
+                      sit-read-only="false">Quantity:</sit-property>
+
+    </sit-property-grid>
+</div>

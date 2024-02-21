@@ -1,0 +1,80 @@
+<commandroot>
+        <pom>
+                <commands>
+                        <command>
+                                <name>VF.OperationalData.FBOmOp.OPModel.Commands.OrderDefCmd</name>
+                                <alias>OrderDefCmd</alias>
+                                <composite>false</composite>
+                                <aliasfullname>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.OrderDefCmd</aliasfullname>
+                                <assembly>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                <dotnetcommandtype>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.OrderDefCmd</dotnetcommandtype>
+                                <precheck_executionmode>StopAtFirstFail</precheck_executionmode>
+                        </command>
+                        <command>
+                                <name>VF.MasterData.FBOmMs.MSModel.Commands.TypeDefCmd</name>
+                                <alias>TypeDefCmd</alias>
+                                <composite>false</composite>
+                                <aliasfullname>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.TypeDefCmd</aliasfullname>
+                                <assembly>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                <dotnetcommandtype>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.TypeDefCmd</dotnetcommandtype>
+                                <precheck_executionmode>StopAtFirstFail</precheck_executionmode>
+                        </command>
+                        <command>
+                                <name>VF.OperationalData.FBOmOp.OPModel.Commands.ChangeStatusCmd</name>
+                                <alias>ChangeStatusCmd</alias>
+                                <composite>false</composite>
+                                <aliasfullname>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.ChangeStatusCmd</aliasfullname>
+                                <assembly>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                <dotnetcommandtype>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.ChangeStatusCmd</dotnetcommandtype>
+                                <precheck_executionmode>StopAtFirstFail</precheck_executionmode>
+                        </command>
+                        <command>
+                                <name>VF.OperationalData.FBOmOp.OPModel.Commands.SplitCmd</name>
+                                <alias>SplitCmd</alias>
+                                <composite>false</composite>
+                                <aliasfullname>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.SplitCmd</aliasfullname>
+                                <assembly>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                <dotnetcommandtype>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.SplitCmd</dotnetcommandtype>
+                                <precheck_executionmode>StopAtFirstFail</precheck_executionmode>
+                        </command>
+                        <command>
+                                <name>VF.MasterData.FBOmMs.MSModel.Commands.MaterialDefCmd</name>
+                                <alias>MaterialDefCmd</alias>
+                                <composite>false</composite>
+                                <aliasfullname>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.MaterialDefCmd</aliasfullname>
+                                <assembly>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                <dotnetcommandtype>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.MaterialDefCmd</dotnetcommandtype>
+                                <precheck_executionmode>StopAtFirstFail</precheck_executionmode>
+                        </command>
+                        <command>
+                                <name>VF.OperationalData.FBOmOp.OPModel.Commands.ListDataCmd</name>
+                                <alias>ListDataCmd</alias>
+                                <composite>false</composite>
+                                <aliasfullname>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.ListDataCmd</aliasfullname>
+                                <assembly>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                <dotnetcommandtype>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.ListDataCmd</dotnetcommandtype>
+                                <precheck_executionmode>StopAtFirstFail</precheck_executionmode>
+                        </command>
+                        <command>
+                                <name>VF.MasterData.FBOmMs.MSModel.Commands.StatusDefCmd</name>
+                                <alias>StatusDefCmd</alias>
+                                <composite>false</composite>
+                                <aliasfullname>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.StatusDefCmd</aliasfullname>
+                                <assembly>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                <dotnetcommandtype>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.StatusDefCmd</dotnetcommandtype>
+                                <precheck_executionmode>StopAtFirstFail</precheck_executionmode>
+                        </command>
+                        <command>
+                                <name>VF.OperationalData.FBOmOp.OPModel.Commands.UploadCmd</name>
+                                <alias>UploadCmd</alias>
+                                <composite>false</composite>
+                                <aliasfullname>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.UploadCmd</aliasfullname>
+                                <assembly>VF.FBOmApp.FBOmApp.VFPOMModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                <dotnetcommandtype>VF.FBOmApp.FBOmApp.VFPOMModel.Commands.Published.UploadCmd</dotnetcommandtype>
+                                <precheck_executionmode>StopAtFirstFail</precheck_executionmode>
+                        </command>
+                </commands>
+        </pom>
+                <commands>
+                </commands>
+        </commandroot>
